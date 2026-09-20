@@ -110,15 +110,147 @@
     {
       "session_id": "01a0849b-3dd7-7090-b94f-a9f986911078",
       "tool": "codex",
-      "started_at": "2026-09-15T01:43:28.203Z",
-      "last_event_at": "2026-09-15T02:35:17.913Z",
-      "event_count": 431,
+      "started_at": "2026-09-09T05:19:24.989Z",
+      "last_event_at": "2026-09-18T12:29:37.808Z",
+      "event_count": 10551,
       "file_path": "logs/allenxun/2026-09-09/codex__01a0849b-3dd7-7090-b94f-a9f986911078.jsonl",
       "collection_mode": "cli",
       "health": "degraded",
       "adapter": "local-codex-opencode-1.0",
       "source_surface": "codex-desktop-or-cli",
-      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported."
+      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported.",
+      "segment_count": 16,
+      "segments": [
+        {
+          "source_rollout": "rollout-2026-09-09T13-19-21-01a0849b-3dd7-7090-b94f-a9f986911078.jsonl",
+          "sha256": "b1e55879a8e63161a761cf301856e28a0d9c7aa0502bf29935e1e7b549ac66ef",
+          "events": 169,
+          "first_ts": "2026-09-09T05:19:24.989Z",
+          "last_ts": "2026-09-09T07:27:19.421Z",
+          "raw_bytes": 1347155
+        },
+        {
+          "source_rollout": "rollout-2026-09-09T15-31-05-01a0849b-3dd7-7090-b94f-a9f986911078_01a08513-d989-7cb3-bc54-c8f3097f915f.jsonl",
+          "sha256": "220eb8e073a4e1d8204e81ebcaef9f4f3c6a871b5944301991b4e33651cdfc9f",
+          "events": 719,
+          "first_ts": "2026-09-09T07:31:12.615Z",
+          "last_ts": "2026-09-09T12:06:20.702Z",
+          "raw_bytes": 4807955
+        },
+        {
+          "source_rollout": "rollout-2026-09-09T20-08-03-01a0849b-3dd7-7090-b94f-a9f986911078_01a08611-6a63-7030-b7a1-fd2c111f47c1.jsonl",
+          "sha256": "93ee85e6b16a5e656f083ff047031c77250171a302f507dd778a54e48c9cdd70",
+          "events": 117,
+          "first_ts": "2026-09-09T12:08:08.285Z",
+          "last_ts": "2026-09-10T01:23:59.610Z",
+          "raw_bytes": 472996
+        },
+        {
+          "source_rollout": "rollout-2026-09-10T09-30-39-01a0849b-3dd7-7090-b94f-a9f986911078_01a088f0-37aa-7271-9d11-748a2e148c99.jsonl",
+          "sha256": "a0f378af23e87df1860f741da92121ff1ced592758de94880358d1e7b969194d",
+          "events": 246,
+          "first_ts": "2026-09-10T01:30:43.935Z",
+          "last_ts": "2026-09-10T03:07:48.547Z",
+          "raw_bytes": 2714401
+        },
+        {
+          "source_rollout": "rollout-2026-09-10T11-07-55-01a0849b-3dd7-7090-b94f-a9f986911078_01a08949-4493-7941-a2c2-b650f5dc8fb7.jsonl",
+          "sha256": "db557e259b7632b161ed854cde42d5d72ba4f6b658cb43ad2e20f8481496af16",
+          "events": 407,
+          "first_ts": "2026-09-10T03:07:59.704Z",
+          "last_ts": "2026-09-10T07:05:00.598Z",
+          "raw_bytes": 4637449
+        },
+        {
+          "source_rollout": "rollout-2026-09-10T15-06-30-01a0849b-3dd7-7090-b94f-a9f986911078_01a08a23-b41e-77c2-9197-29a09c5e22ca.jsonl",
+          "sha256": "3791502112c3c358fbd05c37798a885e97486c47ee55f247a2c2e900b84d3748",
+          "events": 18,
+          "first_ts": "2026-09-10T07:06:35.639Z",
+          "last_ts": "2026-09-10T07:12:42.325Z",
+          "raw_bytes": 132684
+        },
+        {
+          "source_rollout": "rollout-2026-09-10T15-13-07-01a0849b-3dd7-7090-b94f-a9f986911078_01a08a29-c1ef-7be2-99d9-030de967a211.jsonl",
+          "sha256": "d44d2f6a0518538bbe2d854de0994d2ecba110853f5fd1da06b44c89ec71c81b",
+          "events": 346,
+          "first_ts": "2026-09-10T07:13:11.849Z",
+          "last_ts": "2026-09-10T11:15:19.922Z",
+          "raw_bytes": 2796013
+        },
+        {
+          "source_rollout": "rollout-2026-09-10T19-15-47-01a0849b-3dd7-7090-b94f-a9f986911078_01a08b07-eb0d-7b12-a401-99be88e4631b.jsonl",
+          "sha256": "0d34a5e836430c6348ec43be04184bc491b760376c10f63853697e32af7e2c57",
+          "events": 947,
+          "first_ts": "2026-09-10T11:15:51.522Z",
+          "last_ts": "2026-09-11T05:46:59.796Z",
+          "raw_bytes": 4753842
+        },
+        {
+          "source_rollout": "rollout-2026-09-11T13-47-11-01a0849b-3dd7-7090-b94f-a9f986911078_01a08f01-71a2-7be3-bae0-99cf7d9de07c.jsonl",
+          "sha256": "18ff1e4117d82aec1a0e32502c0788435baa9da1e58d492e6323f096baed294d",
+          "events": 641,
+          "first_ts": "2026-09-11T05:47:16.159Z",
+          "last_ts": "2026-09-11T11:22:21.079Z",
+          "raw_bytes": 5725079
+        },
+        {
+          "source_rollout": "rollout-2026-09-11T19-35-38-01a0849b-3dd7-7090-b94f-a9f986911078_01a09040-7670-7c51-ad02-a59cb3fbcf79.jsonl",
+          "sha256": "2c94ed33a3cdafed0630a1a4f90e5d837bd045d5a0e7e43e2ffe91151afb7660",
+          "events": 1,
+          "first_ts": "2026-09-11T11:35:42.592Z",
+          "last_ts": "2026-09-11T11:35:42.592Z",
+          "raw_bytes": 28515
+        },
+        {
+          "source_rollout": "rollout-2026-09-11T19-38-48-01a0849b-3dd7-7090-b94f-a9f986911078_01a09043-5ba1-78b0-bf4e-30a218a4d967.jsonl",
+          "sha256": "7b268dc820bc4010795c3213982853208c9c80a98efbc87fb976af94e15fedaa",
+          "events": 3487,
+          "first_ts": "2026-09-11T11:38:52.387Z",
+          "last_ts": "2026-09-15T01:43:14.233Z",
+          "raw_bytes": 16715057
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T09-43-28-01a0849b-3dd7-7090-b94f-a9f986911078_01a0a2bb-becb-71d1-b64a-98ef02b489da.jsonl",
+          "sha256": "ab55eb1cc1967596dc26b818e3e1ab21994b393b012ec60b93cdecd3c12e6219",
+          "events": 861,
+          "first_ts": "2026-09-15T01:43:33.441Z",
+          "last_ts": "2026-09-15T05:47:19.608Z",
+          "raw_bytes": 4400334
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T13-58-01-01a0849b-3dd7-7090-b94f-a9f986911078_01a0a3a4-cc3c-71a2-bdc0-50c1aa9d29bb.jsonl",
+          "sha256": "16a09e96aa315232e79401bba6e41d358865822179c13d09e07501faf98211ba",
+          "events": 326,
+          "first_ts": "2026-09-15T05:58:06.067Z",
+          "last_ts": "2026-09-15T08:06:26.539Z",
+          "raw_bytes": 8425078
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T16-06-42-01a0849b-3dd7-7090-b94f-a9f986911078_01a0a41a-9c8a-7c73-bd7d-52f888ce0e2f.jsonl",
+          "sha256": "b72e6e1de9625a17935c9ec7d33beb73ec99041fc8f733687ca45ed6ff29695c",
+          "events": 52,
+          "first_ts": "2026-09-15T08:06:47.450Z",
+          "last_ts": "2026-09-15T08:28:48.353Z",
+          "raw_bytes": 209654
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T16-29-32-01a0849b-3dd7-7090-b94f-a9f986911078_01a0a42f-8219-7982-a8de-a9f4d9ced2f0.jsonl",
+          "sha256": "95430dde2bf0438079b974473be61d4bd8284e7fdc3bd6653f509ed162d5c1d1",
+          "events": 83,
+          "first_ts": "2026-09-15T08:29:35.850Z",
+          "last_ts": "2026-09-15T09:10:44.460Z",
+          "raw_bytes": 377767
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T17-30-31-01a0849b-3dd7-7090-b94f-a9f986911078_01a0a467-5802-70b2-a0e2-56bad817e1db.jsonl",
+          "sha256": "dc68eb1399adf82ec8527d18d90979658a9e56b9fe454383e73113c7af216e48",
+          "events": 2131,
+          "first_ts": "2026-09-15T09:30:38.263Z",
+          "last_ts": "2026-09-18T12:29:37.808Z",
+          "raw_bytes": 8773625
+        }
+      ],
+      "merge_note": "Merged 16 Codex rollout segments of the same session_meta.id in ts order; seq renumbered 0..10550 per event.schema; event bodies produced by the official collector adapter (collector.py codex()+redact()) and otherwise unmodified."
     },
     {
       "session_id": "01a08a2d-90eb-7980-ab8a-ddc1cc017eb8",
@@ -136,15 +268,43 @@
     {
       "session_id": "01a08a2d-a547-7032-877c-2e9f7390972f",
       "tool": "codex",
-      "started_at": "2026-09-15T02:41:00.638Z",
-      "last_event_at": "2026-09-15T02:57:42.000Z",
-      "event_count": 282,
+      "started_at": "2026-09-10T07:17:25.987Z",
+      "last_event_at": "2026-09-15T09:07:36.847Z",
+      "event_count": 4805,
       "file_path": "logs/allenxun/2026-09-10/codex__01a08a2d-a547-7032-877c-2e9f7390972f.jsonl",
       "collection_mode": "cli",
-      "health": "ok",
+      "health": "degraded",
       "adapter": "local-codex-opencode-1.0",
       "source_surface": "codex-desktop-or-cli",
-      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported."
+      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported.",
+      "segment_count": 3,
+      "segments": [
+        {
+          "source_rollout": "rollout-2026-09-10T15-17-22-01a08a2d-a547-7032-877c-2e9f7390972f.jsonl",
+          "sha256": "9d1bd6e7e8cbc9cdc9af4a5ee4b945aa92b97f75625e837ecd6df66daab97a85",
+          "events": 3173,
+          "first_ts": "2026-09-10T07:17:25.987Z",
+          "last_ts": "2026-09-15T02:39:21.383Z",
+          "raw_bytes": 9712282
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T10-41-00-01a08a2d-a547-7032-877c-2e9f7390972f_01a0a2f0-6cde-7833-81ff-0cd4758bf36c.jsonl",
+          "sha256": "3bd01799a0f9c19ac7629f6c6ffcd50799d980e4e9239478fb7219e04ec3ac5f",
+          "events": 282,
+          "first_ts": "2026-09-15T02:41:04.283Z",
+          "last_ts": "2026-09-15T02:57:42.000Z",
+          "raw_bytes": 1252758
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T10-58-04-01a08a2d-a547-7032-877c-2e9f7390972f_01a0a300-0b0a-7903-9def-0a77ab010e6a.jsonl",
+          "sha256": "1f70ec6e8d7c0baf507e8ca7a03b979788f3ac2c3963a92e7374bbb21a0834f4",
+          "events": 1350,
+          "first_ts": "2026-09-15T02:58:07.678Z",
+          "last_ts": "2026-09-15T09:07:36.847Z",
+          "raw_bytes": 25687402
+        }
+      ],
+      "merge_note": "Merged 3 Codex rollout segments of the same session_meta.id in ts order; seq renumbered 0..4804 per event.schema; event bodies produced by the official collector adapter (collector.py codex()+redact()) and otherwise unmodified."
     },
     {
       "session_id": "01a08b23-2f7a-7b83-a8f1-a7fa4e9542fd",
@@ -175,41 +335,109 @@
     {
       "session_id": "01a08e2d-04d4-7ea2-8bb4-d6da00910404",
       "tool": "codex",
-      "started_at": "2026-09-11T01:55:10.165Z",
-      "last_event_at": "2026-09-14T09:26:05.774Z",
-      "event_count": 12243,
+      "started_at": "2026-09-11T01:55:14.647Z",
+      "last_event_at": "2026-09-18T12:26:53.134Z",
+      "event_count": 18677,
       "file_path": "logs/allenxun/2026-09-11/codex__01a08e2d-04d4-7ea2-8bb4-d6da00910404.jsonl",
       "collection_mode": "cli",
       "health": "degraded",
       "adapter": "local-codex-opencode-1.0",
       "source_surface": "codex-desktop-or-cli",
-      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported."
+      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported.",
+      "segment_count": 3,
+      "segments": [
+        {
+          "source_rollout": "rollout-2026-09-11T09-55-10-01a08e2d-04d4-7ea2-8bb4-d6da00910404.jsonl",
+          "sha256": "54f123e0f9ce193d110fe641fc7cd5bcdf9ca6731d558fde2760fcbc3262d673",
+          "events": 12297,
+          "first_ts": "2026-09-11T01:55:14.647Z",
+          "last_ts": "2026-09-15T07:35:52.891Z",
+          "raw_bytes": 22429886
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T15-36-14-01a08e2d-04d4-7ea2-8bb4-d6da00910404_01a0a3fe-b74e-7d01-b3d7-abf33c7f3aa3.jsonl",
+          "sha256": "da663249afe63089e860ebcffc54d02d8877f6ac5d813f9e8fbd486e5dbe8bcc",
+          "events": 4370,
+          "first_ts": "2026-09-15T07:36:20.055Z",
+          "last_ts": "2026-09-17T10:09:24.949Z",
+          "raw_bytes": 32932709
+        },
+        {
+          "source_rollout": "rollout-2026-09-17T21-52-16-01a08e2d-04d4-7ea2-8bb4-d6da00910404_01a0afa3-b3d1-70b3-94a9-2ca61940a0d7.jsonl",
+          "sha256": "32110cca4e89fea93facb34f973b0403dc495d27bae4dcccd4994f8849f23233",
+          "events": 2010,
+          "first_ts": "2026-09-17T13:52:19.711Z",
+          "last_ts": "2026-09-18T12:26:53.134Z",
+          "raw_bytes": 9766625
+        }
+      ],
+      "merge_note": "Merged 3 Codex rollout segments of the same session_meta.id in ts order; seq renumbered 0..18676 per event.schema; event bodies produced by the official collector adapter (collector.py codex()+redact()) and otherwise unmodified."
     },
     {
       "session_id": "01a08e2d-1f1a-7220-98be-2e7697aa35d1",
       "tool": "codex",
-      "started_at": "2026-09-11T01:55:16.891Z",
-      "last_event_at": "2026-09-11T12:19:04.064Z",
-      "event_count": 740,
+      "started_at": "2026-09-11T01:55:20.714Z",
+      "last_event_at": "2026-09-18T11:16:51.893Z",
+      "event_count": 1338,
       "file_path": "logs/allenxun/2026-09-11/codex__01a08e2d-1f1a-7220-98be-2e7697aa35d1.jsonl",
       "collection_mode": "cli",
       "health": "degraded",
       "adapter": "local-codex-opencode-1.0",
       "source_surface": "codex-desktop-or-cli",
-      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported."
+      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported.",
+      "segment_count": 1,
+      "segments": [
+        {
+          "source_rollout": "rollout-2026-09-11T09-55-16-01a08e2d-1f1a-7220-98be-2e7697aa35d1.jsonl",
+          "sha256": "92e7367b345a3a5ffb054c6a0c89234945c5dd259141583e06cbed220a8d97c7",
+          "events": 1338,
+          "first_ts": "2026-09-11T01:55:20.714Z",
+          "last_ts": "2026-09-18T11:16:51.893Z",
+          "raw_bytes": 6851751
+        }
+      ],
+      "merge_note": "Merged 1 Codex rollout segments of the same session_meta.id in ts order; seq renumbered 0..1337 per event.schema; event bodies produced by the official collector adapter (collector.py codex()+redact()) and otherwise unmodified."
     },
     {
       "session_id": "01a08e2d-30a8-7e03-84aa-4c4efe39dde3",
       "tool": "codex",
-      "started_at": "2026-09-11T01:55:21.384Z",
-      "last_event_at": "2026-09-15T01:52:24.550Z",
-      "event_count": 2371,
+      "started_at": "2026-09-11T01:55:25.100Z",
+      "last_event_at": "2026-09-18T12:42:53.534Z",
+      "event_count": 9783,
       "file_path": "logs/allenxun/2026-09-11/codex__01a08e2d-30a8-7e03-84aa-4c4efe39dde3.jsonl",
       "collection_mode": "cli",
       "health": "degraded",
       "adapter": "local-codex-opencode-1.0",
       "source_surface": "codex-desktop-or-cli",
-      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported."
+      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported.",
+      "segment_count": 3,
+      "segments": [
+        {
+          "source_rollout": "rollout-2026-09-11T09-55-21-01a08e2d-30a8-7e03-84aa-4c4efe39dde3.jsonl",
+          "sha256": "53e664898ea9808b1abde3c6985d9a6b5fcf243f8aa1bc3aa6c5463670c6c33f",
+          "events": 3304,
+          "first_ts": "2026-09-11T01:55:25.100Z",
+          "last_ts": "2026-09-15T04:13:38.486Z",
+          "raw_bytes": 14229501
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T12-13-44-01a08e2d-30a8-7e03-84aa-4c4efe39dde3_01a0a345-5165-7fd1-b8a6-cabb447cfa5e.jsonl",
+          "sha256": "6905cf6f7b6a5792427ea7ee0d6522ec06340e4b7994eb89bae5fb1bff33e84b",
+          "events": 5652,
+          "first_ts": "2026-09-15T04:13:47.452Z",
+          "last_ts": "2026-09-18T09:41:40.626Z",
+          "raw_bytes": 50590794
+        },
+        {
+          "source_rollout": "rollout-2026-09-18T17-41-46-01a08e2d-30a8-7e03-84aa-4c4efe39dde3_01a0b3e4-b815-7ff1-854c-cf8674f19f7a.jsonl",
+          "sha256": "3407959b90c7a331c44d20fd67463607f46d29c5cdd581bb42521cfee54449e7",
+          "events": 827,
+          "first_ts": "2026-09-18T09:41:50.617Z",
+          "last_ts": "2026-09-18T12:42:53.534Z",
+          "raw_bytes": 4543197
+        }
+      ],
+      "merge_note": "Merged 3 Codex rollout segments of the same session_meta.id in ts order; seq renumbered 0..9782 per event.schema; event bodies produced by the official collector adapter (collector.py codex()+redact()) and otherwise unmodified."
     },
     {
       "session_id": "01a09dcc-4a42-7d02-83bb-5fdee035e75b",
@@ -3127,8 +3355,8 @@
       "session_id": "ses_f70bc47c3ffeLASOzFOAJZPUO8",
       "tool": "opencode",
       "started_at": "2026-09-11T06:59:35.100000Z",
-      "last_event_at": "2026-09-14T09:06:38.926000Z",
-      "event_count": 2356,
+      "last_event_at": "2026-09-17T04:30:40.476000Z",
+      "event_count": 2662,
       "file_path": "logs/allenxun/2026-09-11/opencode__ses_f70bc47c3ffeLASOzFOAJZPUO8.jsonl",
       "collection_mode": "cli",
       "health": "ok",
@@ -3556,8 +3784,8 @@
       "session_id": "ses_f71cfefd3ffezp39E9juWVH2XR",
       "tool": "opencode",
       "started_at": "2026-09-11T01:58:29.676000Z",
-      "last_event_at": "2026-09-15T02:59:05.963000Z",
-      "event_count": 1151,
+      "last_event_at": "2026-09-18T08:15:45.717000Z",
+      "event_count": 1721,
       "file_path": "logs/allenxun/2026-09-11/opencode__ses_f71cfefd3ffezp39E9juWVH2XR.jsonl",
       "collection_mode": "cli",
       "health": "ok",
@@ -3582,8 +3810,8 @@
       "session_id": "ses_f71d03b1affeTXwddLGjuDL0q3",
       "tool": "opencode",
       "started_at": "2026-09-11T01:58:10.405000Z",
-      "last_event_at": "2026-09-14T09:35:59.415000Z",
-      "event_count": 4216,
+      "last_event_at": "2026-09-17T05:36:37.168000Z",
+      "event_count": 5270,
       "file_path": "logs/allenxun/2026-09-11/opencode__ses_f71d03b1affeTXwddLGjuDL0q3.jsonl",
       "collection_mode": "cli",
       "health": "ok",
@@ -4153,15 +4381,35 @@
     {
       "session_id": "01a0a33e-41d2-7882-8dd0-edd5b83ed114",
       "tool": "codex",
-      "started_at": "2026-09-15T04:09:45.081Z",
+      "started_at": "2026-09-15T04:06:05.880Z",
       "last_event_at": "2026-09-15T09:46:47.275Z",
-      "event_count": 505,
+      "event_count": 560,
       "file_path": "logs/allenxun/2026-09-15/codex__01a0a33e-41d2-7882-8dd0-edd5b83ed114.jsonl",
       "collection_mode": "cli",
       "health": "degraded",
       "adapter": "local-codex-opencode-1.0",
       "source_surface": "codex-desktop-or-cli",
-      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported."
+      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported.",
+      "segment_count": 2,
+      "segments": [
+        {
+          "source_rollout": "rollout-2026-09-15T12-06-01-01a0a33e-41d2-7882-8dd0-edd5b83ed114.jsonl",
+          "sha256": "df5ef54417aff62661772f76a1a05470d78f74fbabbe332d0fded3a27e284d90",
+          "events": 55,
+          "first_ts": "2026-09-15T04:06:05.880Z",
+          "last_ts": "2026-09-15T04:09:42.876Z",
+          "raw_bytes": 203312
+        },
+        {
+          "source_rollout": "rollout-2026-09-15T12-09-45-01a0a33e-41d2-7882-8dd0-edd5b83ed114_01a0a341-ab79-76e2-88a7-81d5ec50e561.jsonl",
+          "sha256": "3a87bed94dd335088dcb9da754b0b540a59c9a587359372d175f4487b341d3ae",
+          "events": 505,
+          "first_ts": "2026-09-15T04:09:49.099Z",
+          "last_ts": "2026-09-15T09:46:47.275Z",
+          "raw_bytes": 1535708
+        }
+      ],
+      "merge_note": "Merged 2 Codex rollout segments of the same session_meta.id in ts order; seq renumbered 0..559 per event.schema; event bodies produced by the official collector adapter (collector.py codex()+redact()) and otherwise unmodified."
     },
     {
       "session_id": "01a0a3b7-0a18-7403-8b33-57e5b8519f9b",
@@ -5189,8 +5437,147 @@
       "adapter": "local-codex-opencode-1.0",
       "source_surface": "opencode",
       "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported."
+    },
+    {
+      "session_id": "01a0b513-f990-70e0-83b4-da3be2dd1275",
+      "tool": "codex",
+      "started_at": "2026-09-18T15:14:17.988Z",
+      "last_event_at": "2026-09-20T02:32:48.597Z",
+      "event_count": 949,
+      "file_path": "logs/allenxun/2026-09-18/codex__01a0b513-f990-70e0-83b4-da3be2dd1275.jsonl",
+      "collection_mode": "cli",
+      "health": "ok",
+      "adapter": "local-codex-opencode-1.0",
+      "source_surface": "codex-desktop-or-cli",
+      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported.",
+      "segment_count": 2,
+      "segments": [
+        {
+          "source_rollout": "rollout-2026-09-18T23-13-00-01a0b513-f990-70e0-83b4-da3be2dd1275.jsonl",
+          "sha256": "edf6effca82e0ddd463f32a2d295f6b2f1665250a262faaaeaf32fc5453c2637",
+          "events": 671,
+          "first_ts": "2026-09-18T15:14:17.988Z",
+          "last_ts": "2026-09-19T03:32:10.279Z",
+          "raw_bytes": 2534362
+        },
+        {
+          "source_rollout": "rollout-2026-09-19T11-32-17-01a0b513-f990-70e0-83b4-da3be2dd1275_01a0b7b8-d196-7473-bd87-8274d0a3c899.jsonl",
+          "sha256": "3064117da8f88ecc3800727ec54724623625e5bb855a2ab6e63fd0b9d988370b",
+          "events": 278,
+          "first_ts": "2026-09-19T03:32:18.663Z",
+          "last_ts": "2026-09-20T02:32:48.597Z",
+          "raw_bytes": 1132472
+        }
+      ],
+      "merge_note": "Merged 2 Codex rollout segments of the same session_meta.id in ts order; seq renumbered 0..948 per event.schema; event bodies produced by the official collector adapter (collector.py codex()+redact()) and otherwise unmodified."
+    },
+    {
+      "session_id": "01a0b51f-7b52-7f61-ac34-61e83498d0f3",
+      "tool": "codex",
+      "started_at": "2026-09-18T15:25:48.328Z",
+      "last_event_at": "2026-09-18T15:30:23.788Z",
+      "event_count": 81,
+      "file_path": "logs/allenxun/2026-09-18/codex__01a0b51f-7b52-7f61-ac34-61e83498d0f3.jsonl",
+      "collection_mode": "cli",
+      "health": "ok",
+      "adapter": "local-codex-opencode-1.0",
+      "source_surface": "codex-desktop-or-cli",
+      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported.",
+      "segment_count": 2,
+      "segments": [
+        {
+          "source_rollout": "rollout-2026-09-18T23-25-34-01a0b51f-7b52-7f61-ac34-61e83498d0f3.jsonl",
+          "sha256": "30d2e00eb5925b111433b4a04483b398baf8ee3f3c88731b5ee3aa0838c504e0",
+          "events": 7,
+          "first_ts": "2026-09-18T15:25:48.328Z",
+          "last_ts": "2026-09-18T15:25:48.340Z",
+          "raw_bytes": 65337
+        },
+        {
+          "source_rollout": "rollout-2026-09-18T23-26-00-01a0b51f-7b52-7f61-ac34-61e83498d0f3_01a0b51f-e16d-7862-a7bc-1f46d82be626.jsonl",
+          "sha256": "a6d8cd73a15c4e2a1aa23291ea07b3a606fef9979567c8330e963d51e01103e3",
+          "events": 74,
+          "first_ts": "2026-09-18T15:26:00.856Z",
+          "last_ts": "2026-09-18T15:30:23.788Z",
+          "raw_bytes": 266399
+        }
+      ],
+      "merge_note": "Merged 2 Codex rollout segments of the same session_meta.id in ts order; seq renumbered 0..80 per event.schema; event bodies produced by the official collector adapter (collector.py codex()+redact()) and otherwise unmodified."
+    },
+    {
+      "session_id": "01a0bcaf-d7cd-7572-af8c-ef121cae5a3a",
+      "tool": "codex",
+      "started_at": "2026-09-20T02:41:39.402Z",
+      "last_event_at": "2026-09-20T07:32:24.985Z",
+      "event_count": 589,
+      "file_path": "logs/allenxun/2026-09-20/codex__01a0bcaf-d7cd-7572-af8c-ef121cae5a3a.jsonl",
+      "collection_mode": "cli",
+      "health": "ok",
+      "adapter": "local-codex-opencode-1.0",
+      "source_surface": "codex-desktop-or-cli",
+      "data_completeness_warning": "Plaintext text/reasoning and tool calls only; images, encrypted reasoning and internal state are not exported.",
+      "segment_count": 7,
+      "segments": [
+        {
+          "source_rollout": "rollout-2026-09-20T10-40-35-01a0bcaf-d7cd-7572-af8c-ef121cae5a3a.jsonl",
+          "sha256": "ca8436774531514a84fac9f0391ab6522ed43ee5e19773f51713a1f8272d6747",
+          "events": 139,
+          "first_ts": "2026-09-20T02:41:39.402Z",
+          "last_ts": "2026-09-20T03:00:20.199Z",
+          "raw_bytes": 588715
+        },
+        {
+          "source_rollout": "rollout-2026-09-20T11-00-26-01a0bcaf-d7cd-7572-af8c-ef121cae5a3a_01a0bcc2-0495-7a83-b076-fd92fbb1d80f.jsonl",
+          "sha256": "882e830f2f320a75d1c3b8d680a059eef60076f38efc64b439caf51aedbc1817",
+          "events": 92,
+          "first_ts": "2026-09-20T03:00:27.251Z",
+          "last_ts": "2026-09-20T03:15:06.014Z",
+          "raw_bytes": 343659
+        },
+        {
+          "source_rollout": "rollout-2026-09-20T11-26-02-01a0bcaf-d7cd-7572-af8c-ef121cae5a3a_01a0bcd9-7451-78d2-b922-22e44cbf8ab3.jsonl",
+          "sha256": "460cba134dd37b4d94d9ef4e8473518563f7574bc19108ec335a650186f456c7",
+          "events": 3,
+          "first_ts": "2026-09-20T03:26:03.180Z",
+          "last_ts": "2026-09-20T03:26:18.848Z",
+          "raw_bytes": 12136
+        },
+        {
+          "source_rollout": "rollout-2026-09-20T11-26-31-01a0bcaf-d7cd-7572-af8c-ef121cae5a3a_01a0bcd9-e554-7353-87b7-3617389406a0.jsonl",
+          "sha256": "4ef4869f059c82a58fa4d62f159a309ba4ef40d234ddf81cc1d75f41aee05b98",
+          "events": 10,
+          "first_ts": "2026-09-20T03:26:32.161Z",
+          "last_ts": "2026-09-20T03:27:51.875Z",
+          "raw_bytes": 43017
+        },
+        {
+          "source_rollout": "rollout-2026-09-20T11-30-18-01a0bcaf-d7cd-7572-af8c-ef121cae5a3a_01a0bcdd-5c6f-7ef0-af1a-14f27fe4e36f.jsonl",
+          "sha256": "512f1f8e2b9b49480e038443f8040b8c11a76e7af696a78e36da9aa489c6441b",
+          "events": 245,
+          "first_ts": "2026-09-20T03:30:19.356Z",
+          "last_ts": "2026-09-20T07:02:55.748Z",
+          "raw_bytes": 1239263
+        },
+        {
+          "source_rollout": "rollout-2026-09-20T15-06-49-01a0bcaf-d7cd-7572-af8c-ef121cae5a3a_01a0bda3-96ca-7411-b646-0c9917403bd3.jsonl",
+          "sha256": "1a31dc318102044a150863474d30fd91ab4182cfcebdb425b88bb06b9d19b7c6",
+          "events": 2,
+          "first_ts": "2026-09-20T07:06:50.509Z",
+          "last_ts": "2026-09-20T07:06:53.324Z",
+          "raw_bytes": 11916
+        },
+        {
+          "source_rollout": "rollout-2026-09-20T15-08-07-01a0bcaf-d7cd-7572-af8c-ef121cae5a3a_01a0bda4-c3f4-7ca1-9fc0-81474bf6921d.jsonl",
+          "sha256": "8fd495a4763e1bb908ef002a2fca28c350c118a2d4348ca3897f09b1f427499d",
+          "events": 98,
+          "first_ts": "2026-09-20T07:08:07.603Z",
+          "last_ts": "2026-09-20T07:32:24.985Z",
+          "raw_bytes": 630004
+        }
+      ],
+      "merge_note": "Merged 7 Codex rollout segments of the same session_meta.id in ts order; seq renumbered 0..588 per event.schema; event bodies produced by the official collector adapter (collector.py codex()+redact()) and otherwise unmodified."
     }
   ],
   "generator": "local-codex-opencode@1.0",
-  "updated_at": "2026-09-18T12:50:59.986Z"
+  "updated_at": "2026-09-20T07:33:50.369Z"
 }
