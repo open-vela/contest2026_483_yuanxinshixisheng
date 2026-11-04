@@ -1,0 +1,7 @@
+config EXAMPLES_K7AUDIO
+	bool "K7 read-only audio clock preflight"
+	depends on ARCH_BOARD_KICKPI_K7 && RK3576_USB_DIAG && BUILD_FLAT
+	default n
+	---help---
+		Explicit command reads CRU/IOC fields only. No I2C transactions,
+		codec initialization, sound, DMA, pinmux writes or clock changes.

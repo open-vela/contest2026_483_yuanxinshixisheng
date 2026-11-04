@@ -1,0 +1,654 @@
+{
+  "files": [
+    {
+      "path": "release/r49/licenses/abseil-20240722.1/LICENSE",
+      "bytes": 11361,
+      "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://raw.githubusercontent.com/abseil/abseil-cpp/20240722.1/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+        "retrieved_at": "2026-11-04T09:16:10.506378+08:00"
+      }
+    },
+    {
+      "path": "release/r49/licenses/cJSON/LICENSE-extracted.txt",
+      "bytes": 1121,
+      "sha256": "3384d75264549cd04a5c00538a15871785f3f6ba60a779781df747d591655892",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_path": "app/k7radio/cJSON.c"
+      }
+    },
+    {
+      "path": "release/r49/licenses/gcc-13.4.0/COPYING.RUNTIME",
+      "bytes": 3324,
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://raw.githubusercontent.com/gcc-mirror/gcc/releases/gcc-13.4.0/COPYING.RUNTIME"
+      }
+    },
+    {
+      "path": "release/r49/licenses/gcc-13.4.0/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://raw.githubusercontent.com/gcc-mirror/gcc/releases/gcc-13.4.0/COPYING3"
+      }
+    },
+    {
+      "path": "release/r49/licenses/ggml/LICENSE",
+      "bytes": 1078,
+      "sha256": "e562a2ddfaf8280537795ac5ecd34e3012b6582a147ef69ba6a6a5c08c84757d",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_path": "app/k7graph/vendor/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/ggml/R49-SYCL-FILE-MAPPING.json",
+      "bytes": 19532,
+      "sha256": "4f9bbc9e180da6af48938a8a4c97f61c307008185b92f4e69d68fbde8a88df4d",
+      "category": "metadata",
+      "source": {
+        "role": "mechanical-R49-source-SPDX-mapping"
+      }
+    },
+    {
+      "path": "release/r49/licenses/historical/charsiu-LICENSE",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_path": "app/k7npu/charsiu-LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/kissfft-speexdsp-1.2.1/kiss_fft.c.license-extract.txt",
+      "bytes": 1522,
+      "sha256": "263a5395d9ee0150c35e5197ba0c69809759aa8b1d44521c2f4e260890a7ed55",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_path": "release/r49/source/project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fft.c",
+        "source_sha256": "61574b6ceff29423a12cda1928b2ae09c89d316ffd1881a207aa74c3dc97da3f",
+        "range": "first complete copyright and license comment, inclusive delimiters, no newline normalization",
+        "group": "kissfft-speexdsp-1.2.1"
+      }
+    },
+    {
+      "path": "release/r49/licenses/kissfft-speexdsp-1.2.1/kiss_fftr.c.license-extract.txt",
+      "bytes": 1481,
+      "sha256": "d8b984b89291f83346771dc7cba564f4cb9d05a5012381b158b7071c278f0351",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_path": "release/r49/source/project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fftr.c",
+        "source_sha256": "13b7ec32c17b927e0978195ce9eeb09e9791b236fcee94b807fd0086d14cb25e",
+        "range": "first complete copyright and license comment, inclusive delimiters, no newline normalization",
+        "group": "kissfft-speexdsp-1.2.1"
+      }
+    },
+    {
+      "path": "release/r49/licenses/models/fsanet/LICENSE",
+      "bytes": 1068,
+      "sha256": "c39634c9b8862207a6bd0023bc577b6c2f05550d30286a3adf7bba7e6d506a1b",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "license_url": "https://raw.githubusercontent.com/ohtlab/headpose-fsanet-pytorch/002549c981b607f722e0810d999afcde7e5aaa66/LICENSE",
+        "resolved_commit": "002549c981b607f722e0810d999afcde7e5aaa66",
+        "repository": "ohtlab/headpose-fsanet-pytorch",
+        "requested_ref": "master",
+        "retrieved_at": "2026-11-04T09:21:57.889327+08:00"
+      }
+    },
+    {
+      "path": "release/r49/licenses/models/kws/README.model-card.md",
+      "bytes": 1753,
+      "sha256": "71232d79d8655c83903ebe89d490bdba45a5a9772e98e8d6296b6bf91ff91b70",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "official_model_card_url": "https://modelscope.cn/models/pkufool/icefall-kws-zipformer-zh-en-3M-2025-12-20",
+        "maintainer_confirmation_url": "https://github.com/k2-fsa/sherpa-onnx/issues/3802#issuecomment-6052663364",
+        "local_card_sha256": "71232d79d8655c83903ebe89d490bdba45a5a9772e98e8d6296b6bf91ff91b70"
+      }
+    },
+    {
+      "path": "release/r49/licenses/models/silero-vad-v5.1/LICENSE",
+      "bytes": 1075,
+      "sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "license_url": "https://raw.githubusercontent.com/snakers4/silero-vad/84768cefdf5a3852400e9d8237f7315d14b64a08/LICENSE",
+        "resolved_commit": "84768cefdf5a3852400e9d8237f7315d14b64a08",
+        "repository": "snakers4/silero-vad",
+        "requested_ref": "v5.1",
+        "retrieved_at": "2026-11-04T09:21:59.991286+08:00"
+      }
+    },
+    {
+      "path": "release/r49/licenses/models/yunet/LICENSE",
+      "bytes": 1085,
+      "sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "license_url": "https://raw.githubusercontent.com/opencv/opencv_zoo/48b10fa505aeb51fbd127fc60a5c660040e823b7/models/face_detection_yunet/LICENSE",
+        "resolved_commit": "48b10fa505aeb51fbd127fc60a5c660040e823b7",
+        "repository": "opencv/opencv_zoo",
+        "requested_ref": "main",
+        "retrieved_at": "2026-11-04T09:21:58.819301+08:00"
+      }
+    },
+    {
+      "path": "release/r49/licenses/onnxruntime-v1.17.1/LICENSE",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "official_url": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.17.1/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/onnxruntime-v1.17.1/ThirdPartyNotices.txt",
+      "bytes": 338538,
+      "sha256": "4f9e2bb7b4b407d710a68168615bbc6f70e3d7cc8ba9410fb6c65d92fa71accf",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "official_url": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.17.1/ThirdPartyNotices.txt"
+      }
+    },
+    {
+      "path": "release/r49/licenses/project/seekwave/COPYING.GPL-2.0",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_path": "app/k7radio/COPYING"
+      }
+    },
+    {
+      "path": "release/r49/licenses/R49-GPL-FILE-MAPPING.json",
+      "bytes": 137204,
+      "sha256": "968ab061bf03bdbfe7d0df85a66941553dd47947436d063bdade74692743ff79",
+      "category": "metadata",
+      "source": {
+        "role": "mechanical-R49-source-SPDX-mapping"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/apps/crypto/libsodium/libsodium/AUTHORS",
+      "bytes": 5156,
+      "sha256": "56b04a4cead5cb60495df8cfb3ac73a2dc0588888e620bf977edef9a125bd803",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "apps/crypto/libsodium/libsodium/AUTHORS"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/apps/crypto/libsodium/libsodium/LICENSE",
+      "bytes": 823,
+      "sha256": "97df160927784a7fc3cf451aa084a86002a193512f0599f55a46d15ee1c41a76",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "apps/crypto/libsodium/libsodium/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/apps/crypto/mbedtls/mbedtls/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "apps/crypto/mbedtls/mbedtls/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/apps/LICENSE",
+      "bytes": 111634,
+      "sha256": "aca0be59eeaa8f30d4985cde8ffdd006280a854908abe3b194ba20f7a449f0cf",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "apps/LICENSE",
+        "sdk_wrapper_commit": "92cc8c56a4c9b780b38991401295179fa2461908"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/apps/NOTICE",
+      "bytes": 161,
+      "sha256": "f280fc32b68c831fd6847bbecf01a45c1bd8e907d719bc7c68a4f94ce25eeeda",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "apps/NOTICE",
+        "sdk_wrapper_commit": "92cc8c56a4c9b780b38991401295179fa2461908"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/abseil-cpp/abseil-cpp/AUTHORS",
+      "bytes": 295,
+      "sha256": "1fd39030c119b4c97014f59e0ad0ed65f23475bbdf55a52740f31eb82b34b4ee",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/abseil-cpp/abseil-cpp/AUTHORS"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/abseil-cpp/abseil-cpp/LICENSE",
+      "bytes": 11361,
+      "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/abseil-cpp/abseil-cpp/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/android/frameworks/native/cmds/dumpsys/NOTICE",
+      "bytes": 10695,
+      "sha256": "38751245389e1e23f73e6f5384b5cbe7fa972cc4410c5adc9c04b082a0b9561a",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/android/frameworks/native/cmds/dumpsys/NOTICE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/android/frameworks/native/cmds/service/NOTICE",
+      "bytes": 10695,
+      "sha256": "38751245389e1e23f73e6f5384b5cbe7fa972cc4410c5adc9c04b082a0b9561a",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/android/frameworks/native/cmds/service/NOTICE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/android/frameworks/native/libs/binder/ndk/NOTICE",
+      "bytes": 10689,
+      "sha256": "3c892bf5c5ea4bc860eee7aff856e6716d27c6841732e08fec4a88c4b276978d",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/android/frameworks/native/libs/binder/ndk/NOTICE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/android/frameworks/native/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/android/frameworks/native/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/android/system/core/libcutils/NOTICE",
+      "bytes": 10695,
+      "sha256": "38751245389e1e23f73e6f5384b5cbe7fa972cc4410c5adc9c04b082a0b9561a",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/android/system/core/libcutils/NOTICE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/android/system/core/libutils/NOTICE",
+      "bytes": 10695,
+      "sha256": "38751245389e1e23f73e6f5384b5cbe7fa972cc4410c5adc9c04b082a0b9561a",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/android/system/core/libutils/NOTICE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/android/system/core/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/android/system/core/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/android/system/libbase/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/android/system/libbase/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/android/system/libbase/NOTICE",
+      "bytes": 12840,
+      "sha256": "e0afbb47be661ce2076d21a1d4dc02caa58b7c215ab7ff9d151b6724be341f77",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/android/system/libbase/NOTICE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/libjpeg-turbo/libjpeg-turbo/LICENSE.md",
+      "bytes": 5213,
+      "sha256": "ee1eaf194d5924b6360af8a6ba6a4e1554037091f7505943300cdeec65f1aebb",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/libjpeg-turbo/libjpeg-turbo/LICENSE.md"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/libjpeg-turbo/libjpeg-turbo/README.ijg",
+      "bytes": 12732,
+      "sha256": "4b7b9f8c03bb8d60270dfd12684e70ab21e4abfd27e73905cd1a7c4cae6f5cdb",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/libjpeg-turbo/libjpeg-turbo/README.ijg"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/libjpeg-turbo/libjpeg-turbo/release/License.rtf",
+      "bytes": 2178,
+      "sha256": "d26120ab237f87dea10aa4fa7fd4243cadffd26e54eb2f3903d5fb0f8ed336b2",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/libjpeg-turbo/libjpeg-turbo/release/License.rtf"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/LICENSE",
+      "bytes": 556,
+      "sha256": "8888499673c22ef85c08c722a89fae6a7258f67ad416b516afc3eff709603ce5",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/opus/opus/AUTHORS",
+      "bytes": 239,
+      "sha256": "f9fd849e652219ce98e008303370b352d37663d0ffb27b8dc514ad93c9c7438b",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/opus/opus/AUTHORS"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/external/opus/opus/COPYING",
+      "bytes": 1928,
+      "sha256": "8338ce8d922bb4416ce3dd1e5680173332435e3f0755007ac7801ccd674fe682",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "external/opus/opus/COPYING"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/nuttx/libs/libm/newlib/newlib/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "nuttx/libs/libm/newlib/newlib/COPYING"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/nuttx/libs/libm/newlib/newlib/COPYING.LIB",
+      "bytes": 26527,
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "nuttx/libs/libm/newlib/newlib/COPYING.LIB"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/nuttx/libs/libm/newlib/newlib/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "nuttx/libs/libm/newlib/newlib/COPYING3"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/nuttx/libs/libm/newlib/newlib/COPYING3.LIB",
+      "bytes": 7639,
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "nuttx/libs/libm/newlib/newlib/COPYING3.LIB"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/nuttx/libs/libxx/libcxx/libcxx/LICENSE.TXT",
+      "bytes": 16703,
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "nuttx/libs/libxx/libcxx/libcxx/LICENSE.TXT"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/nuttx/libs/libxx/libcxxabi/libcxxabi/LICENSE.TXT",
+      "bytes": 16706,
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "nuttx/libs/libxx/libcxxabi/libcxxabi/LICENSE.TXT"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/nuttx/LICENSE",
+      "bytes": 417053,
+      "sha256": "52e81e23ef1e4ad52c05dd2cc237d84841450e0a3b50933fecab60be3457dbb0",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "nuttx/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sdk/nuttx/NOTICE",
+      "bytes": 3107,
+      "sha256": "1f6ac972692c4f94fe4b904590654aeb795ff08efd9799427c2358fb568814bb",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "sdk_source_path": "nuttx/NOTICE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/sherpa-onnx-v1.12.14/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "official_url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/v1.12.14/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/speexdsp-1.2.1/fftwrap.c.license-extract.txt",
+      "bytes": 1586,
+      "sha256": "9dbe71f21e588ffa5319aa31f323c32280cc86fa70e7039e855d04e71721a1a5",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_path": "release/r49/source/project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/fftwrap.c",
+        "source_sha256": "a59ec583e5660207da9cf3c1ddd6a7ff1ed91382eb40df2a4e77d5cddfe14c52",
+        "range": "first complete copyright and license comment, inclusive delimiters, no newline normalization",
+        "group": "speexdsp-1.2.1"
+      }
+    },
+    {
+      "path": "release/r49/licenses/speexdsp-1.2.1/mdf.c.license-extract.txt",
+      "bytes": 1510,
+      "sha256": "8aa0d280b153a627ea5382658bc5e4c77e46b7f03fb5d5e3cd05b472cc8a02bf",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_path": "release/r49/source/project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/mdf.c",
+        "source_sha256": "a096297873dfd0a07509028d2cdd02d12edf8f1d03319fcecedda003d18d22a8",
+        "range": "first complete copyright and license comment, inclusive delimiters, no newline normalization",
+        "group": "speexdsp-1.2.1"
+      }
+    },
+    {
+      "path": "release/r49/licenses/vad-local/LICENSE.ort",
+      "bytes": 1094,
+      "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_role": "actual-VAD-license-export",
+        "export_sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+      }
+    },
+    {
+      "path": "release/r49/licenses/vad-local/LICENSE.silero",
+      "bytes": 1075,
+      "sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_role": "actual-VAD-license-export",
+        "export_sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/AUTHORS",
+      "bytes": 181,
+      "sha256": "705caaeede8c3bc8c8e3f76489864a5b0575b42cb4a38091f88b9126c3e6628d",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/AUTHORS"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/COPYING",
+      "bytes": 1495,
+      "sha256": "9b79539028e216e813e152d45f5c1ed5fdd0554426ad50270fb03134e7082dac",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/COPYING"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/webrtc/common_audio/third_party/ooura/LICENSE",
+      "bytes": 272,
+      "sha256": "25b7731b70c77ecd5f3bb19303fbaa99be18860f81d44f71da670fdcd04829db",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/webrtc/common_audio/third_party/ooura/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/webrtc/common_audio/third_party/spl_sqrt_floor/LICENSE",
+      "bytes": 915,
+      "sha256": "41d791701e3e1c1073470403de7e342442d1e6a2af72681023b13a2f45f2125c",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/webrtc/common_audio/third_party/spl_sqrt_floor/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/webrtc/LICENSE",
+      "bytes": 1511,
+      "sha256": "ab00a482b6a3902e40211b43c5d0441962ea99b6cc7c25c0f243fa270b78d482",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/webrtc/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/webrtc/modules/third_party/fft/LICENSE",
+      "bytes": 1125,
+      "sha256": "6fdbabd2c95c5efc6f1e46175278239afb9343120a3022ed0e0cb04267a6aeb3",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/webrtc/modules/third_party/fft/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/webrtc/PATENTS",
+      "bytes": 1388,
+      "sha256": "01462e2068d1a04c2274f3389773014c14ed9bc3446b28303543bd3e3c064145",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/webrtc/PATENTS"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/webrtc/third_party/pffft/LICENSE",
+      "bytes": 1919,
+      "sha256": "a46200592eb193853527250da098e6bb0c75424e7a2c7db8da526c4f301c3d88",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/webrtc/third_party/pffft/LICENSE"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/webrtc/third_party/rnnoise/COPYING",
+      "bytes": 1581,
+      "sha256": "e2f59ff41d9d03adc3dcf3deff170f8c8cf4a6eb4a9b174762a7656d23200ffa",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/webrtc/third_party/rnnoise/COPYING"
+      }
+    },
+    {
+      "path": "release/r49/licenses/webrtc-audio-processing-2.1/webrtc_third_party_pffft_src_pffft.c.license-extract.txt",
+      "bytes": 2244,
+      "sha256": "5e5bcdb710616235d35523b1542483c643e839177cd80f1dd4d1aa07f2976b57",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+        "archive_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+        "archive_member": "webrtc-audio-processing-2.1/webrtc/third_party/pffft/src/pffft.c"
+      }
+    },
+    {
+      "path": "release/r49/licenses/wpa_supplicant-2.12/COPYING",
+      "bytes": 965,
+      "sha256": "a87ac4e333d0f120408a9d814e40c3672cd27f365af89b4f2f6631f7a9338953",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "url": "https://w1.fi/releases/wpa_supplicant-2.12.tar.gz",
+        "archive_sha256": "08e23937e16d0155e55cab2b51f51fbe10d80a1aa91c4e15442645059b737ef6",
+        "member": "wpa_supplicant-2.12/COPYING"
+      }
+    },
+    {
+      "path": "release/r49/licenses/wpa_supplicant-2.12/LOCAL-COPYING",
+      "bytes": 965,
+      "sha256": "a87ac4e333d0f120408a9d814e40c3672cd27f365af89b4f2f6631f7a9338953",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "source_path": "app/k7radio/hostap/COPYING"
+      }
+    },
+    {
+      "path": "release/r49/licenses/wpa_supplicant-2.12/README",
+      "bytes": 2351,
+      "sha256": "83be1b142c59ccf0d6c5dde0695d8f84dfba109bea058e78ec2942389ccf327f",
+      "category": "license-original-or-identified-extract",
+      "source": {
+        "url": "https://w1.fi/releases/wpa_supplicant-2.12.tar.gz",
+        "archive_sha256": "08e23937e16d0155e55cab2b51f51fbe10d80a1aa91c4e15442645059b737ef6",
+        "member": "wpa_supplicant-2.12/README"
+      }
+    }
+  ],
+  "scope": "License originals and identified extracts, not a blanket redistribution clearance"
+}

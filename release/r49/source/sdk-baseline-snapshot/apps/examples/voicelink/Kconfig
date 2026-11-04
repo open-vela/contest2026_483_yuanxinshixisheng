@@ -1,0 +1,24 @@
+config EXAMPLES_K7VOICE
+	bool "K7 native VoiceLink integration"
+	depends on EXAMPLES_K7RADIO_SHARED && HAVE_CXX && LIBCXX && CXX_EXCEPTION
+	default n
+	---help---
+		Native network adapter and control core. ASR/TTS not integrated yet.
+		Explicit probe/scan commands are integration diagnostics, not speech.
+
+config EXAMPLES_K7VOICE_STAGED_ASSETS
+	bool "Reserve upper model window for staged speech assets"
+	depends on EXAMPLES_K7VOICE && RK3576_MODEL_ARENA
+	default n
+	---help---
+		Use only the lower 512 MiB for the model heap. Keep the upper
+		512 MiB mapped for explicitly verified ASR and TTS RAM resources.
+
+config EXAMPLES_K7VOICE_KWS
+	bool "Explicit small-model streaming keyword spotter"
+	depends on EXAMPLES_K7VOICE && EXAMPLES_K7SOUND_SESSION
+	default n
+	---help---
+		Requires separately built, SHA-verified real KWS and embedded model
+		objects. Adds bounded k7kws diagnostics; does not start audio, move
+		the gimbal, or change the legacy voice loop at boot.

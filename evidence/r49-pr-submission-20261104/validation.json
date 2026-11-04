@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-11-04T03:20:10.034473+00:00",
+  "cases": [
+    {
+      "case": "R49_source_identity",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "R49_missing_input_preflight",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "passed": true
+    },
+    {
+      "case": "original_official_all_member_log_validator",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "authorized_log_snapshot_crosscheck",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "case": "public_evidence_manifest",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "original_official_validator": {
+    "exit_code": 0,
+    "all_member_jsonl_files": 565,
+    "all_member_events": 359632,
+    "tool_sha256": "23e601bfe316bedc8ce45b7a69a09e30536314d41c79ff2c5ed3320a59a0a495"
+  },
+  "member_jsonl_files": 55,
+  "member_events": 109914,
+  "whole_source_clean_build_passed": false,
+  "hardware_operation": false,
+  "raw_errors_not_published": true
+}

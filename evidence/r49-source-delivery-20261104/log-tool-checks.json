@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-04T01:19:43.810023+00:00",
+  "python": "3.12",
+  "command": "python -B -X utf8 -m unittest test_log_export_core test_log_daily -v",
+  "isolated_contract_tests": 8,
+  "exit_code": 0,
+  "coverage": [
+    "known secret JSON escape variants",
+    "sensitive fields in nested JSON layers",
+    "source-truncated sensitive-field tail",
+    "API tokens and Bearer",
+    "private key and media omission",
+    "Beijing date split preserving seq",
+    "historical content and mtime preservation",
+    "unselected historical layout preservation"
+  ],
+  "project_tools_modified": false,
+  "files": {
+    "tools/log_export_core.py": "791d5768d4d9c010899e813c3f9ea3e85b96752ccc913c36000582a7ace68a6e",
+    "tools/log_daily.py": "6e6c0e73a31ca9c2b648ece5191afc0d4d828f2925f17ab9aec3f8e558347c3a",
+    "tools/backfill_finals_logs.py": "9d068d77adea242b42e4e7096c6e99baa15ce72b6e74530a2dbff520d25007d8",
+    "tools/watch_project_logs.py": "a3439b5dcf8626816ecebadec3fcf0ba90e63ba3ab80ff9efa57368f2854c3b4",
+    "tools/auto_collect_logs.py": "f22c0988bc9de7221b9bf64fb0167ea350b8c3092df79b13a3cad24fce4616e7",
+    "tools/validate_project_logs.py": "54cd71d97a30fcb562369c4dfb4d807a6925218968475f56ddc0d78b4b71eb53",
+    "tools/test_log_export_core.py": "cefbd988d45f395a7f56ec363edfd0224c0dc2281efd771d69812fbe540f1a45",
+    "tools/test_log_daily.py": "2c069d6b7e1b9ec6648137752ba1d83ca49be147bd8013837574360244b16e93"
+  }
+}

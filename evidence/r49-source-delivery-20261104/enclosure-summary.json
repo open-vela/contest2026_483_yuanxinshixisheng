@@ -1,0 +1,76 @@
+{
+  "prepared_on": "2026-11-04",
+  "author_provenance": "User explicitly stated this is their own enclosure design on 2026-11-04",
+  "folder_version": "v1, original file names include internal R4 designation",
+  "original_file_count": 12,
+  "original_bytes": 53305877,
+  "files": [
+    {
+      "path": "01_Blender工程/openvela直屏外壳设计_R4.blend",
+      "bytes": 7699153,
+      "sha256": "d3d902d62ef3dbd99dc23b68096d3bf02e4c46c1d76f74ad3437f94b7380bd9f"
+    },
+    {
+      "path": "02_打印STL/01_头部主壳_含U架承力桥.stl",
+      "bytes": 185184,
+      "sha256": "69202464d10ff3316fe9f30b46cc672618a86aaf91ae2dc91ffaffac93911d3d"
+    },
+    {
+      "path": "02_打印STL/02_头部后盖_一体卡扣.stl",
+      "bytes": 100484,
+      "sha256": "2337f597b486540203e05d917f745669b49c1defcb1a6bc449d9f4041bb0a69a"
+    },
+    {
+      "path": "02_打印STL/03_机身主壳_含全部固定支撑.stl",
+      "bytes": 178384,
+      "sha256": "a5a7c3b9778772978dbdc5bd6bd1d0e135b800c20882bedce0708a0858f9c87d"
+    },
+    {
+      "path": "02_打印STL/04_机身后盖_R4_USB35x18_电源13x12.stl",
+      "bytes": 196284,
+      "sha256": "47ae1ecee681c92b58dbc705f4e638493ec9dd763f8907f96122b375ad72c9d4"
+    },
+    {
+      "path": "03_打印3MF/01_头部主壳_外观优先_0.20mm.3mf",
+      "bytes": 12825727,
+      "sha256": "bebb266fe04f4db6674c9873cd82a5acb8f5b83fa6b61b1db7ac78ebbb6ed10a"
+    },
+    {
+      "path": "03_打印3MF/02_头部后盖_外观优先_0.20mm.3mf",
+      "bytes": 565805,
+      "sha256": "44cfbedf90f359f3de74dbe000069715599a1041e384115147b3bf55c69efd48"
+    },
+    {
+      "path": "03_打印3MF/03_机身主壳_外观优先_0.20mm.3mf",
+      "bytes": 27591174,
+      "sha256": "9b7c8b840fd78856d116e31b859ebd16990383e8173f71e8f3a941cee5cb83b4"
+    },
+    {
+      "path": "03_打印3MF/04_机身后盖_R4_USB35x18_电源13x12.3mf",
+      "bytes": 859749,
+      "sha256": "a91f59751944cbaadcc6a0cac046d495c528699804e3b368dd15223fb045e3bd"
+    },
+    {
+      "path": "04_预览与说明/01_R4后盖_外侧正视.png",
+      "bytes": 1129111,
+      "sha256": "4de641c4a8813822f1d280867db86f2e5343f776f1e8f439e5a55f05d788f6ae"
+    },
+    {
+      "path": "04_预览与说明/03_R4整机_外侧后视.png",
+      "bytes": 949893,
+      "sha256": "f6d88a9dc1fb2497f806848c717b1c1b2c4e39142d0381dbd018eee91bdc8cf4"
+    },
+    {
+      "path": "04_预览与说明/04_R4后盖_内侧正视.png",
+      "bytes": 1024929,
+      "sha256": "875f82b63490a97433c2b9b915774bcc95ad94ce755ae75f5ca0ecca3fe54132"
+    }
+  ],
+  "sensitive_matches": [],
+  "license": "Copyright remains with original designer; no separate public hardware-design license selected",
+  "hardware_or_print_action": false,
+  "Blender_project_executed": false,
+  "source_unchanged": true,
+  "repo_copy": "design/enclosure/straight-screen-v1",
+  "zip_sha256": "f9cf0fbfec6744bc8b2c0138ed9b84237530b34dd4be97152b809b77493245ba"
+}

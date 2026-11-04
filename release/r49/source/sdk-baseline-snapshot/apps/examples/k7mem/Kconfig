@@ -1,0 +1,4 @@
+config EXAMPLES_K7MEM
+	bool "K7 isolated model DDR arena test"
+	depends on RK3576_MODEL_ARENA
+	default n

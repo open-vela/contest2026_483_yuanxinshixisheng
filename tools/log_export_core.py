@@ -4,6 +4,7 @@ BASE = Path(__file__).resolve().parents[1]
 SID = None
 OMIT_KEYS = {'internal_chat_message_metadata_passthrough', 'encrypted_content'}
 MEDIA_TYPES = {'output_image', 'input_image', 'input_audio', 'audio', 'image', 'image_url', 'video', 'output_audio'}
+SENSITIVE_FIELDS = {'credential', 'proof'}
 
 def sha(data):
     return hashlib.sha256(data).hexdigest()
@@ -23,6 +24,40 @@ class Cleaner:
         for secret in sorted(self.secrets, key=len, reverse=True):
             self.counts['wifi_password'] += text.count(secret)
             text = text.replace(secret, '[Wi-Fi password redacted]')
+        # JSON can sit inside a tool's code/patch string rather than a parsed
+        # object. Match bounded JSON-encoding layers without decoding or
+        # executing that code. A delimiter has 2**layer-1 backslashes; escaped
+        # quotes in its value have a different parity at that same layer.
+        for layer in range(8, -1, -1):
+            slashes = (1 << layer) - 1
+            quote = '\\' * slashes + '"'
+            pattern = re.compile(re.escape(quote) + r'(credential|proof)' +
+                                 re.escape(quote) + r'\s*:\s*' +
+                                 re.escape(quote), re.IGNORECASE)
+            position = 0
+            while True:
+                match = pattern.search(text, position)
+                if not match:
+                    break
+                end = match.end()
+                closing = None
+                while end < len(text):
+                    if text[end] == '"':
+                        first = end
+                        while first and text[first - 1] == '\\':
+                            first -= 1
+                        if (end - first) % (1 << (layer + 1)) == slashes:
+                            closing = end - slashes
+                            break
+                    end += 1
+                marker = '[' + match.group(1).lower() + ' redacted]'
+                if closing is None:
+                    # A source-truncated secret must not survive in a tail.
+                    text = text[:match.end()] + marker
+                else:
+                    text = text[:match.end()] + marker + text[closing:]
+                self.counts['sensitive_field'] += 1
+                position = match.end() + len(marker) + len(quote)
         for name, pattern, replacement in [
             ('embedded_media', r'data:(?:image|audio|video)/[^;,\s]+;base64,[A-Za-z0-9+/=\r\n]+', '[embedded media omitted]'),
             ('private_key', r'-----BEGIN [^-]*PRIVATE KEY-----[\s\S]*?-----END [^-]*PRIVATE KEY-----', '[private key redacted]'),
@@ -44,7 +79,16 @@ class Cleaner:
             if value.get('type') in MEDIA_TYPES:
                 self.counts['media_blocks'] += 1
                 return {'type': 'omitted_media', 'source_type': value['type']}
-            return {k: self.value(v) for k, v in value.items() if k not in OMIT_KEYS}
+            cleaned = {}
+            for k, v in value.items():
+                if k in OMIT_KEYS:
+                    continue
+                if k.casefold() in SENSITIVE_FIELDS:
+                    cleaned[k] = '[' + k.casefold() + ' redacted]'
+                    self.counts['sensitive_field'] += 1
+                else:
+                    cleaned[k] = self.value(v)
+            return cleaned
         return value
 
 def convert(raw, cleaner, expected_sid=SID, expected_workspace=None):

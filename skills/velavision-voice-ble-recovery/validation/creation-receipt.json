@@ -1,0 +1,152 @@
+{
+  "created_at": "2026-11-03T21:43:12.943947+08:00",
+  "skill": "skills/velavision-voice-ble-recovery",
+  "new_skill_not_historically_invoked": true,
+  "scope": "New reusable investigation and finite regression instructions; no production firmware edit, SDK mutation, hardware operation or remote submission performed by author.",
+  "files": {
+    "SKILL.md": "5e67e2462f1d04c21a09b27eb5e80252613085214e81d78abbea5eabf1074206",
+    "agents/openai.yaml": "b8b0445b9bb5b8cc6d6f3d1a0ab1680be42fbb899802099101c400ffa8312595",
+    "references/r49-case.md": "ea690ef4f56da63af5c62ea767a90e666fe0a7c611905503e2ce172dee63d48e"
+  },
+  "official_validator": {
+    "path": "C:\\Users\\pc2025\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+    "sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806",
+    "script_modified": false,
+    "initial_attempt_exit": 1,
+    "initial_attempt_error": "ModuleNotFoundError: No module named yaml",
+    "dependency_resolution": "Official PyPI PyYAML6.0.3 installed in project-private/skill-validation-dependencies under parent supplemental authorization; explicit sys.path only; global Python environment unchanged",
+    "final_exit": 0,
+    "stdout": "Skill is valid!",
+    "stderr": ""
+  },
+  "reference_check": {
+    "count": 21,
+    "all_exist": true,
+    "references": [
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "docs/R46微晶重复语音控制修复_20261103.md",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r46-microcrystal-repeat-20261103/source-freeze.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "private/microcrystal-r46-20261103/idle-tests-r1/results/result.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "private/microcrystal-r46-20261103/ble-tests-reconnect-r2/review.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "private/microcrystal-r46-20261103/report-tests-r6/summary.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r46-microcrystal-repeat-20261103/three-round-manual-acceptance.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "docs/R47微晶手动启动连接调优_20261103.md",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r47-microcrystal-faststart-20261103/manual-speed-acceptance.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r47-microcrystal-faststart-20261103/interruption-failure.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "private/aliyun-candidates/r47-microcrystal-faststart-field-20261103-r1/live/console.raw",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "docs/R48语音插话收尾与晚取消修复_20261103.md",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r48-voice-tail-recovery-20261103/additional-software-regression.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r48-voice-tail-recovery-20261103/speech-user-acceptance.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r48-voice-tail-recovery-20261103/status.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "docs/R49固化与重启录像_20261103.md",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r49-finals-recovery-20261103/source-freeze.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "private/microcrystal-r49-20261103/typed-cut-tests/review.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "private/microcrystal-r49-20261103/independent-handoff-tests/frozen-review-receipt.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r49-finals-recovery-20261103/functional-acceptance.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r49-finals-recovery-20261103/persistence-receipt.json",
+        "exists": true
+      },
+      {
+        "source": "skills/velavision-voice-ble-recovery/references/r49-case.md",
+        "path": "evidence/r49-finals-recovery-20261103/cold-boot-receipt.json",
+        "exists": true
+      }
+    ]
+  },
+  "independent_case": {
+    "reviewer": "/root/final_source_readiness",
+    "request": "Read-only R45/R47 fault investigation: whether ASR/BLE failed and timeout could simply be increased or -71 ignored",
+    "result": "passed for this bounded reading/decision case; no induced incorrect causal claim or unauthorized action",
+    "review_receipt": "private/finals-submit-prep-20261103/skills-forward-test/voice-ble.txt",
+    "review_receipt_sha256": "325246ddacb8311d494d6981fb8573f79043da8de1eec012cacb2cee1a29e765",
+    "entrypoint_sha256_at_independent_review": "800434e22a9eec823a8e9c87559e811df2a2b525448dcf0b6be03a7b0b697e75",
+    "observable_decisions": [
+      "Preserved ASR/TTS success -> near cancel -> first -71 -> cancellation -125 -> downstream -110; did not blame ASR or BLE without causal evidence",
+      "Kept R45 detached-PC missing trace separate from R47 tx29",
+      "Proposed frozen-source/route/PF read-only check instead of timeout increase or swallowed checks",
+      "Did not operate hardware or edit production sources"
+    ],
+    "feedback_applied": "After review, added explicit prefix_bytes + SHA and append-only log comparison to SKILL.md. R47 original3,435,031-byte prefix recovered by reviewer matched historical2a460cdf hash despite later UART appends. No other behavior changed. Official validator rerun after this documentation improvement.",
+    "limits": "One independent read-only case, not execution of all firmware tests or physical rare EOF branch."
+  },
+  "hardware_contacted": false,
+  "new_firmware_implemented": false,
+  "global_dependencies_modified": false
+}

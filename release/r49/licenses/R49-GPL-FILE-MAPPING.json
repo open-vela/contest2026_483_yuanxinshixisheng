@@ -1,0 +1,2853 @@
+{
+  "release_source_files": [
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/duplex.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "6c287374465a5a2e2cdcd23382efbcc924e8d3f3c6dc658c4e9afa2ff7d24e59",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/duplex_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "19d2c57a4db864042402f692c41751fbc42875258292926183a0b6aad97c7bf5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/duplex_stream.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "1eb39108942a266c18f220a84f280e025c4e4e5344869d4bc3c7da41f4dfd512",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/i2c3_timing.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "35afcde24579679ab75c7a32e10e49e67332d760db828b85b66062622a995fd1",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/live.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "a5c1a1f4fffca693b6440be47e4dd509ee104ddaf18cfc68247e4ea29fa9280c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/pio.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "ef5866f5c3a714d271f61496712c84a137de856b6ba9426ff9a39bf90b95d009",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/platform.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "486811eef24a18daea2f6b473ed9c2ef4fce1b82958feb9afc5f6d3d8142fd12",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/raw_vad_owner.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d30e544fca8a4dfee34b008f8e7afc230f1e79004810c66cb62fef2a6508d865",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/reset_probe.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d9885d96e8e2378e144f805415eae05f2e6729cd4fb727f59f26d7413b8f7bbc",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/session_ab_probe.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "c6fb5a4c23325ccd32a566208a1f865ac29e12878c3fbdccca8d11b50b466716",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/session_capture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b5ba84b8cca08d70801e0416a1270987ae3a0aff29e281cc3e46d2dcb0739d53",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/start_clear.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d3f98d6ba83af7c194486a70278e08d35a716c1daf892d422e726cc37465b0a9",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/after/deps/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/inputs/new/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/apps/examples/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/apps/examples/k7sound/session_capture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b5ba84b8cca08d70801e0416a1270987ae3a0aff29e281cc3e46d2dcb0739d53",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/apps/examples/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/apps/examples/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-barge-candidate-arm-r3/overlay/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-barge-candidate-arm-r3/overlay/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-barge-candidate-arm-r3/overlay/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/duplex_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "19d2c57a4db864042402f692c41751fbc42875258292926183a0b6aad97c7bf5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/pio.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "ef5866f5c3a714d271f61496712c84a137de856b6ba9426ff9a39bf90b95d009",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/raw_vad_owner.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d30e544fca8a4dfee34b008f8e7afc230f1e79004810c66cb62fef2a6508d865",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/duplex_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "19d2c57a4db864042402f692c41751fbc42875258292926183a0b6aad97c7bf5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/input/rockchip_sai.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0168c0a18f6abda7211af572f6778ff41b77e22602f6ad00f3ffee83e97884ed",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/pio.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "ef5866f5c3a714d271f61496712c84a137de856b6ba9426ff9a39bf90b95d009",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/session_capture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b5ba84b8cca08d70801e0416a1270987ae3a0aff29e281cc3e46d2dcb0739d53",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/runtime-view/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/runtime-view/app/k7sound/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/runtime-view/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-repair-arm-r2/runtime-view/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-single-repair-arm-r2/overlay/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-single-repair-arm-r2/overlay/app/k7sound/raw_vad_owner.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d30e544fca8a4dfee34b008f8e7afc230f1e79004810c66cb62fef2a6508d865",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-single-repair-arm-r2/overlay/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-single-repair-arm-r2/overlay/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/1/overlay/app/k7sound/duplex_session.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "453b2df7d20dddea5db6d8efd0911bf7543f3831b686253fae0d3c39c9356f92",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/1/overlay/app/k7sound/raw_vad_owner.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "c6faceab4fe8b26459ba775fcd896b8fe0507947523d760204b915ae1fb3e060",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/echo-private-deps/views/echo_diag_runtime/after/1/overlay/app/k7sound/voice_session.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "634f02d32118d300a67dc325a3d93f9fb413a8ccec5400da32a350011dfef9e0",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/inputs/overlay/app/k7sound/duplex_session.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "453b2df7d20dddea5db6d8efd0911bf7543f3831b686253fae0d3c39c9356f92",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/inputs/overlay/app/k7sound/raw_vad_owner.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "c6faceab4fe8b26459ba775fcd896b8fe0507947523d760204b915ae1fb3e060",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/inputs/overlay/app/k7sound/voice_session.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "634f02d32118d300a67dc325a3d93f9fb413a8ccec5400da32a350011dfef9e0",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/apps/examples/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/apps/examples/k7sound/session_capture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b5ba84b8cca08d70801e0416a1270987ae3a0aff29e281cc3e46d2dcb0739d53",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/apps/examples/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/apps/examples/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-barge-candidate-arm-r3/overlay/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-barge-candidate-arm-r3/overlay/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-barge-candidate-arm-r3/overlay/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/duplex_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "19d2c57a4db864042402f692c41751fbc42875258292926183a0b6aad97c7bf5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/pio.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "ef5866f5c3a714d271f61496712c84a137de856b6ba9426ff9a39bf90b95d009",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/raw_vad_owner.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d30e544fca8a4dfee34b008f8e7afc230f1e79004810c66cb62fef2a6508d865",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/duplex_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "19d2c57a4db864042402f692c41751fbc42875258292926183a0b6aad97c7bf5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/input/rockchip_sai.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0168c0a18f6abda7211af572f6778ff41b77e22602f6ad00f3ffee83e97884ed",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/pio.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "ef5866f5c3a714d271f61496712c84a137de856b6ba9426ff9a39bf90b95d009",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/session_capture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b5ba84b8cca08d70801e0416a1270987ae3a0aff29e281cc3e46d2dcb0739d53",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/duplex-view/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/runtime-view/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/runtime-view/app/k7sound/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/runtime-view/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-repair-arm-r2/runtime-view/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-single-repair-arm-r2/overlay/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-single-repair-arm-r2/overlay/app/k7sound/raw_vad_owner.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d30e544fca8a4dfee34b008f8e7afc230f1e79004810c66cb62fef2a6508d865",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-single-repair-arm-r2/overlay/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-single-repair-arm-r2/overlay/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/cloud/018859a298686310/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/cloud/0a46237cb8cc6c3b/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/cloud/19d2c57a4db86404/duplex_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "19d2c57a4db864042402f692c41751fbc42875258292926183a0b6aad97c7bf5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/cloud/2849839e920cdb52/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/cloud/9d89b3981aa7775a/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/cloud/b5ba84b8cca08d70/session_capture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b5ba84b8cca08d70801e0416a1270987ae3a0aff29e281cc3e46d2dcb0739d53",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/cloud/d30e544fca8a4dfe/raw_vad_owner.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d30e544fca8a4dfee34b008f8e7afc230f1e79004810c66cb62fef2a6508d865",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/cloud/ef5866f5c3a714d2/pio.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "ef5866f5c3a714d271f61496712c84a137de856b6ba9426ff9a39bf90b95d009",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/0168c0a18f6abda7/rockchip_sai.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0168c0a18f6abda7211af572f6778ff41b77e22602f6ad00f3ffee83e97884ed",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/018859a298686310/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/0a46237cb8cc6c3b/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/181cb3241e1f7320/voice_session.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "181cb3241e1f7320cf28ac04aecbd7c090ccfadb1a0951789fe1625be5558685",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/19d2c57a4db86404/duplex_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "19d2c57a4db864042402f692c41751fbc42875258292926183a0b6aad97c7bf5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/2849839e920cdb52/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/7f951333b4607865/duplex_session.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "7f951333b46078654acad6ba0f32165058219e00e29275c30887b9db523e81e3",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/9d89b3981aa7775a/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/b5ba84b8cca08d70/session_capture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b5ba84b8cca08d70801e0416a1270987ae3a0aff29e281cc3e46d2dcb0739d53",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/b77026991a310510/raw_vad_owner.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b77026991a31051028f37d59fcd5e79b8ca0daa95295ec5b3bd4e4cf29e74837",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/c6fb5a4c23325ccd/session_ab_probe.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "c6fb5a4c23325ccd32a566208a1f865ac29e12878c3fbdccca8d11b50b466716",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/cc1820c8acc6c33e/k7sound_main.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "cc1820c8acc6c33e6cf11a713278d8df6fdef49707a38bf3c9141d83a524efe4",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/d30e544fca8a4dfe/raw_vad_owner.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d30e544fca8a4dfee34b008f8e7afc230f1e79004810c66cb62fef2a6508d865",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/ef5866f5c3a714d2/pio.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "ef5866f5c3a714d271f61496712c84a137de856b6ba9426ff9a39bf90b95d009",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/historical-closures/sound/fa5d1afe474e255f/session_ab_command.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "fa5d1afe474e255feea6d2aef99458380b70a55a921059363c9eb60b80707bcc",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/duplex.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "6c287374465a5a2e2cdcd23382efbcc924e8d3f3c6dc658c4e9afa2ff7d24e59",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/duplex_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "19d2c57a4db864042402f692c41751fbc42875258292926183a0b6aad97c7bf5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/duplex_stream.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "1eb39108942a266c18f220a84f280e025c4e4e5344869d4bc3c7da41f4dfd512",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/i2c3_timing.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "35afcde24579679ab75c7a32e10e49e67332d760db828b85b66062622a995fd1",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/live.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "a5c1a1f4fffca693b6440be47e4dd509ee104ddaf18cfc68247e4ea29fa9280c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/pio.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "ef5866f5c3a714d271f61496712c84a137de856b6ba9426ff9a39bf90b95d009",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/platform.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "486811eef24a18daea2f6b473ed9c2ef4fce1b82958feb9afc5f6d3d8142fd12",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/raw_vad_owner.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d30e544fca8a4dfee34b008f8e7afc230f1e79004810c66cb62fef2a6508d865",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/reset_probe.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d9885d96e8e2378e144f805415eae05f2e6729cd4fb727f59f26d7413b8f7bbc",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/session_ab_probe.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "c6fb5a4c23325ccd32a566208a1f865ac29e12878c3fbdccca8d11b50b466716",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/session_capture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b5ba84b8cca08d70801e0416a1270987ae3a0aff29e281cc3e46d2dcb0739d53",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/start_clear.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d3f98d6ba83af7c194486a70278e08d35a716c1daf892d422e726cc37465b0a9",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7agent/cloud/include/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/duplex.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "56252428749095815c81f5b580c204baf7ab1727cb24a0424cf51fec4721e46f",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/duplex.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "6c287374465a5a2e2cdcd23382efbcc924e8d3f3c6dc658c4e9afa2ff7d24e59",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/duplex_session.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "7f951333b46078654acad6ba0f32165058219e00e29275c30887b9db523e81e3",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/duplex_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "19d2c57a4db864042402f692c41751fbc42875258292926183a0b6aad97c7bf5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/duplex_stream.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "de193e0d1a55a44533d14dd425366b6f74a79f869e7878080040372093458955",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/duplex_stream.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "1eb39108942a266c18f220a84f280e025c4e4e5344869d4bc3c7da41f4dfd512",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/fifo_reference.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "e9dad231d7363dd720e7828d9c2d0b9c4438ae4f16a5ea5e35aa8ee94f6daa5e",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/fifo_reference.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "018859a2986863103373330038bb9fdf3a905f2ac8f3f345aa7e4ca73b633956",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/i2c3_timing.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "e251961268a18c2efae7aa9be2c53fd88d264d52fcae94216866522089754b0a",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/i2c3_timing.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "35afcde24579679ab75c7a32e10e49e67332d760db828b85b66062622a995fd1",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/k7sound_main.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "cc1820c8acc6c33e6cf11a713278d8df6fdef49707a38bf3c9141d83a524efe4",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/live.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "d4a9d0ecfc41204b0be9e329715fcb343e9916528154d157b21388bc47a05aa7",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/live.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "a5c1a1f4fffca693b6440be47e4dd509ee104ddaf18cfc68247e4ea29fa9280c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/pio.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "e2b8d9e95cd627dddf9f714a29f50dbdebd1b7e04970590e4eae97a2c7a38c91",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/pio.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "ef5866f5c3a714d271f61496712c84a137de856b6ba9426ff9a39bf90b95d009",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/platform.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d090f3d082f97a2be1f831f16bf93e00a13204b2e8b708c1b82591a3c8b40726",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/platform.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "486811eef24a18daea2f6b473ed9c2ef4fce1b82958feb9afc5f6d3d8142fd12",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/raw_vad_observer.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "030434130276e04b006cfc60369ab0dfc1118baf3bd8d776ec656e7f4f504457",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/raw_vad_observer.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9d89b3981aa7775ab14fe3ca1363b9a182038d4209463f8b774ce07083deced8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/raw_vad_owner.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b77026991a31051028f37d59fcd5e79b8ca0daa95295ec5b3bd4e4cf29e74837",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/raw_vad_owner.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d30e544fca8a4dfee34b008f8e7afc230f1e79004810c66cb62fef2a6508d865",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/reset_probe.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "54fa64acfdf0d919d446e386005dab20e5739c928609e75aa070019756d2836a",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/reset_probe.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d9885d96e8e2378e144f805415eae05f2e6729cd4fb727f59f26d7413b8f7bbc",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/session_ab_command.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "fa5d1afe474e255feea6d2aef99458380b70a55a921059363c9eb60b80707bcc",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/session_ab_probe.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "9f8f094942b84804f39bf285b8b5b946422676e773dff3e44bc5706f97f579cb",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/session_ab_probe.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "c6fb5a4c23325ccd32a566208a1f865ac29e12878c3fbdccca8d11b50b466716",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/session_capture.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "78bcf280d4094e2d7e6a12ed7015be66c0223ba86db81ce6a7a8ab1d0254ca5d",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/session_capture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "b5ba84b8cca08d70801e0416a1270987ae3a0aff29e281cc3e46d2dcb0739d53",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/start_clear.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "16dacf53781ceddd1c32589949ebb0504d840cd9eddd80dbf8ddffda05e84710",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/start_clear.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d3f98d6ba83af7c194486a70278e08d35a716c1daf892d422e726cc37465b0a9",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/voice_frame_ring.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "248c5a933b969c8e7f974cf8d1917684237100a756b2d7ffe5de9a8212d2a2b1",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/voice_frame_ring.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "2849839e920cdb529b45e46901aae2d235a114b6055eb96a6f2984fe7a09e958",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/voice_session.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "181cb3241e1f7320cf28ac04aecbd7c090ccfadb1a0951789fe1625be5558685",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/project/app/k7sound/voice_session.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "0a46237cb8cc6c3b6d66be0cc97fc6b515a866ef02bcf98a6cfff00ba66ccf21",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7audiohw/i2c3_timing.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "e251961268a18c2efae7aa9be2c53fd88d264d52fcae94216866522089754b0a",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7audiohw/i2c3_timing.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "1db2c4ffa2b259a4409c4629cd776331056354eecd67b0af32535bbfcff1ae83",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7audiohw/k7audiohw_main.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "7a2175687bb9abc1bdaff2cee871a6a93dffc412140853f5a53ecc106695cc04",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7audiohw/live.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "d4a9d0ecfc41204b0be9e329715fcb343e9916528154d157b21388bc47a05aa7",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7audiohw/live.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "a5c1a1f4fffca693b6440be47e4dd509ee104ddaf18cfc68247e4ea29fa9280c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/display_session.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "e3b56d36cd39498b9c5dcf6887c5e369a70d831e9943ee64dac8c5738a900456",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/display_session.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "1990bd18baebc7bc81a70daf5a11796d3b047999542cb3c9c9389c4a2e905153",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_dcphy.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d09d16a837284e33062affcc9804116c5c04d70c446541586cd41ae17f1f22f5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_dcphy.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "fe60f88c3d4d549153276eaca476bf5a06febe533bcb0c615a4a64e8accd9f84",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_display_framebuffer.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "ed552de9cb73f279062cb511063caf6712ffde41cb89260ec078853a225f0ac8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_display_framebuffer.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "f09b1810a0e810bded4219ab6f9340552ab81ad08c9c57fccd7b97b0f7f2a241",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_display_native.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "f831eec022b75d666f2c0373957f341fd51514198e815bd7fd6b90d95279037d",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_display_native.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "80fa1bdbc159f3ab78649a285f125a22586b37c45be0165ca30149bf69010b90",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_display_transition.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "6831f10c7b5c9c99aa872c716f486f80431ac6444d29dbfd94a3aa0adbf34202",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_display_transition.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "85102bc4496fd89c6fc18677317740ca15adfcf6e8674d2e2b32d92320948e39",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_dsi2.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "da276551f7b1ca3189d6630d5f0e486557bacb3e12d981d618d80a9bcb011624",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_dsi2.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "242975a918193b633e9599702777ed8d16fcdbfc85a4b812125b6cc147b595f3",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_vop.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "f895696ddb5cdac7b9949c2ff16c3901e20069c3f518ba3aaf38b0b236982cbd",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/rk3576_vop.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "4c3609744800ce1c376713b3863e29d98d4b3d42b4f9a9d4fd49af1df726ae65",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/test_display_session.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "2cb4840ff446eee5728c503639a7fa2ef438b15015035bd89135a43611a82aaf",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/test_display_transition.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "629d78a7783540986466593715a6856467ba034cd8d46a64455642f3e3dae8dd",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7display/test_dsi2.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "84a66df847a69a7880829f5913c25522bf87763521935b94a8346dd5028b27ff",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7npu/k7npu_fixture_io.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "def20ddb0b283d5442f619c57374481e20157a21bba3d599c22bd94513db0091",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7npu/k7npu_fixture_io.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "1f8a434909c73c713f6a7120564e0a3f2fd0b8bb9cf71f8208c5dbea78e4089b",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_bt.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "84e6c81e31339149281b67f8eaab14b5736cfe784efaf64b2c96a54bfd72d3f2",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_bt.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "dae6d9d4a57e8a579a0053343e153e14e3bfd763b7e7805b13d06e7972723e3c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_bus.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "1d22090f5d61a422c2eb5dfc68bb93ffaee37d99d544588b15f459d4f818bd10",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_dw.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "9cb2b99c0d4c2908ebb41169e7c9a0083565baa4a5b724ec56fc27f62b595858",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_dw.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "73f23020808ffc4f9b4668d7f5fa35e775710d12fa7f14b653c1d6a96ec3a6a7",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_eapol_queue.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "c7a48eef2e802b46bfce15dae97431f51a663552ce34e8f78320db6af8b62726",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_native.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "28985b1fbb80f66441b845e7b509725808fcbb572798b6e214a562dabde43e40",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_packet.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "893317055c054a75a0c37e8728646727758266a9d282e7e02c1187d2e8207643",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_rk3576.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "c23de6076c091e4957a32ed8623cf15f56e8a28cf510da084704e4235b59d056",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_rk3576.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "1751ad2ce2b68cae51ba9b68b39cc5531d5065e5411c1dbcedfe16aa4bf40a9d",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_wifi_amsdu.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "e9e32356f6108454401c630ccfd811a6f0f9b9166f6141c5b2af6e27d42bd6ea",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_wifi_bss.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "b62a485c6bd2e196d2b48fd9dd83268011a0ecd6a7de7e346de8c6afea9f69a5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_wifi_data.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "cc873bd8ba35b52dcbe203a54fd9f2c7cfd8d19bbcd4be39d56e033b76dcfb8c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_wifi_diag.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "7c0d88bf3f136565a79963ae4e5d6d6c9c984a2697829192e6368f74d6dc6d35",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_wifi_eapol.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "a47dd63ad16302ca04c66a63dfcc0a898c491e508acbaced10d67fcfcb78e22a",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_wifi_join.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "db3188786f03be33b50e88035620e81e1c52f62ff5387b95d1a89f0723a2b362",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_wpa_transport.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "e5fc6004af3f71f389e3b3396e0ddee2f67d06bc8fb03fb880a181a8cc4189de",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7radio/skw_wpa_transport.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "7184dd151065ff2a5b167ec5abfbd7ed8a4e4ec589cfb1d460ffc8e9a7661f9c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    },
+    {
+      "path": "release/r49/source/unverified-snapshots/parent-sound.a/session_ab_command.c.o/session_ab_command.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "fa5d1afe474e255feea6d2aef99458380b70a55a921059363c9eb60b80707bcc",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "current-R49-publication-tree; includes duplicate closures and SDK baseline snapshots; does not alone establish ELF retention"
+    }
+  ],
+  "related_main_dependency_files": [
+    {
+      "path": "app/k7radio/skw_bt.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "84e6c81e31339149281b67f8eaab14b5736cfe784efaf64b2c96a54bfd72d3f2",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_bt.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "dae6d9d4a57e8a579a0053343e153e14e3bfd763b7e7805b13d06e7972723e3c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_bus.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "1d22090f5d61a422c2eb5dfc68bb93ffaee37d99d544588b15f459d4f818bd10",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */",
+        "/* Derived protocol: Seekwave Tech Inc. skw_sdio_main.c / skw_boot.c.",
+        "* Original driver copyright (C) 2022 Seekwave Tech Inc.; GPL version 2."
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_dw.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "9cb2b99c0d4c2908ebb41169e7c9a0083565baa4a5b724ec56fc27f62b595858",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */",
+        "/* Register/PIO behavior from Rockchip K7 SDK dw_mmc.c/.h and rk3576.dtsi."
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_dw.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "73f23020808ffc4f9b4668d7f5fa35e775710d12fa7f14b653c1d6a96ec3a6a7",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_eapol_queue.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "c7a48eef2e802b46bfce15dae97431f51a663552ce34e8f78320db6af8b62726",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_native.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "28985b1fbb80f66441b845e7b509725808fcbb572798b6e214a562dabde43e40",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_packet.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "893317055c054a75a0c37e8728646727758266a9d282e7e02c1187d2e8207643",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */",
+        "/* Protocol adapted from Seekwave's skw_platform_data.h, skw_sdio_rx.c and",
+        "* skw_btdriver.c. Original copyright (C) Seekwave Tech Inc.; GPL version 2."
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_rk3576.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "c23de6076c091e4957a32ed8623cf15f56e8a28cf510da084704e4235b59d056",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_rk3576.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "1751ad2ce2b68cae51ba9b68b39cc5531d5065e5411c1dbcedfe16aa4bf40a9d",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_wifi_amsdu.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "e9e32356f6108454401c630ccfd811a6f0f9b9166f6141c5b2af6e27d42bd6ea",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_wifi_bss.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "b62a485c6bd2e196d2b48fd9dd83268011a0ecd6a7de7e346de8c6afea9f69a5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_wifi_data.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "cc873bd8ba35b52dcbe203a54fd9f2c7cfd8d19bbcd4be39d56e033b76dcfb8c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_wifi_diag.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "7c0d88bf3f136565a79963ae4e5d6d6c9c984a2697829192e6368f74d6dc6d35",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_wifi_eapol.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "a47dd63ad16302ca04c66a63dfcc0a898c491e508acbaced10d67fcfcb78e22a",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_wifi_join.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "db3188786f03be33b50e88035620e81e1c52f62ff5387b95d1a89f0723a2b362",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_wpa_transport.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "e5fc6004af3f71f389e3b3396e0ddee2f67d06bc8fb03fb880a181a8cc4189de",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */",
+        "/* SDK skw_iface.h skw_key_params: MAC[6],type,cipher,PN[6],id,len,key[32]."
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7radio/skw_wpa_transport.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "7184dd151065ff2a5b167ec5abfbd7ed8a4e4ec589cfb1d460ffc8e9a7661f9c",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/display_session.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "e3b56d36cd39498b9c5dcf6887c5e369a70d831e9943ee64dac8c5738a900456",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/display_session.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "1990bd18baebc7bc81a70daf5a11796d3b047999542cb3c9c9389c4a2e905153",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_dcphy.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "d09d16a837284e33062affcc9804116c5c04d70c446541586cd41ae17f1f22f5",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later",
+        "* (C) Copyright 2008-2018 Fuzhou Rockchip Electronics Co., Ltd",
+        "* Derived from Rockchip U-Boot samsung_mipi_dcphy.c, GPL-2.0+."
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_dcphy.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "fe60f88c3d4d549153276eaca476bf5a06febe533bcb0c615a4a64e8accd9f84",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_display_framebuffer.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "ed552de9cb73f279062cb511063caf6712ffde41cb89260ec078853a225f0ac8",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */",
+        "#include <nuttx/spinlock.h> /* SDK declares enter/leave_critical_section here. */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_display_framebuffer.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "f09b1810a0e810bded4219ab6f9340552ab81ad08c9c57fccd7b97b0f7f2a241",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_display_native.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "b7d1461663362e613bb9e41f8f78da51b97879e633905070dc41438a2e31e51e",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_display_native.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "75b616fedc751f8267b4c01b76c14ed6e5d213469b360025daa650f91d69b521",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_display_transition.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "6831f10c7b5c9c99aa872c716f486f80431ac6444d29dbfd94a3aa0adbf34202",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */",
+        "/* RK3588 PLL sequencing adapted from Rockchip Linux clk-pll.c (RK3576 uses",
+        "* this PLL type). Copyright (c) 2014 MundoReader S.L.",
+        "* Copyright (c) 2015 Rockchip Electronics Co. Ltd.",
+        "* Power sequencing: Copyright (c) 2015 ROCKCHIP, Co. Ltd. (GPL-2.0-only)."
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_display_transition.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "85102bc4496fd89c6fc18677317740ca15adfcf6e8674d2e2b32d92320948e39",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_dsi2.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "da276551f7b1ca3189d6630d5f0e486557bacb3e12d981d618d80a9bcb011624",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later",
+        "* (C) Copyright 2008-2017 Fuzhou Rockchip Electronics Co., Ltd"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_dsi2.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "242975a918193b633e9599702777ed8d16fcdbfc85a4b812125b6cc147b595f3",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_vop.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "f895696ddb5cdac7b9949c2ff16c3901e20069c3f518ba3aaf38b0b236982cbd",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only",
+        "* Fixed RK3576 VP1 / ESMART1 scanout, adapted from Rockchip U-Boot:",
+        "* Copyright 2008-2017 Fuzhou Rockchip Electronics Co., Ltd.",
+        "* SDK rk3576-linux-20260320, u-boot/drivers/video/drm/rockchip_vop2.c",
+        "* blob 2cdb81634b1934ede38db5a4a4fc6e6e1ec6cb5a."
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/rk3576_vop.h",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "4c3609744800ce1c376713b3863e29d98d4b3d42b4f9a9d4fd49af1df726ae65",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/test_display_session.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "2cb4840ff446eee5728c503639a7fa2ef438b15015035bd89135a43611a82aaf",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/test_display_transition.c",
+      "spdx": [
+        "GPL-2.0-only"
+      ],
+      "sha256": "629d78a7783540986466593715a6856467ba034cd8d46a64455642f3e3dae8dd",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-only */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7display/test_dsi2.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "84a66df847a69a7880829f5913c25522bf87763521935b94a8346dd5028b27ff",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7npu/k7npu_fixture.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "00f326489bc3f3e6233007cc53313fecb8a5bf1d13de4a82576cd1e8629054bd",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7npu/k7npu_fixture_io.c",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "def20ddb0b283d5442f619c57374481e20157a21bba3d599c22bd94513db0091",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    },
+    {
+      "path": "app/k7npu/k7npu_fixture_io.h",
+      "spdx": [
+        "GPL-2.0-or-later"
+      ],
+      "sha256": "1f8a434909c73c713f6a7120564e0a3f2fd0b8bb9cf71f8208c5dbea78e4089b",
+      "source_notice_excerpt": [
+        "/* SPDX-License-Identifier: GPL-2.0-or-later */"
+      ],
+      "license_text": "licenses/project/seekwave/COPYING.GPL-2.0",
+      "scope": "R49-dependency-source-declaration; current-main snapshot; exact frozen object/source mapping separate; charsiu raw fixture optional"
+    }
+  ],
+  "release_spdx_counts": {
+    "GPL-2.0-or-later": 154,
+    "GPL-2.0-only": 43
+  },
+  "dependency_spdx_counts": {
+    "GPL-2.0-only": 30,
+    "GPL-2.0-or-later": 8
+  },
+  "scope": "Known R49 source/dependencies and explicitly classified SDK baseline snapshots; not whole legacy/WIP; declarations unchanged; snapshot presence is not runtime or clean-build proof."
+}

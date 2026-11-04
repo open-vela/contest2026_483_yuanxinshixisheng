@@ -1,0 +1,442 @@
+{
+  "scope": "Published SDK baseline optional GGML SYCL sources; no claim of R49 runtime use, SYCL execution, or acceleration",
+  "declared_base_upstream_commit": "74d4f5b041ad837153b0e90fc864b8290e01d8d5",
+  "upstream_byte_equivalence_not_inferred": true,
+  "llvm_exception_license_text": "licenses/sdk/nuttx/libs/libxx/libcxx/libcxx/LICENSE.TXT",
+  "source_copyright_headers_unchanged": true,
+  "files": [
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/backend.hpp",
+      "sha256": "7db2c6e63d2b41a10a9486d180ff02e9d26538c854a5b1bba452e34f06f3ac5b",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/common.cpp",
+      "sha256": "415a79d553c31c5006b9bcc6fee032c63cac0c09c5130283f7701de15a5f71d7",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/common.hpp",
+      "sha256": "6b56dc3b856a351b4ec61bcda4b5a771aa803ac1a0176d064d14605064c8ef8b",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/concat.cpp",
+      "sha256": "4ce72fc77722422a9e2cd397cbaba79bbb9a8fa5787fdf52de27983f6bed9104",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/concat.hpp",
+      "sha256": "7dde2e59d7b6cddad4c47b545fab64efbe06ca40a727496f3dbc08a8972ceb7c",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/conv.cpp",
+      "sha256": "f207b4c1a8e22cbc00918bfb701379478a7f41666b939762449250e67ccc5213",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/conv.hpp",
+      "sha256": "bf14bf4d201a92f2a04b3c93d57b655589d88fe318a2ec71bff8caf0154dd385",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/convert.hpp",
+      "sha256": "a879b17ad7ab9dc115cf28fbfd1e228ed4ec96447341405a6e3e8684e0e1d7a5",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/dequantize.hpp",
+      "sha256": "372adc209affdddc9727d6183a2d1467b95857147cb377cffb4c24d2d6c5e5c7",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/dmmv.hpp",
+      "sha256": "4ecfa6dc1aa0b76c491c76ef5a9fe4bd6c9124bb1947d92774885bc73ea89463",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/dpct/helper.hpp",
+      "sha256": "f63c700d8902755c5b378f0bde8f6d28382aa3a53d7777931ebb6e344ef8917f",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception",
+        "// Allow to use the same namespace for Intel oneMKL and oneMath"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/gemm.hpp",
+      "sha256": "7c6e1858e7617c6103d67bb62558cd957861a403e557e1b241ce43c1eebc3c03",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/getrows.cpp",
+      "sha256": "da8b65089df3533d0317b33619570baeceb45c06305b70232231ab9fc20c9849",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/getrows.hpp",
+      "sha256": "2cdfda536c1d4351bc41e2b9c7798af50c7fe1d093569564517597e6a59ee793",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/ggml-sycl.cpp",
+      "sha256": "34ddac8c9dafec5e5e3ac45d31f6dd4204c4898512a553bfb6fad8385c2013e8",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/im2col.cpp",
+      "sha256": "f5437a8581da4516844b1811191d31fd50e3efec1f6fba1de19618745dd40b8b",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/im2col.hpp",
+      "sha256": "fea1e478c7f065da3e1210336844c3d1a0d556b3db04a8f48113c6cae1cbe2d3",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/mmq.cpp",
+      "sha256": "3e7cc6f2f2ae895efbb85d5eefa468f594081399a25f1d24a34c01519944b24b",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/mmq.hpp",
+      "sha256": "da88e98e058c55878652f52a68584990d76b2971adb13ddc27b95d7bdef06f0f",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/mmvq.hpp",
+      "sha256": "fc909cfbab6908817084e82baf5bf06933eb8fe8f55b944016a839ca9234d049",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/norm.hpp",
+      "sha256": "346a16202e3a5d929132ee27fa5fcf4ac65078e9a8374d00e64cdcb39c81d14d",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/presets.hpp",
+      "sha256": "f613a575b2063ed4a9bd3d75464ab6d61da09a373681ee8b4f6cd18dac370117",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/rope.hpp",
+      "sha256": "c647cee794c9a75e0b21d6a1cb957d984e9b8380c4dc96b5838fb553923a1a75",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/softmax.hpp",
+      "sha256": "64debd52d619cf979f5b01c03c3bb1085b6d71462199701ccde563fa33fbbd96",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/tsembd.cpp",
+      "sha256": "4652631fcbae8167586e418ad0063d406322d85058ae049f5c9c81c70adad606",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/tsembd.hpp",
+      "sha256": "4e5633ed5f815f37de70c4f50d9fc03e135add66af727d92ed5a1d8bc175e606",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    },
+    {
+      "path": "release/r49/source/sdk-baseline-snapshot/apps/examples/k7graph/vendor/ggml/src/ggml-sycl/vecdotq.hpp",
+      "sha256": "837d7e9daf7322f6fe33747704242e05784dd1ede298606581b6e9050da7b6b6",
+      "spdx": [
+        "Apache-2.0 WITH LLVM-exception",
+        "MIT"
+      ],
+      "source_notice_excerpt": [
+        "// MIT license",
+        "// Copyright (C) 2024 Intel Corporation",
+        "// SPDX-License-Identifier: MIT",
+        "// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.",
+        "// See https://llvm.org/LICENSE.txt for license information.",
+        "// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception"
+      ]
+    }
+  ]
+}

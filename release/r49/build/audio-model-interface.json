@@ -1,0 +1,441 @@
+{
+  "schema_version": 1,
+  "payloads_present": false,
+  "assets": [
+    {
+      "symbol": "vv_private_prompt_pcm_0",
+      "bytes": 81920,
+      "sha256": "822ac766d5fa3055bf629a18f952fa87b1fcef2db9af7c67aa5ae806f1e53688",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_1",
+      "bytes": 46080,
+      "sha256": "8335e7695b23b6e0302dcdbfd2936ad8d48833bc213e884606433848ee75e1ff",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_2",
+      "bytes": 158720,
+      "sha256": "3bfbcd0282c1952622980060a3eedde42d6404cccc9f8b9daf4376ef370904a8",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_3",
+      "bytes": 51200,
+      "sha256": "f46dd10beb42a84d18c4a03cbbe77305d5d7d1df1777e509c77fe4815a680116",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_4",
+      "bytes": 153600,
+      "sha256": "d1e16b42f3489dc5321730e41756914ccc5152d2e89a9dd1fa6f7040b2c616ca",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_5",
+      "bytes": 53760,
+      "sha256": "e9a51eb693578608df3ce7d4371c1829f85ff504eeb80f2e312d0d2440cdd5ba",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_6",
+      "bytes": 51200,
+      "sha256": "9ef03a503b28666e29e9a78def58fe66c15cc79ea98bc420181928ba256d0524",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_7",
+      "bytes": 56320,
+      "sha256": "24e330a24bf0c7bf973f77c95719b969f7aa164a7524e25907dff0c67d1308ce",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_8",
+      "bytes": 97280,
+      "sha256": "454aca6ed29c88415062cc12db039ca094004a5cc7a91ce17d57a37338cfe0c1",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_9",
+      "bytes": 38400,
+      "sha256": "cfd57d4a7a3e4bec3c5fb574cff91fd7608d4dec073eae0bd49d270314ef06b7",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_10",
+      "bytes": 94720,
+      "sha256": "de7b7f2fc7236eae0822d059a8b9aeca4893f962bb5463b6cfc070c37a324f7f",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_private_prompt_pcm_11",
+      "bytes": 69120,
+      "sha256": "ac6a9c0e598019542438e49bdf1529da70f70b558e5293da9de9245a3d3160df",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_0",
+      "bytes": 92160,
+      "sha256": "3230a48d1e43d5f253952cd6d0840ddc46a28cbe3b8d4b9f2766da62b082a247",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_1",
+      "bytes": 48640,
+      "sha256": "9fb2d1234adef840cdd62aef1efd21b3ac635812ef7fe7f4b448942c0f7f9b1b",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_2",
+      "bytes": 156160,
+      "sha256": "9be9a7c5f7765bdd89c883e3cad441b197ce7922cd36f92ec3fccd195394d22e",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_3",
+      "bytes": 56320,
+      "sha256": "7efc8e58e3a931d1c74ce8caf4c3fc1dd620702222fcbbe68bea900f5b51b106",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_4",
+      "bytes": 161280,
+      "sha256": "cce327d338ac353cce7fdce93e2ff331e7ec18d9991e3ff08bb58cd85ed5e4f4",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_5",
+      "bytes": 53760,
+      "sha256": "719703e74904c97e156614e03112066c6ee478aa8b6c2e96b9df155227099ed9",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_6",
+      "bytes": 51200,
+      "sha256": "bb7e7048df296366bce0590206157f31e90f28743eea15d6204c82ccffa52469",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_7",
+      "bytes": 58880,
+      "sha256": "a5992278a8de012d7bffd9ae84d2be7208c6b6b2252892fdf76a3b49097496d6",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_8",
+      "bytes": 122880,
+      "sha256": "c7082f6dad42ab5faf83781d90ba1ff300d417269afd8f1daf555854cbfab282",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_9",
+      "bytes": 40960,
+      "sha256": "f7be14317830a537910b28639fe5d9dd96210fee9a6aea47c959dbb1e49246e1",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_10",
+      "bytes": 92160,
+      "sha256": "e98acbf490674708a28eecb6230e952a9027b8f940277b3e63fcc408b192b30c",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_firefly_prompt_pcm_11",
+      "bytes": 81920,
+      "sha256": "57f1a89c8413feac11f5b3e51fc4eee588b3040aaba6c825a04af6d26ace0739",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "recorded_reference",
+      "bytes": 361600,
+      "sha256": "eddf1f8bcad1015b3f8be2e0c644ffee586ac380a6214b21403a9d5da467de31",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "recorded_mic",
+      "bytes": 361600,
+      "sha256": "96422afe26e1ccab61ceedba90191899a2e4e2b59f86f341e924d7cbe6f02ffb",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "recorded_residual",
+      "bytes": 361600,
+      "sha256": "41c26fbeb140fe538bc3193b5c7908f888c80c880fd540d35bf201b6276401cb",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "k7_vad_silero51_data",
+      "bytes": 2421160,
+      "sha256": "1807d455176de671fef6ff184b2a3f25f7e10e3f93ec61534334196644fd3873",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "g_k7radio_dram",
+      "bytes": 193224,
+      "sha256": "7ddaae63b3281a4127565b2a7306fc74f8e5c7e88343a43c56a17d05a27d2b4b",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "g_k7radio_iram",
+      "bytes": 356616,
+      "sha256": "07d316bbf4dd18cc95671366c5001560f272026454fef1f6e134eb197189a169",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_local_report_default",
+      "bytes": 197120,
+      "sha256": "47dd3f7d09b8e988c168f291953189f3a29ca4b0f20eb37f3ce6c1d848def380",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_local_report_firefly",
+      "bytes": 186880,
+      "sha256": "f1bde07bd7ca9e466a0891be0f977ab33731868e6b19ba582fb28a12b906d21c",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_ready_default",
+      "bytes": 30720,
+      "sha256": "88dc82794a85bf22bf4353e0f8a016df6f8f3d8f9fa0cb7c9cacbd99e1dd1115",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_ready_firefly",
+      "bytes": 46080,
+      "sha256": "1cf1588e673317b4ac71a8a34ff1d0dc4ed337814eafb0fc02b2bf843b87e985",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_rewake_default",
+      "bytes": 56320,
+      "sha256": "c3eabb156be6bc2d496c8f0abeef0b498048a89d1285b8a2b6e676be4b0b793e",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_rewake_firefly",
+      "bytes": 76800,
+      "sha256": "c4473bd7285921ab5990c0928729bc6afa3c8ddfa86cd38846efd233d311c7c8",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_default_louder",
+      "bytes": 35840,
+      "sha256": "4d35dd0395bf8a0637f65379d652ba1da1595de72c19cfb37d73a717c462e7a5",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_default_quieter",
+      "bytes": 38400,
+      "sha256": "6c1bc0c9c61139e1238b36ba29b7d5d95885637ab7d51fd31d1502091949dee7",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_default_adjusted",
+      "bytes": 40960,
+      "sha256": "353eb74b5844d3ae530942c7729a880d854ce2691fb4d02cf08b6f2b3706a2ff",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_default_range",
+      "bytes": 122880,
+      "sha256": "e7eab537f213c2f8fecfa73d84c7f6fb15c0e7eae0af6609acdcd45c3dc9e674",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_default_maximum",
+      "bytes": 58880,
+      "sha256": "fd0aee35c144b2ca810012a0d6af67f1d742900e0fa9c5e3e4e0b21a0ed56c0a",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_default_minimum",
+      "bytes": 48640,
+      "sha256": "e4ec2d4a7d8a9c4be496b477367348bc05ea3a7720792863121b1599698b4d1b",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_firefly_louder",
+      "bytes": 46080,
+      "sha256": "127de3c09e32f72141dbf149aa6aa89e2e57632e458d49cc97c2ee282dabfe0d",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_firefly_quieter",
+      "bytes": 48640,
+      "sha256": "7b6ef93d370f81fb53c371cb7c269b0fdcb5e36f1c926408d0593d2f0df6a93c",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_firefly_adjusted",
+      "bytes": 46080,
+      "sha256": "db8366ba213f765644b9a524e62cf92df84c48fc300cdb662d960261d87fff8e",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_firefly_range",
+      "bytes": 138240,
+      "sha256": "67c26b6378416fd05a110c79c413383ee1993db744b2ffd5cbc716193c800732",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_firefly_maximum",
+      "bytes": 48640,
+      "sha256": "fc3db7a9b5929571f0336987ee9b3e538a75f044725779ab27a97976c70c7f8e",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_control_ack_firefly_minimum",
+      "bytes": 53760,
+      "sha256": "56c1f2cceb63c00bb3a27462674744068ecf58a1ad423b410edcf5edb5fe3e2f",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_capture_success_default_complete",
+      "bytes": 51200,
+      "sha256": "a60e3ddff094ccec030ad96790f3bb6fae5ac439d2ed817f9325ded5df6d3510",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_capture_success_firefly_complete",
+      "bytes": 53760,
+      "sha256": "3a93754095ab0c7ebe9ef1201793802b2b9fca863f1f9c5d07c007bf4c7017c7",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_default_upload",
+      "bytes": 74240,
+      "sha256": "e25f64f9a78ffa25e1fc88e3f0735cfb869e3f8b61f83c1b2df31950686aeca5",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_default_timeout",
+      "bytes": 71680,
+      "sha256": "99380d2b377866fc436f91accdafea78b17fcfc010d50b73ec774ea9b8402864",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_default_failed",
+      "bytes": 61440,
+      "sha256": "97438af666d3fc41f49bf4939fc0ec14596de25cd1c9d452109dd7ce0c2fcdcd",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_default_missing",
+      "bytes": 66560,
+      "sha256": "b3de4ac0a4039b14837472196aed307a422e7687ab1dd63030cbedb57114b659",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_firefly_upload",
+      "bytes": 74240,
+      "sha256": "0f534ebec37b1846ab95a0afb837c079bb45a7a06484dc8850a2ddc7b72fab3d",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_firefly_timeout",
+      "bytes": 66560,
+      "sha256": "00c8324259f3fca61ee1ba10a999bd4e34f9fdda149303479976edd0372f324a",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_firefly_failed",
+      "bytes": 74240,
+      "sha256": "aadf21e3198cfea7fbc895ca40ce36156fffde87f2b2128da5aee79e2ba8baa4",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_firefly_missing",
+      "bytes": 74240,
+      "sha256": "5a1c80415e3f72381d1c4c88af40c2570687d5b9ce236e6ac89ed23d9a2888f0",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_default_speech",
+      "bytes": 64000,
+      "sha256": "14bc2aa269417759934d3dbf93e246d058c38b8fda9b9829f64414d35f5bd2e5",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_real_failure_firefly_speech",
+      "bytes": 58880,
+      "sha256": "c654326607dac8d8b001e8ac253b128d77cc737c00894288cd6610aa4cfefae5",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_report_wait_default_generating",
+      "bytes": 64000,
+      "sha256": "1834a2c935bb686de8c740890fe82326bf3e47b11d87679b613caf8f32f80a9f",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_report_wait_firefly_generating",
+      "bytes": 84480,
+      "sha256": "64acb80a849b8692a3b5da16a3202bb8b13beecfb79bbfa8629e6e8e1d34db3e",
+      "role": "inherited_asset_requires_authorized_exact_payload"
+    },
+    {
+      "symbol": "vv_microcrystal_cue_default_complete",
+      "bytes": 76800,
+      "sha256": "96c3c51c03f0e21a1104536b38e1b156828479fe832fde3aa30d48056da8c056",
+      "role": "local_care_cue"
+    },
+    {
+      "symbol": "vv_microcrystal_cue_firefly_complete",
+      "bytes": 79360,
+      "sha256": "568f0dc47b14a5c52577741eac571724fc54c6f5cc84316c81672eb36fe0b63a",
+      "role": "local_care_cue"
+    },
+    {
+      "symbol": "vv_micro_voice_default_level1",
+      "bytes": 5164,
+      "sha256": "4310ab650cc87fe7c8c866d988a59dbcac0cf4136c10609e7b73e34023cded49",
+      "role": "local_manual_voice_confirmation"
+    },
+    {
+      "symbol": "vv_micro_voice_default_level2",
+      "bytes": 5171,
+      "sha256": "3ddea424106cba698018757e51252acbd20b4e71f7a9b3d9bd674363ebb2e50e",
+      "role": "local_manual_voice_confirmation"
+    },
+    {
+      "symbol": "vv_micro_voice_default_level3",
+      "bytes": 6017,
+      "sha256": "9721e0eab4e618385adfad3410e3ec1dab0577229e8abe5a249799b74b7ff508",
+      "role": "local_manual_voice_confirmation"
+    },
+    {
+      "symbol": "vv_micro_voice_default_stop",
+      "bytes": 5323,
+      "sha256": "b0b1b029116d305d11761da0bea7b1e531e79bd81a66cf643d14fa3207819270",
+      "role": "local_manual_voice_confirmation"
+    },
+    {
+      "symbol": "vv_micro_voice_firefly_level1",
+      "bytes": 5890,
+      "sha256": "24f9f51862a135287f6651c51d6abd0b9d4bc23435824173e6fccd1fc6036880",
+      "role": "local_manual_voice_confirmation"
+    },
+    {
+      "symbol": "vv_micro_voice_firefly_level2",
+      "bytes": 5801,
+      "sha256": "545e235530b43ff19245f4486225287e9bbce6320856e7e8ca1d9ac015eefc66",
+      "role": "local_manual_voice_confirmation"
+    },
+    {
+      "symbol": "vv_micro_voice_firefly_level3",
+      "bytes": 4839,
+      "sha256": "c0d0a9607f8f5a3ab8253b638d81cae0449ddeaadf4a2b8c5e99d8396a21dcc8",
+      "role": "local_manual_voice_confirmation"
+    },
+    {
+      "symbol": "vv_micro_voice_firefly_stop",
+      "bytes": 5476,
+      "sha256": "6a205d77fbf3261bc8aae9a893dd624c734cde2f009cd851bea5d2460246a9f8",
+      "role": "local_manual_voice_confirmation"
+    }
+  ],
+  "contract": "Symbol, byte length and content SHA must match. No empty or synthetic substitute authorizes R49 byte identity. Recover original generated includes or rerun a separately pinned/authorized generator and verify every symbol.",
+  "scope": "62 retention-recheck assets plus 10 local microcrystal cues/confirmations only; not every visual/KWS/ORT build input",
+  "additional_model_license_and_source_index": "../licenses/INDEX.json and ../THIRD_PARTY_NOTICES.md"
+}

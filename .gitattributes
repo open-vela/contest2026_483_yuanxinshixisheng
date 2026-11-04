@@ -1,0 +1,11 @@
+# Version-bound evidence must retain exact bytes across operating systems.
+/release/r49/** -text
+/logs/maomaojiang01/** -text
+/tools/official-validator/** -text
+/evidence/r49-source-delivery-20261104/** -text
+/evidence/r49-pr-submission-20261104/** -text
+/evidence/r49-finals-recovery-20261103/** -text
+/evidence/voice-response-speed-20261103/** -text
+/skills/velavision-evidence-audit/references/r49-evidence-manifest.json -text
+/LICENSE -text
+/NOTICE -text

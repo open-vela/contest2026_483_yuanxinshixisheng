@@ -1,0 +1,4 @@
+config EXAMPLES_K7STORAGE
+	tristate "K7 bounded read-only USB storage diagnostic"
+	depends on USBHOST_MSC && USBHOST_MSC_READONLY
+	default n

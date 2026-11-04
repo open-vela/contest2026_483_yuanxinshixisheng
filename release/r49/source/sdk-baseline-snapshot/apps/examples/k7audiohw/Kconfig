@@ -1,0 +1,4 @@
+config EXAMPLES_K7AUDIOHW
+	bool "KICKPI K7 bounded native audio bring-up"
+	default n
+	depends on ARCH_BOARD_KICKPI_K7

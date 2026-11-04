@@ -1,0 +1,4 @@
+interface:
+  display_name: "VelaVision 证据与提交核对"
+  short_description: "只读核对固件证据、性能口径与提交材料，保留有限验收边界"
+  default_prompt: "使用 $velavision-evidence-audit 核对本次候选的证据链和提交材料。"

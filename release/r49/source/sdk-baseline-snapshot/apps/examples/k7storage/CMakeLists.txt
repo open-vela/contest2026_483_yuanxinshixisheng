@@ -1,0 +1,4 @@
+if(CONFIG_EXAMPLES_K7STORAGE)
+  nuttx_add_application(NAME k7storage SRCS k7storage_main.c
+    STACKSIZE 16384 PRIORITY 100 MODULE ${CONFIG_EXAMPLES_K7STORAGE})
+endif()

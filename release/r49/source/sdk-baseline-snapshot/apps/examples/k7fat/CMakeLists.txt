@@ -1,0 +1,3 @@
+if(CONFIG_EXAMPLES_K7FAT)
+  nuttx_add_application(NAME k7fat SRCS k7fat_main.c STACKSIZE 16384 PRIORITY 100 MODULE ${CONFIG_EXAMPLES_K7FAT})
+endif()

@@ -1,0 +1,4 @@
+config EXAMPLES_K7NEON
+	tristate "K7 bounded A72 SIMD context diagnostic"
+	depends on RK3576_SMP_DIAG && SMP && SMP_NCPUS = 8 && ARM64_NEON
+	default n

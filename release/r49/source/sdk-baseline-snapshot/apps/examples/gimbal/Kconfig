@@ -1,0 +1,4 @@
+config EXAMPLES_GIMBAL
+	bool "K7 UART6 STM32 gimbal command"
+	default n
+	depends on RK3576_UART6 && BUILD_FLAT

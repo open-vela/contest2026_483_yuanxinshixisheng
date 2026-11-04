@@ -1,0 +1,4 @@
+interface:
+  display_name: "VelaVision AI日志整理"
+  short_description: "按显式会话范围整理脱敏日志，核对一致快照与原版官方格式校验"
+  default_prompt: "使用 $velavision-ai-log-curation 整理本次授权会话的AI日志并说明缺失范围。"

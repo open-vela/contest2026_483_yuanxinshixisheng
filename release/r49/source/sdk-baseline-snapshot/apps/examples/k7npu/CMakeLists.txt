@@ -1,0 +1,11 @@
+if(CONFIG_EXAMPLES_K7NPU)
+  set(K7NPU_SRCS k7npu_main.c)
+  if(CONFIG_K7NPU_MMU_TEST)
+    list(APPEND K7NPU_SRCS k7npu_mmutest.c rk3576_npu_mmu.c rk3576_npu_window.c)
+  endif()
+  if(CONFIG_K7NPU_RAW_TEST)
+    list(APPEND K7NPU_SRCS k7npu_rawtest.c k7npu_fixture_io.c)
+  endif()
+  nuttx_add_application(NAME k7npu SRCS ${K7NPU_SRCS}
+                        STACKSIZE 4096 PRIORITY 100)
+endif()

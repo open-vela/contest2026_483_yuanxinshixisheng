@@ -1,0 +1,1623 @@
+{
+  "schema_version": 1,
+  "scope": "186 DWARF compile units in five parent application/wireless archives, not all SDK/system/third-party libraries",
+  "actual_isolated_recompiled_equivalent": 183,
+  "historical_native_source_and_full_object_chain_only": 3,
+  "unproven_in_this_scope": 0,
+  "methods": [
+    "All ELF SHF_ALLOC bytes/type/flags/size/alignment",
+    "Disassembly and code relocations",
+    "Symbol-normalized relocations targeting all ALLOC sections"
+  ],
+  "rows": [
+    {
+      "archive": "parent-boot.a",
+      "member": "k7boot_main.c.o",
+      "source_basename": "k7boot_main.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7boot/k7boot_main.c"
+    },
+    {
+      "archive": "parent-boot.a",
+      "member": "native_boot_sequence.c.o",
+      "source_basename": "native_boot_sequence.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-boot.a/native_boot_sequence.c.o/native_boot_sequence.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-boot.a",
+      "member": "k7boot_native_preview.c.o",
+      "source_basename": "k7boot_native_preview.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-boot.a/k7boot_native_preview.c.o/k7boot_native_preview.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-boot.a",
+      "member": "k7boot_native.c.o",
+      "source_basename": "k7boot_native.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-boot.a/k7boot_native.c.o/k7boot_native.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-boot.a",
+      "member": "k7boot_aliyun_sequence.c.o",
+      "source_basename": "k7boot_aliyun_sequence.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7boot/k7boot_aliyun_sequence.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-boot.a",
+      "member": "k7boot_aliyun_production.c.o",
+      "source_basename": "k7boot_aliyun_production.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7boot/k7boot_aliyun_production.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-boot.a",
+      "member": "k7boot_aliyun_production_authority.c.o",
+      "source_basename": "k7boot_aliyun_production_authority.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7boot/k7boot_aliyun_production_authority.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-boot.a",
+      "member": "k7boot_business.c.o",
+      "source_basename": "k7boot_business.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-boot.a/k7boot_business.c.o/k7boot_business.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "k7cloud_main.c.o",
+      "source_basename": "k7cloud_main.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/k7cloud_main.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_speech_owner.c.o",
+      "source_basename": "vv_speech_owner.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_speech_owner.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_dns_client.c.o",
+      "source_basename": "vv_dns_client.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_dns_client.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_dns_nuttx.c.o",
+      "source_basename": "vv_dns_nuttx.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_dns_nuttx.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_https_client.c.o",
+      "source_basename": "vv_https_client.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_https_client.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_https_mbedtls.c.o",
+      "source_basename": "vv_https_mbedtls.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_https_mbedtls.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_reply_scope.c.o",
+      "source_basename": "vv_reply_scope.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-cloud.a/vv_reply_scope.c.o/vv_reply_scope.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_roughtime.c.o",
+      "source_basename": "vv_roughtime.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_roughtime.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_roughtime_k7.c.o",
+      "source_basename": "vv_roughtime_k7.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_roughtime_k7.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_http_development.c.o",
+      "source_basename": "vv_http_development.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_http_development.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_paraformer_protocol.c.o",
+      "source_basename": "vv_paraformer_protocol.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_paraformer_protocol.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_paraformer.c.o",
+      "source_basename": "vv_paraformer.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_paraformer.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_paraformer_k7.c.o",
+      "source_basename": "vv_paraformer_k7.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-cloud.a/vv_paraformer_k7.c.o/vv_paraformer_k7.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_aliyun_tts_stream.c.o",
+      "source_basename": "vv_aliyun_tts_stream.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_aliyun_tts_stream.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_stream_speaker.c.o",
+      "source_basename": "vv_stream_speaker.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_stream_speaker.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_prompt_cache.c.o",
+      "source_basename": "vv_prompt_cache.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_prompt_cache.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_aliyun_chat.c.o",
+      "source_basename": "vv_aliyun_chat.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_aliyun_chat.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_reply_pipeline.c.o",
+      "source_basename": "vv_reply_pipeline.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-cloud.a/vv_reply_pipeline.c.o/vv_reply_pipeline.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_reply_json.c.o",
+      "source_basename": "vv_reply_json.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_reply_json.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_tts_ws.c.o",
+      "source_basename": "vv_tts_ws.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_tts_ws.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_ogg_opus.c.o",
+      "source_basename": "vv_ogg_opus.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_ogg_opus.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_opus_pcm.c.o",
+      "source_basename": "vv_opus_pcm.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_opus_pcm.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_wss_client.c.o",
+      "source_basename": "vv_wss_client.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_wss_client.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_wss_incremental.c.o",
+      "source_basename": "vv_wss_incremental.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_wss_incremental.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_asr_stream.c.o",
+      "source_basename": "vv_asr_stream.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_asr_stream.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_asr_batch.c.o",
+      "source_basename": "vv_asr_batch.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_asr_batch.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_aliyun_protocol.c.o",
+      "source_basename": "vv_aliyun_protocol.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_aliyun_protocol.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_aliyun_client.c.o",
+      "source_basename": "vv_aliyun_client.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_aliyun_client.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_aliyun_provider.c.o",
+      "source_basename": "vv_aliyun_provider.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/8f309ce00821/project/app/k7agent/cloud/src/vv_aliyun_provider.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_asr_session.c.o",
+      "source_basename": "vv_asr_session.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_asr_session.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_asr_wss.c.o",
+      "source_basename": "vv_asr_wss.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_asr_wss.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_asr_tls.c.o",
+      "source_basename": "vv_asr_tls.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_asr_tls.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_cloud_trust.c.o",
+      "source_basename": "vv_cloud_trust.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_cloud_trust.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_cloud_tcp.c.o",
+      "source_basename": "vv_cloud_tcp.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_cloud_tcp.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_cloud_tcp_posix.c.o",
+      "source_basename": "vv_cloud_tcp_posix.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_cloud_tcp_posix.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_backend_protocol.c.o",
+      "source_basename": "vv_backend_protocol.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_backend_protocol.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_backend_client.c.o",
+      "source_basename": "vv_backend_client.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_backend_client.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_chat_stream.c.o",
+      "source_basename": "vv_chat_stream.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_chat_stream.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "assessment_multipart.c.o",
+      "source_basename": "assessment_multipart.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/assessment_multipart.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_cloud_entropy.c.o",
+      "source_basename": "vv_cloud_entropy.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_cloud_entropy.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_rk3576_trng.c.o",
+      "source_basename": "vv_rk3576_trng.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_rk3576_trng.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_rtc_time.c.o",
+      "source_basename": "vv_rtc_time.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_rtc_time.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_rtc_reader.c.o",
+      "source_basename": "vv_rtc_reader.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_rtc_reader.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_rtc_i2c2.c.o",
+      "source_basename": "vv_rtc_i2c2.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_rtc_i2c2.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_rtc_i2c2_init.c.o",
+      "source_basename": "vv_rtc_i2c2_init.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_rtc_i2c2_init.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_rtc_i2c2_nuttx.c.o",
+      "source_basename": "vv_rtc_i2c2_nuttx.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_rtc_i2c2_nuttx.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_trng_nuttx.c.o",
+      "source_basename": "vv_trng_nuttx.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_trng_nuttx.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_trng_development_policy.c.o",
+      "source_basename": "vv_trng_development_policy.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_trng_development_policy.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_k7_trng_development.c.o",
+      "source_basename": "vv_k7_trng_development.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_k7_trng_development.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_rtc_provision.c.o",
+      "source_basename": "vv_rtc_provision.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_rtc_provision.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_rtc_provision_i2c2.c.o",
+      "source_basename": "vv_rtc_provision_i2c2.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_rtc_provision_i2c2.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_audio.c.o",
+      "source_basename": "vv_native_audio.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_native_audio.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_client.c.o",
+      "source_basename": "vv_native_client.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_native_client.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_tts_segments.c.o",
+      "source_basename": "vv_tts_segments.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_tts_segments.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_report_audio.c.o",
+      "source_basename": "vv_report_audio.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_report_audio.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_assessment.c.o",
+      "source_basename": "vv_native_assessment.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_native_assessment.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_assessment_backend.c.o",
+      "source_basename": "vv_native_assessment_backend.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_native_assessment_backend.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_cloud_platform_diag.c.o",
+      "source_basename": "vv_cloud_platform_diag.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_cloud_platform_diag.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_k7_platform_check.c.o",
+      "source_basename": "vv_k7_platform_check.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_k7_platform_check.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_k7_platform_factory.c.o",
+      "source_basename": "vv_k7_platform_factory.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-cloud.a/vv_k7_platform_factory.c.o/vv_k7_platform_factory.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_audio_k7.c.o",
+      "source_basename": "vv_native_audio_k7.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_native_audio_k7.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_batch_audio.c.o",
+      "source_basename": "vv_native_batch_audio.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_native_batch_audio.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_report_audio_k7.c.o",
+      "source_basename": "vv_report_audio_k7.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_report_audio_k7.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_mode.c.o",
+      "source_basename": "vv_native_mode.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_native_mode.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_mode_k7.c.o",
+      "source_basename": "vv_native_mode_k7.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-cloud.a/vv_native_mode_k7.c.o/vv_native_mode_k7.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_runtime.c.o",
+      "source_basename": "vv_native_runtime.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/abebdfceb90f/project/app/k7agent/cloud/src/vv_native_runtime.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_service.c.o",
+      "source_basename": "vv_native_service.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/372ec94fdbc6/project/app/k7agent/cloud/src/vv_native_service.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_platform.c.o",
+      "source_basename": "vv_native_platform.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/0ada23169eff/project/app/k7agent/cloud/src/vv_native_platform.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_speech_only_callbacks.c.o",
+      "source_basename": "vv_speech_only_callbacks.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-cloud.a/vv_speech_only_callbacks.c.o/vv_speech_only_callbacks.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_native_runtime_k7.c.o",
+      "source_basename": "vv_native_runtime_k7.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_native_runtime_k7.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_dialogue.c.o",
+      "source_basename": "vv_dialogue.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_dialogue.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_voice_session.c.o",
+      "source_basename": "vv_voice_session.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_voice_session.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_session_pcm.c.o",
+      "source_basename": "vv_session_pcm.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_session_pcm.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_confirmed_wake.c.o",
+      "source_basename": "vv_confirmed_wake.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_confirmed_wake.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_wake_input.c.o",
+      "source_basename": "vv_wake_input.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_wake_input.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_barge_input.c.o",
+      "source_basename": "vv_barge_input.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-cloud.a/vv_barge_input.c.o/vv_barge_input.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_cancel_tail.c.o",
+      "source_basename": "vv_cancel_tail.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-cloud.a/vv_cancel_tail.c.o/vv_cancel_tail.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_barge_route.c.o",
+      "source_basename": "vv_barge_route.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/vv_barge_route.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "mimo_cloud_client.c.o",
+      "source_basename": "mimo_cloud_client.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/mimo_cloud_client.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "mimo_v25_profile.c.o",
+      "source_basename": "mimo_v25_profile.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/mimo_v25_profile.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "cloud_speech_orchestrator.c.o",
+      "source_basename": "cloud_speech_orchestrator.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/cloud_speech_orchestrator.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "capture_stream_probe.c.o",
+      "source_basename": "capture_stream_probe.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/capture_stream_probe.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "board_speech_bridge.c.o",
+      "source_basename": "board_speech_bridge.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/board_speech_bridge.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "device_voice_intent.c.o",
+      "source_basename": "after-device_voice_intent.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/after-device_voice_intent.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "device_photo_prompts.c.o",
+      "source_basename": "device_photo_prompts.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/device_photo_prompts.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "cloud_speech_mimo_adapter.c.o",
+      "source_basename": "cloud_speech_mimo_adapter.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/cloud_speech_mimo_adapter.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "cloud_speech_radio_bridge.c.o",
+      "source_basename": "cloud_speech_radio_bridge.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/cloud_speech_radio_bridge.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "cloud_speech_k7radio_sync.c.o",
+      "source_basename": "cloud_speech_k7radio_sync.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7agent/cloud/src/cloud_speech_k7radio_sync.c"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "near_driver.c.o",
+      "source_basename": "near_driver.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-cloud.a/near_driver.c.o/near_driver.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "vv_near_experiment.c.o",
+      "source_basename": "vv_near_experiment.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/ffd6c5f9e0f7/project/app/k7agent/cloud/src/vv_near_experiment.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "k7_apm21_offline_diag.c.o",
+      "source_basename": "k7_apm21_offline_diag.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": false,
+      "release_source": "project/app/k7agent/cloud/src/k7_apm21_offline_diag.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "k7_apm21_recorded_quiet.c.o",
+      "source_basename": "k7_apm21_recorded_quiet.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": false,
+      "release_source": "project/app/k7agent/cloud/src/k7_apm21_recorded_quiet.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-cloud.a",
+      "member": "k7_apm21_fixed_physical.c.o",
+      "source_basename": "k7_apm21_fixed_physical.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": false,
+      "release_source": "project/app/k7agent/cloud/src/k7_apm21_fixed_physical.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7host_main.c.o",
+      "source_basename": "k7host_main.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-host.a/k7host_main.c.o/k7host_main.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_jpeg.c.o",
+      "source_basename": "k7_jpeg.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_jpeg.c"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_pipeline.c.o",
+      "source_basename": "k7_pipeline.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-host.a/k7_pipeline.c.o/k7_pipeline.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_yunet.c.o",
+      "source_basename": "k7_yunet.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "unverified-snapshots/parent-host.a/k7_yunet.c.o/k7_yunet.c",
+      "original_argv_available": true,
+      "single_attempt_pending": false,
+      "comparison_evidence": "remaining-source-equivalence.json"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_pose.c.o",
+      "source_basename": "k7_pose.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_pose.c"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_photo.c.o",
+      "source_basename": "k7_photo.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_photo.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_photo_store.c.o",
+      "source_basename": "k7_photo_store.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_photo_store.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "fusion_core.c.o",
+      "source_basename": "fusion_core.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/fusion_core.c"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_track.c.o",
+      "source_basename": "k7_track.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_track.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_preview.c.o",
+      "source_basename": "k7_preview.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_preview.c"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_preview_queue.c.o",
+      "source_basename": "k7_preview_queue.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_preview_queue.c"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_link_probe.c.o",
+      "source_basename": "k7_link_probe.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_link_probe.c"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "dwc3_transport_core.c.o",
+      "source_basename": "dwc3_transport_core.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/dwc3_transport_core.c"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_video_frame.c.o",
+      "source_basename": "k7_video_frame.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_video_frame.c"
+    },
+    {
+      "archive": "parent-host.a",
+      "member": "k7_video_queue.c.o",
+      "source_basename": "k7_video_queue.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7host/k7_video_queue.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "k7sound_main.c.o",
+      "source_basename": "k7sound_main.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/k7sound_main.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "stream_ring.c.o",
+      "source_basename": "stream_ring.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/stream_ring.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "voice_frame_ring.c.o",
+      "source_basename": "voice_frame_ring.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/voice_frame_ring.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "playback_filter.c.o",
+      "source_basename": "playback_filter.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/playback_filter.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "duplex.c.o",
+      "source_basename": "duplex.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/duplex.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "mmu_command.c.o",
+      "source_basename": "mmu_command.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/mmu_command.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "command_core.c.o",
+      "source_basename": "command_core.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/command_core.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "mmu_probe.c.o",
+      "source_basename": "mmu_probe.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/mmu_probe.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "snapshot_arm64.c.o",
+      "source_basename": "snapshot_arm64.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/snapshot_arm64.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "live.c.o",
+      "source_basename": "live.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/live.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "i2c3_timing.c.o",
+      "source_basename": "i2c3_timing.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/i2c3_timing.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "codec_duplex.c.o",
+      "source_basename": "codec_duplex.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/codec_duplex.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "pio.c.o",
+      "source_basename": "pio.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/pio.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "platform.c.o",
+      "source_basename": "platform.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/platform.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "observe.c.o",
+      "source_basename": "observe.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/observe.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "reset_probe.c.o",
+      "source_basename": "reset_probe.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/reset_probe.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "start_clear.c.o",
+      "source_basename": "start_clear.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/start_clear.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "rx2_ready.c.o",
+      "source_basename": "rx2_ready.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/rx2_ready.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "vad_probe.c.o",
+      "source_basename": "vad_probe.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/vad_probe.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "vad_probe_asset.c.o",
+      "source_basename": "vad_probe_asset.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": null,
+      "excluded_reason": "asset_related_source_input_excluded_by_export_policy_not_a_source_correspondence_failure",
+      "excluded_input_lock": "excluded-inputs.lock.json",
+      "excluded_input_interfaces": [
+        "project/app/k7sound/vad_probe_asset.c"
+      ],
+      "private_exact_restore_available": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "duplex_stream.c.o",
+      "source_basename": "duplex_stream.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/duplex_stream.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "voice_session.c.o",
+      "source_basename": "voice_session.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/voice_session.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "duplex_session.c.o",
+      "source_basename": "duplex_session.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/duplex_session.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "fifo_reference.c.o",
+      "source_basename": "fifo_reference.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/fifo_reference.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "session_ab_probe.c.o",
+      "source_basename": "session_ab_probe.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/session_ab_probe.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "session_ab_command.c.o",
+      "source_basename": "session_ab_command.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/session_ab_command.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "session_capture.c.o",
+      "source_basename": "session_capture.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/session_capture.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "echo_diag_worker.c.o",
+      "source_basename": "echo_diag_worker.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/echo_diag_worker.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "echo_diag_runtime.c.o",
+      "source_basename": "echo_diag_runtime.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/3d51907c7556/project/app/k7sound/echo_diag_runtime.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "raw_vad_owner.c.o",
+      "source_basename": "raw_vad_owner.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/raw_vad_owner.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "raw_vad_observer.c.o",
+      "source_basename": "raw_vad_observer.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/raw_vad_observer.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "k7_aec.c.o",
+      "source_basename": "k7_aec.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/aec/src/k7_aec.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "mdf.c.o",
+      "source_basename": "mdf.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/mdf.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "fftwrap.c.o",
+      "source_basename": "fftwrap.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/fftwrap.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "kiss_fft.c.o",
+      "source_basename": "kiss_fft.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fft.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "kiss_fftr.c.o",
+      "source_basename": "kiss_fftr.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fftr.c"
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "diag_bridge.c.o",
+      "source_basename": "diag_bridge.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/diag_bridge.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "k7_echo_reply_identity.c.o",
+      "source_basename": "k7_echo_reply_identity.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/aec/src/k7_echo_reply_identity.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "cancel_continuation.c.o",
+      "source_basename": "cancel_continuation.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/cancel_continuation.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "echo_observer.c.o",
+      "source_basename": "echo_observer.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/echo_observer.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "near_evidence.c.o",
+      "source_basename": "near_evidence.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/near_evidence.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "tail_reference_archive.c.o",
+      "source_basename": "tail_reference_archive.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/tail_reference_archive.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "aec10_k7_aec_speex10.o",
+      "source_basename": "k7_aec_speex10.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/k7_aec_speex10.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "aec10_k7_aec_frame_adapter.o",
+      "source_basename": "k7_aec_frame_adapter.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/k7_aec_frame_adapter.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "aec10_mdf.o",
+      "source_basename": "mdf.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/mdf.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "aec10_fftwrap.o",
+      "source_basename": "fftwrap.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/fftwrap.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "aec10_kiss_fft.o",
+      "source_basename": "kiss_fft.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/kiss_fft.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "aec10_kiss_fftr.o",
+      "source_basename": "kiss_fftr.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/kiss_fftr.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "aec10_preprocess.o",
+      "source_basename": "preprocess.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/preprocess.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "aec10_filterbank.o",
+      "source_basename": "filterbank.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/app/k7sound/filterbank.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "k7_apm21_physical_stream.c.o",
+      "source_basename": "echo_diag_runtime.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/0224389b28a8/project/app/k7sound/echo_diag_runtime.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "k7_apm21_live_wiring.c.o",
+      "source_basename": "echo_diag_runtime.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/094d45e0b451/project/app/k7sound/echo_diag_runtime.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "k7_apm21_evidence_bridge.c.o",
+      "source_basename": "echo_diag_runtime.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/843766a307b2/project/app/k7sound/echo_diag_runtime.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "k7_apm21_idle_events.c.o",
+      "source_basename": "echo_diag_runtime.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/6f81066db603/project/app/k7sound/echo_diag_runtime.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "k7_apm21_reference_stage.c.o",
+      "source_basename": "echo_diag_runtime.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/0091e8543ceb/project/app/k7sound/echo_diag_runtime.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-sound.a",
+      "member": "k7_apm21_joint.c.o",
+      "source_basename": "echo_diag_runtime.c",
+      "original_path_present_at_capture": false,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/946a56e4ec64/project/app/k7sound/echo_diag_runtime.c",
+      "historical_full_object_correspondence": true
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_buf.c.o",
+      "source_basename": "bt_buf.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_buf.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_netdev.c.o",
+      "source_basename": "bt_netdev.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_netdev.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_queue.c.o",
+      "source_basename": "bt_queue.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_queue.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_hcicore.c.o",
+      "source_basename": "bt_hcicore.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "retained-variants/82cae2c5a528/project/port/nuttx/wireless/bluetooth/bt_hcicore.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_att.c.o",
+      "source_basename": "bt_att.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_att.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_conn.c.o",
+      "source_basename": "bt_conn.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_conn.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_gatt.c.o",
+      "source_basename": "bt_gatt.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_gatt.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_ioctl.c.o",
+      "source_basename": "bt_ioctl.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_ioctl.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_keys.c.o",
+      "source_basename": "bt_keys.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_keys.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_l2cap.c.o",
+      "source_basename": "bt_l2cap.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_l2cap.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_smp.c.o",
+      "source_basename": "bt_smp.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_smp.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_uuid.c.o",
+      "source_basename": "bt_uuid.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_uuid.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "bt_services.c.o",
+      "source_basename": "bt_services.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/port/nuttx/wireless/bluetooth/bt_services.c"
+    },
+    {
+      "archive": "parent-wireless.a",
+      "member": "dummy.c.o",
+      "source_basename": "dummy.c",
+      "original_path_present_at_capture": true,
+      "source_rebuild_equivalent": true,
+      "release_source": "project/retained-unmapped/dummy.c"
+    }
+  ],
+  "history_limits": [
+    "Final16 current source and consumed header hashes were checked; some original historical per-header dependency tables were absent.",
+    "Only5 of final16 older object files were independently reacquired; all16 recorded original object SHA correspond to actual parent target objects.",
+    "Three diagnostic units use original successful source/object receipts and full parent-object identity, with no new recompilation claimed.",
+    "Machine equivalence for these application units does not prove all62 system link inputs have been rebuilt from source."
+  ],
+  "source_clean_dependency_closure_complete": false,
+  "whole_firmware_source_clean_build": false,
+  "hardware_contacted": false
+}

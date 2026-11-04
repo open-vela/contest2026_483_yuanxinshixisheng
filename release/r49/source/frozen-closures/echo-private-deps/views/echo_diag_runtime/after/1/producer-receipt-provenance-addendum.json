@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "scope": "Exact parsed JSON equivalence of historical local producer receipt and current remote receipt; no recompile or hardware",
+  "historical_receipt": {
+    "local": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\barge-candidate-arm-r3\\result.json",
+    "sha256": "ad7addc5bd06488652ab153806e7b10164b22b098c1df6b3a3a912a034a7e6f5",
+    "bytes": 967214,
+    "preserved": true
+  },
+  "current_receipt": {
+    "local": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-producer-r3-current-readback.json",
+    "sha256": "33e9c50ddefe7009555eedb5dc6513664c5dc0b1d9b9cff33da400ed1e8e29fd",
+    "bytes": 1013119,
+    "remote": "/home/swl/openvela/private/19x2-barge-candidate-arm-r3/result.json"
+  },
+  "all_parsed_JSON_fields_equal": true,
+  "changed_or_missing_fields": [],
+  "raw_representation_difference": "Historical compact JSON; current indented JSON. Full parsed structures are equal.",
+  "canonical_JSON_sha256": "c61ed618b278c9e985611234ce63b292195c3ad9874ace0bc95ddb0074e9b7ff",
+  "echo_observer_producer_entire_row_equal": true,
+  "producer_object_sha256": "7633e749a669c1577c90641d38d075df894d16c396e89851ebe49958e5351657",
+  "producer_source_sha256": "9f4337863f22612aabc1773c9954d634db59b3b44bc98324b8345ed42b5b3072",
+  "actual_source_object_dependencies_and_tools_still_require_exact_hash_check": true,
+  "historical_receipt_not_overwritten": true,
+  "current_receipt_not_overwritten": true,
+  "target_compiler_executed_by_review": false
+}

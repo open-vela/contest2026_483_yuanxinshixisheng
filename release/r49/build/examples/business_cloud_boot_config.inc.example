@@ -1,0 +1,5 @@
+/* Interface example only. Never compile this example as an authenticated R49 input. */
+#error "Provide operator-owned private configuration outside the public release"
+static const char vv_private_business_credential[] = "<operator credential>";
+static const char vv_private_business_version[] = "<matching business protocol version>";
+static const char vv_private_business_proof[] = "<operator proof>";

@@ -1,0 +1,4 @@
+config EXAMPLES_K7FAT
+	tristate "K7 explicit read-only FAT diagnostic"
+	depends on FS_FAT && FAT_FORCE_READONLY && FAT_FORCE_INDIRECT && USBHOST_MSC_READONLY
+	default n

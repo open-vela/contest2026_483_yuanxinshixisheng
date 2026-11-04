@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_EXAMPLES_GIMBAL),)
+CONFIGURED_APPS += $(APPDIR)/examples/gimbal
+endif

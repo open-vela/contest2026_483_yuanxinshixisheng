@@ -4,6 +4,28 @@
 > 成员 / AI 日志目录：`allenxun`、`maomaojiang01`、`liyoface`、`lzttt1111`
 > 交付索引见 [`contest_submission/`](contest_submission/README.md)；逐版本构建与真机证据见 [`evidence/`](evidence/)；需求、实现、测试与**失败**记录见 [`docs/`](docs/)。
 
+## 决赛版本 R49（2026-11-04）
+
+**当前运行版源码入口：[release/r49/](release/r49/README.md)。** R49采用冻结R42/source49加最终增量，关联固化镜像SHA256 `3479d1bd521ff143e44b6f2758558826bda6bf2f3148d1bfba21af7258c8689e`。该入口包含2234份源码/头闭包/配置、SDK/工具链锁、构建帮助和第三方许可原文。下文2026-09-20基础版的`app/`、通用linkfile及旧构建方式保留历史，不用其替代R49冻结版本。
+
+- 语音问答与普通聊天插话；微晶启动、1/2/3档切换及停止，固定确认语音本地播放。
+- 真实测肤报告结束后自动执行1档2秒→3档2秒→2档3秒→停止并断开BLE→恢复跟随；报告阶段预连接，手动与自动控制互斥。
+- 修复多轮微晶控制跨普通40秒空闲门后的失听、BLE失败对后续语音的影响，以及普通语音插话尾部导致服务退出的问题。保留故障、未命中、一次连接超时和有限验收范围。
+- R49已固化、完整读回及有限冷启动复验；公开收据副本保留原始文件SHA并对业务UUID脱敏。不能把此范围扩大为长期稳定、全部识别/连接成功、全离线或所有电脑线均拔除。
+- 冻结归档加增量已重现原ELF/kernel/镜像；五份项目父归档183项本轮复编等价＋3项历史对应。**完整SDK全源码clean构建仍未通过**，45项私密/资产接口不公开，组合二进制资产许可条件仍单列，不把第三方GPL等重标Apache。
+
+复核：`python -B tools/export_r49_release.py`；构建前置与明确缺项见[构建说明](release/r49/build/README.md)。[官方仓提交说明](docs/R49官方仓提交说明_20261104.md)记录本次范围与真实状态。
+
+本人成员日志在[logs/maomaojiang01](logs/maomaojiang01/)，固定快照55个JSONL、109914事件、12个manifest会话（2026-11-04T03:11:19.690441+00:00），保留partial/degraded与缺口；其他成员原有日志保持。3项本次沉淀的开发Skill及既有驱动Skill见[AI开发工作流说明](docs/AI开发Skills沉淀_20261103.md)，不倒写为早期开发时已调用。
+
+### 实物样机
+
+用户提供的真实样机照片：正面、侧面和背部连接结构。静态照片仅展示外观，不单独证明实时运行或独立供电。
+
+<img src="docs/assets/r49-prototype/front.png" width="260" alt="R49样机正面"/> <img src="docs/assets/r49-prototype/side.png" width="260" alt="R49样机侧面"/>
+
+[背部结构照片](docs/assets/r49-prototype/rear.png)
+
 ## 一、作品简介
 
 VelaVision 是一套跑在 **KICKPI K7（RK3576）原生 openvela/NuttX** 上的视觉机器人作品，把"新硬件适配"做成了一个能用的 AI 硬件产品：
@@ -19,7 +41,7 @@ VelaVision 是一套跑在 **KICKPI K7（RK3576）原生 openvela/NuttX** 上的
 1. **原生 BSP 与驱动适配**：RK3576/K7 板级初始化、UART、USB Host（xHCI）、BLE 与 Wi-Fi 共存、NPU 诊断路径、DDR/eMMC 与文件系统边界，均以 NuttX 原生方式实现并留证，不靠 Linux 参考代码代替验收。
 2. **诚实的验收口径**：编译通过 / RAM 加载 / 真机验证分开表述；未通过项在 [`contest_submission/submission-checklist.md`](contest_submission/submission-checklist.md) 里明确列为"不得写成已通过的项目"。
 3. **契约先行的云端后端**：OpenAPI 契约为唯一出处（`backend/contracts/`），Java 21 + Spring Boot 3.5.16 + Flyway + PostgreSQL 16 与 Python 3.12 异步 Worker（at-least-once + 领取代次 `lease_revision` 防重复落地），并配 **94 场景黑盒验收框架**（`backend/acceptance/`）与可复跑证据。
-4. **AI 开发全流程留痕**：`logs/` 下 4 位成员共 **436 个会话、297,761 条事件**（截至 2026-09-20 本说明提交时），全部通过组委会官方 `validate-log.py` 校验（各目录 `manifest.json` 为数量、文件与哈希入口）。
+4. **AI 开发全流程留痕**：`logs/` 下 4 位成员共 **442 个会话、359,632 条事件**（本次R49提交固定快照；格式校验不代表来源全量完整），全部通过组委会官方 `validate-log.py` 校验（各目录 `manifest.json` 为数量、文件与哈希入口）。
 
 ## 二、选题方向
 
@@ -75,11 +97,11 @@ VelaVision 是一套跑在 **KICKPI K7（RK3576）原生 openvela/NuttX** 上的
 
 **AI Coding 材料与归档**
 
-- `logs/` — AI Coding 日志：`allenxun/`（402 会话 / 101,741 事件）、`lzttt1111/`（5 / 146,970）、`maomaojiang01/`（6 / 48,043）、`liyoface/`（23 / 1,007）
+- `logs/` — AI Coding 日志：`allenxun/`（402 会话 / 101,741 事件）、`lzttt1111/`（5 / 146,970）、`maomaojiang01/`（12 / 109,914）、`liyoface/`（23 / 1,007）
 - `legacy/`、`baselines/`、`vm-archive/`、`work-in-progress/`、`third_party/`、`deploy/` — 历史归档、未完成候选与外部依赖，**不作为当前产品入口**
 - 根目录：`contest2026_483_yuanxinshixisheng.xml` 与 `openvela.xml`（repo manifest，含 `<linkfile>` 映射）、`project-manifest.json`（SDK 基线、构建命令、产物哈希、必需 `CONFIG_*`）、`AGENTS.md`（本仓 AI 协作规则）
 
-## 四、运行方式
+## 四、历史基础版本运行方式（2026-09-20）
 
 ### 0. 前置
 
@@ -156,7 +178,7 @@ python tools/official-validator/tools/validate-log.py logs/
 ```
 ## 五、AI Coding 使用说明
 
-本作品从需求拆解到验收全程由 AI 协作完成，**完整对话日志见 [`logs/`](logs/)**（截至 2026-09-20：4 位成员、436 个会话、297,761 条事件，均通过官方 `validate-log.py`）。
+本作品从需求拆解到验收全程由 AI 协作完成，**开发对话导出日志见 [`logs/`](logs/)**（本次快照：4 位成员、442 个manifest会话、359,632 条事件；565个JSONL经原版官方校验通过，来源限制见[完整性说明](docs/AI日志完整性核对_20261104.md)）。
 
 **协作方式**
 

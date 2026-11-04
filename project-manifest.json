@@ -984,5 +984,16 @@
     "motion_currently_held": true,
     "real_track_board_chain_passed": true,
     "human_motion_audio_confirmation": "pending"
+  },
+  "current_finals_release": {
+    "version": "R49/source49-typed-tail-recovery-r1",
+    "entry": "release/r49/README.md",
+    "source_manifest": "release/r49/source/source-files.json",
+    "source_manifest_sha256": "0f96b6a77952cdba96ac2659ec9b9135fecbceca1cd3fa33f070f6b17b089ce5",
+    "source_files": 2234,
+    "image_sha256": "3479d1bd521ff143e44b6f2758558826bda6bf2f3148d1bfba21af7258c8689e",
+    "full_source_clean_build_passed": false,
+    "combined_binary_redistribution_cleared": false,
+    "submission_log_snapshot": "evidence/r49-pr-submission-20261104/log-snapshot.json"
   }
 }

@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "board_voice_prompts.inc",
+      "release_interface_path": "project/app/k7agent/cloud/include/board_voice_prompts.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "8fd68ba280159cbad8aa2096f95cb40183845300f821f79f14545648b1597996",
+      "bytes": 1879
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vad_probe_asset.h",
+      "release_interface_path": "project/app/k7agent/cloud/include/vad_probe_asset.h",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "a8c6c5e8620ee5db0dd4f4d8c24b3612eb143d27b969528be1ccbb15088119ea",
+      "bytes": 374
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_capture_success_assets.inc",
+      "release_interface_path": "project/app/k7agent/cloud/include/vv_capture_success_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b2e1c1c1e7815a0dcc345258675b0a4642d4ec739a281d582d7b2e8c8c6fae3c",
+      "bytes": 529897
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_control_ack_assets.inc",
+      "release_interface_path": "project/app/k7agent/cloud/include/vv_control_ack_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b7ed9decff4f63f988b75f764f23dccd9bcc424d72f09a90cff483e69a7ee276",
+      "bytes": 3667869
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_firefly_prompt_assets.inc",
+      "release_interface_path": "project/app/k7agent/cloud/include/vv_firefly_prompt_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "daf145b5ee37f3231dd17954ee2396746390986fa35d0b9c8d4ddd91a9578101",
+      "bytes": 5126190
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_local_report_assets.inc",
+      "release_interface_path": "project/app/k7agent/cloud/include/vv_local_report_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "80d4c264a6bddb8c75194959d312ad7b3905180e7509f9f69066d33f9e71efea",
+      "bytes": 1236499
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_ready_assets.inc",
+      "release_interface_path": "project/app/k7agent/cloud/include/vv_ready_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "c2e4095fafcf58cdc7a3e8e80453d61498b56f463d3fd87d0b7bf1812640fb80",
+      "bytes": 236608
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_real_failure_assets.inc",
+      "release_interface_path": "project/app/k7agent/cloud/include/vv_real_failure_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "8bbaa357d5668234de86a145b8bd95b858e46c74b9ca9ce7fa76b3403fb66d82",
+      "bytes": 3489689
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_report_wait_assets.inc",
+      "release_interface_path": "project/app/k7agent/cloud/include/vv_report_wait_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "66ed84ba5d245b1ed65a9c7ea05df337fbbf285cdf0120bf15e03c9c730bb63a",
+      "bytes": 749302
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_rewake_assets.inc",
+      "release_interface_path": "project/app/k7agent/cloud/include/vv_rewake_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b0feaf22dc3a5f0ec7149bc21bfcacbc250e3b14de74c9d706288b7f74223d19",
+      "bytes": 409135
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "business_cloud_boot_config.inc",
+      "release_interface_path": "project/app/k7boot/private/business_cloud_boot_config.inc",
+      "reason": "private_configuration",
+      "sha256": "d5bfc064be65333fb14306bf47ad919daccebc714553e335c8c2e165c7ba7aaa",
+      "bytes": 319
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "real_shuiguang_business_boot_config.inc",
+      "release_interface_path": "project/app/k7boot/private/real_shuiguang_business_boot_config.inc",
+      "reason": "private_configuration",
+      "sha256": "b4ec6712bdcd086a63a431f32ad3730b2d50f4481755657720b85bf0a5da34e9",
+      "bytes": 458
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "board_voice_prompts.inc",
+      "release_interface_path": "project/app/k7sound/board_voice_prompts.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "8fd68ba280159cbad8aa2096f95cb40183845300f821f79f14545648b1597996",
+      "bytes": 1879
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vad_probe_asset.h",
+      "release_interface_path": "project/app/k7sound/vad_probe_asset.h",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "a8c6c5e8620ee5db0dd4f4d8c24b3612eb143d27b969528be1ccbb15088119ea",
+      "bytes": 374
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_firefly_prompt_assets.inc",
+      "release_interface_path": "project/app/k7sound/vv_firefly_prompt_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "daf145b5ee37f3231dd17954ee2396746390986fa35d0b9c8d4ddd91a9578101",
+      "bytes": 5126190
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_local_report_assets.inc",
+      "release_interface_path": "project/app/k7sound/vv_local_report_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "80d4c264a6bddb8c75194959d312ad7b3905180e7509f9f69066d33f9e71efea",
+      "bytes": 1236499
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_ready_assets.inc",
+      "release_interface_path": "project/app/k7sound/vv_ready_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "c2e4095fafcf58cdc7a3e8e80453d61498b56f463d3fd87d0b7bf1812640fb80",
+      "bytes": 236608
+    },
+    {
+      "input_role": "r49_frozen_overlay",
+      "file": "vv_rewake_assets.inc",
+      "release_interface_path": "project/app/k7sound/vv_rewake_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b0feaf22dc3a5f0ec7149bc21bfcacbc250e3b14de74c9d706288b7f74223d19",
+      "bytes": 409135
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "board_voice_prompts.inc",
+      "release_interface_path": "frozen-closures/after/deps/board_voice_prompts.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "8fd68ba280159cbad8aa2096f95cb40183845300f821f79f14545648b1597996",
+      "bytes": 1879
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vad_probe_asset.h",
+      "release_interface_path": "frozen-closures/after/deps/vad_probe_asset.h",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "a8c6c5e8620ee5db0dd4f4d8c24b3612eb143d27b969528be1ccbb15088119ea",
+      "bytes": 374
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_capture_success_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_capture_success_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b2e1c1c1e7815a0dcc345258675b0a4642d4ec739a281d582d7b2e8c8c6fae3c",
+      "bytes": 529897
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_control_ack_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_control_ack_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b7ed9decff4f63f988b75f764f23dccd9bcc424d72f09a90cff483e69a7ee276",
+      "bytes": 3667869
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_firefly_prompt_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_firefly_prompt_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "daf145b5ee37f3231dd17954ee2396746390986fa35d0b9c8d4ddd91a9578101",
+      "bytes": 5126190
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_local_report_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_local_report_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "80d4c264a6bddb8c75194959d312ad7b3905180e7509f9f69066d33f9e71efea",
+      "bytes": 1236499
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_micro_voice_audio_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_micro_voice_audio_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "de356cdbc025a92c777c80cd92ad0bd9889a3f72d314826afab7483607b0b82c",
+      "bytes": 222511
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_microcrystal_cue_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_microcrystal_cue_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "87859513c6dc8a1bd46a389f9a7c064252ce18d3d1b83fd3018f92a9aff4463c",
+      "bytes": 788077
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_microcrystal_target_private.h",
+      "release_interface_path": "frozen-closures/after/deps/vv_microcrystal_target_private.h",
+      "reason": "private_configuration",
+      "sha256": "123ab0c2426b3fd3eb0074a84503e7b12815c954b39dc74cc02562c8e1dfdf41",
+      "bytes": 162
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_ready_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_ready_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "c2e4095fafcf58cdc7a3e8e80453d61498b56f463d3fd87d0b7bf1812640fb80",
+      "bytes": 236608
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_real_failure_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_real_failure_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "8bbaa357d5668234de86a145b8bd95b858e46c74b9ca9ce7fa76b3403fb66d82",
+      "bytes": 3489689
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_report_wait_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_report_wait_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "66ed84ba5d245b1ed65a9c7ea05df337fbbf285cdf0120bf15e03c9c730bb63a",
+      "bytes": 749302
+    },
+    {
+      "input_role": "r49_header_closure",
+      "file": "vv_rewake_assets.inc",
+      "release_interface_path": "frozen-closures/after/deps/vv_rewake_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b0feaf22dc3a5f0ec7149bc21bfcacbc250e3b14de74c9d706288b7f74223d19",
+      "bytes": 409135
+    },
+    {
+      "input_role": "r49_private_header_closure",
+      "file": "vad_probe_asset.h",
+      "release_interface_path": "frozen-closures/echo-private-deps/views/echo_diag_runtime/after/0/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/vad_probe_asset.h",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "a8c6c5e8620ee5db0dd4f4d8c24b3612eb143d27b969528be1ccbb15088119ea",
+      "bytes": 374
+    },
+    {
+      "input_role": "r49_private_header_closure",
+      "file": "vad_probe_asset.h",
+      "release_interface_path": "frozen-closures/near-private-deps/views/vv_near_experiment/after/root/home/swl/openvela/private/19x2-multiround-current-arm-r1/overlay/app/k7sound/vad_probe_asset.h",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "a8c6c5e8620ee5db0dd4f4d8c24b3612eb143d27b969528be1ccbb15088119ea",
+      "bytes": 374
+    },
+    {
+      "input_role": "retained_source_snapshot",
+      "file": "vad_probe_asset.c",
+      "release_interface_path": "project/app/k7sound/vad_probe_asset.c",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "8f944758a22015c56cd31c5856e62374645eda3849c12edb6ca5a61c3cee2fda",
+      "bytes": 2056
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "real_shuiguang_business_boot_config.inc",
+      "release_interface_path": "historical-closures/cloud/b4ec6712bdcd086a/real_shuiguang_business_boot_config.inc",
+      "reason": "private_configuration",
+      "sha256": "b4ec6712bdcd086a63a431f32ad3730b2d50f4481755657720b85bf0a5da34e9",
+      "bytes": 458
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "vv_real_failure_assets.inc",
+      "release_interface_path": "historical-closures/cloud/8bbaa357d5668234/vv_real_failure_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "8bbaa357d5668234de86a145b8bd95b858e46c74b9ca9ce7fa76b3403fb66d82",
+      "bytes": 3489689
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "vv_report_wait_assets.inc",
+      "release_interface_path": "historical-closures/cloud/66ed84ba5d245b1e/vv_report_wait_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "66ed84ba5d245b1ed65a9c7ea05df337fbbf285cdf0120bf15e03c9c730bb63a",
+      "bytes": 749302
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "vv_capture_success_assets.inc",
+      "release_interface_path": "historical-closures/cloud/b2e1c1c1e7815a0d/vv_capture_success_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b2e1c1c1e7815a0dcc345258675b0a4642d4ec739a281d582d7b2e8c8c6fae3c",
+      "bytes": 529897
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "vv_rewake_assets.inc",
+      "release_interface_path": "historical-closures/cloud/b0feaf22dc3a5f0e/vv_rewake_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b0feaf22dc3a5f0ec7149bc21bfcacbc250e3b14de74c9d706288b7f74223d19",
+      "bytes": 409135
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "vv_ready_assets.inc",
+      "release_interface_path": "historical-closures/cloud/c2e4095fafcf58cd/vv_ready_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "c2e4095fafcf58cdc7a3e8e80453d61498b56f463d3fd87d0b7bf1812640fb80",
+      "bytes": 236608
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "vv_control_ack_assets.inc",
+      "release_interface_path": "historical-closures/cloud/b7ed9decff4f63f9/vv_control_ack_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "b7ed9decff4f63f988b75f764f23dccd9bcc424d72f09a90cff483e69a7ee276",
+      "bytes": 3667869
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "vv_local_report_assets.inc",
+      "release_interface_path": "historical-closures/cloud/80d4c264a6bddb8c/vv_local_report_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "80d4c264a6bddb8c75194959d312ad7b3905180e7509f9f69066d33f9e71efea",
+      "bytes": 1236499
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "vv_firefly_prompt_assets.inc",
+      "release_interface_path": "historical-closures/cloud/daf145b5ee37f323/vv_firefly_prompt_assets.inc",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "daf145b5ee37f3231dd17954ee2396746390986fa35d0b9c8d4ddd91a9578101",
+      "bytes": 5126190
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "vad_probe_asset.h",
+      "release_interface_path": "historical-closures/sound/a8c6c5e8620ee5db/vad_probe_asset.h",
+      "reason": "model_audio_or_recorded_asset",
+      "sha256": "a8c6c5e8620ee5db0dd4f4d8c24b3612eb143d27b969528be1ccbb15088119ea",
+      "bytes": 374
+    },
+    {
+      "input_role": "verified_historical_per_TU_closure",
+      "file": "session_ab_pcm.inc",
+      "release_interface_path": "historical-closures/sound/e0c6601530905624/session_ab_pcm.inc",
+      "reason": "large_generated_literal_array",
+      "sha256": "e0c6601530905624ef260f299c962dd554d161a48daa1fb76da9381a1c58b7e3",
+      "bytes": 585902
+    }
+  ],
+  "reason": "No private configuration, unknown models/audio/recordings or generated literal arrays copied to public source tree."
+}

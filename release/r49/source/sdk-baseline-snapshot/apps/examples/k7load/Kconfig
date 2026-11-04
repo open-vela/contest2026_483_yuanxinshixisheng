@@ -1,0 +1,4 @@
+config EXAMPLES_K7LOAD
+	tristate "K7 bounded A72 compute and radio coexistence diagnostic"
+	depends on RK3576_SMP_DIAG && SMP && SMP_NCPUS = 8
+	default n

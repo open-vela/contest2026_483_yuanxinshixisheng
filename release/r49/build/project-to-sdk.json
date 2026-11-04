@@ -1,0 +1,2419 @@
+{
+  "schema_version": 1,
+  "entry": "release/r49/build",
+  "old_contest_build_is_not_r49_entry": true,
+  "mappings": [
+    {
+      "source": "project/app/k7agent/cloud/include/assessment_multipart.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/assessment_multipart.h",
+      "project_relative_path": "app/k7agent/cloud/include/assessment_multipart.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/cancel_continuation.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/cancel_continuation.h",
+      "project_relative_path": "app/k7agent/cloud/include/cancel_continuation.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/capture_stream.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/capture_stream.h",
+      "project_relative_path": "app/k7agent/cloud/include/capture_stream.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/cloud_speech_mimo_adapter.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/cloud_speech_mimo_adapter.h",
+      "project_relative_path": "app/k7agent/cloud/include/cloud_speech_mimo_adapter.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/cloud_speech_orchestrator.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/cloud_speech_orchestrator.h",
+      "project_relative_path": "app/k7agent/cloud/include/cloud_speech_orchestrator.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/cloud_speech_radio_bridge.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/cloud_speech_radio_bridge.h",
+      "project_relative_path": "app/k7agent/cloud/include/cloud_speech_radio_bridge.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/cloud_speech_runtime_owner.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/cloud_speech_runtime_owner.h",
+      "project_relative_path": "app/k7agent/cloud/include/cloud_speech_runtime_owner.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/codec_duplex.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/codec_duplex.h",
+      "project_relative_path": "app/k7agent/cloud/include/codec_duplex.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/command_core.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/command_core.h",
+      "project_relative_path": "app/k7agent/cloud/include/command_core.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/device_photo_prompts.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/device_photo_prompts.h",
+      "project_relative_path": "app/k7agent/cloud/include/device_photo_prompts.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/device_voice_intent.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/device_voice_intent.h",
+      "project_relative_path": "app/k7agent/cloud/include/device_voice_intent.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/diag_bridge.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/diag_bridge.h",
+      "project_relative_path": "app/k7agent/cloud/include/diag_bridge.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/duplex.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/duplex.h",
+      "project_relative_path": "app/k7agent/cloud/include/duplex.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/duplex_session.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/duplex_session.h",
+      "project_relative_path": "app/k7agent/cloud/include/duplex_session.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/duplex_stream.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/duplex_stream.h",
+      "project_relative_path": "app/k7agent/cloud/include/duplex_stream.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/echo_diag_runtime.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/echo_diag_runtime.h",
+      "project_relative_path": "app/k7agent/cloud/include/echo_diag_runtime.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/echo_diag_worker.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/echo_diag_worker.h",
+      "project_relative_path": "app/k7agent/cloud/include/echo_diag_worker.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/echo_observer.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/echo_observer.h",
+      "project_relative_path": "app/k7agent/cloud/include/echo_observer.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/fifo_reference.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/fifo_reference.h",
+      "project_relative_path": "app/k7agent/cloud/include/fifo_reference.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/headless_sequence.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/headless_sequence.h",
+      "project_relative_path": "app/k7agent/cloud/include/headless_sequence.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/i2c3_timing.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/i2c3_timing.h",
+      "project_relative_path": "app/k7agent/cloud/include/i2c3_timing.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7_aec.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7_aec.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7_aec.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7_aec_frame_adapter.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7_aec_frame_adapter.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7_aec_frame_adapter.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7_aec_speex10.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7_aec_speex10.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7_aec_speex10.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7_apm21_nominal_identity.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7_apm21_nominal_identity.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7_apm21_nominal_identity.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7_apm21_product_startup.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7_apm21_product_startup.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7_apm21_product_startup.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7_echo_reply_identity.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7_echo_reply_identity.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7_echo_reply_identity.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7_vad.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7_vad.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7_vad.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7boot_aliyun_production.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7boot_aliyun_production.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7boot_aliyun_production.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7boot_aliyun_production_authority.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7boot_aliyun_production_authority.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7boot_aliyun_production_authority.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7boot_aliyun_root.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7boot_aliyun_root.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7boot_aliyun_root.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7boot_aliyun_sequence.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7boot_aliyun_sequence.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7boot_aliyun_sequence.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7boot_business.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7boot_business.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7boot_business.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7boot_native.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7boot_native.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7boot_native.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/k7sound_api.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/k7sound_api.h",
+      "project_relative_path": "app/k7agent/cloud/include/k7sound_api.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/live.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/live.h",
+      "project_relative_path": "app/k7agent/cloud/include/live.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/mimo_cloud_client.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/mimo_cloud_client.h",
+      "project_relative_path": "app/k7agent/cloud/include/mimo_cloud_client.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/mimo_v25_profile.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/mimo_v25_profile.h",
+      "project_relative_path": "app/k7agent/cloud/include/mimo_v25_profile.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/mmu_command.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/mmu_command.h",
+      "project_relative_path": "app/k7agent/cloud/include/mmu_command.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/mmu_probe.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/mmu_probe.h",
+      "project_relative_path": "app/k7agent/cloud/include/mmu_probe.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/native_boot_sequence.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/native_boot_sequence.h",
+      "project_relative_path": "app/k7agent/cloud/include/native_boot_sequence.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/near_driver.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/near_driver.h",
+      "project_relative_path": "app/k7agent/cloud/include/near_driver.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/near_evidence.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/near_evidence.h",
+      "project_relative_path": "app/k7agent/cloud/include/near_evidence.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/observe.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/observe.h",
+      "project_relative_path": "app/k7agent/cloud/include/observe.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/pcm_playback.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/pcm_playback.h",
+      "project_relative_path": "app/k7agent/cloud/include/pcm_playback.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/pio.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/pio.h",
+      "project_relative_path": "app/k7agent/cloud/include/pio.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/platform.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/platform.h",
+      "project_relative_path": "app/k7agent/cloud/include/platform.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/playback_filter.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/playback_filter.h",
+      "project_relative_path": "app/k7agent/cloud/include/playback_filter.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/raw_vad_observer.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/raw_vad_observer.h",
+      "project_relative_path": "app/k7agent/cloud/include/raw_vad_observer.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/raw_vad_owner.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/raw_vad_owner.h",
+      "project_relative_path": "app/k7agent/cloud/include/raw_vad_owner.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/reset_probe.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/reset_probe.h",
+      "project_relative_path": "app/k7agent/cloud/include/reset_probe.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/session_ab_probe.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/session_ab_probe.h",
+      "project_relative_path": "app/k7agent/cloud/include/session_ab_probe.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/session_capture.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/session_capture.h",
+      "project_relative_path": "app/k7agent/cloud/include/session_capture.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/start_clear.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/start_clear.h",
+      "project_relative_path": "app/k7agent/cloud/include/start_clear.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/stream_ring.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/stream_ring.h",
+      "project_relative_path": "app/k7agent/cloud/include/stream_ring.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/tail_reference_archive.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/tail_reference_archive.h",
+      "project_relative_path": "app/k7agent/cloud/include/tail_reference_archive.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vad_probe.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vad_probe.h",
+      "project_relative_path": "app/k7agent/cloud/include/vad_probe.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/voice_frame_ring.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/voice_frame_ring.h",
+      "project_relative_path": "app/k7agent/cloud/include/voice_frame_ring.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/voice_session.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/voice_session.h",
+      "project_relative_path": "app/k7agent/cloud/include/voice_session.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_addressed_window.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_addressed_window.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_addressed_window.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_aliyun_chat.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_aliyun_chat.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_aliyun_chat.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_aliyun_client.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_aliyun_client.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_aliyun_client.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_aliyun_endpoint.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_aliyun_endpoint.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_aliyun_endpoint.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_aliyun_protocol.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_aliyun_protocol.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_aliyun_protocol.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_aliyun_provider.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_aliyun_provider.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_aliyun_provider.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_aliyun_tts_stream.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_aliyun_tts_stream.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_aliyun_tts_stream.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_asr_batch.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_asr_batch.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_asr_batch.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_asr_session.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_asr_session.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_asr_session.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_asr_stream.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_asr_stream.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_asr_stream.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_asr_tls.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_asr_tls.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_asr_tls.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_asr_wss.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_asr_wss.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_asr_wss.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_backend_client.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_backend_client.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_backend_client.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_backend_protocol.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_backend_protocol.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_backend_protocol.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_barge_input.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_barge_input.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_barge_input.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_barge_route.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_barge_route.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_barge_route.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_cancel_tail.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_cancel_tail.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_cancel_tail.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_chat_stream.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_chat_stream.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_chat_stream.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_cloud_entropy.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_cloud_entropy.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_cloud_entropy.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_cloud_platform_diag.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_cloud_platform_diag.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_cloud_platform_diag.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_cloud_tcp.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_cloud_tcp.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_cloud_tcp.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_cloud_trust.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_cloud_trust.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_cloud_trust.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_confirmed_wake.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_confirmed_wake.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_confirmed_wake.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_dialogue.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_dialogue.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_dialogue.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_dns_client.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_dns_client.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_dns_client.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_dns_nuttx.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_dns_nuttx.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_dns_nuttx.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_http_development.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_http_development.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_http_development.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_https_client.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_https_client.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_https_client.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_https_mbedtls.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_https_mbedtls.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_https_mbedtls.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_k7_platform_check.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_k7_platform_check.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_k7_platform_check.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_k7_platform_factory.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_k7_platform_factory.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_k7_platform_factory.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_k7_trng_development.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_k7_trng_development.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_k7_trng_development.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_local_assessment.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_local_assessment.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_local_assessment.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_local_report.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_local_report.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_local_report.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_local_time.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_local_time.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_local_time.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_micro_voice_audio.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_micro_voice_audio.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_micro_voice_audio.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_microcrystal.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_microcrystal.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_microcrystal.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_microcrystal_voice.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_microcrystal_voice.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_microcrystal_voice.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_native_assessment.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_native_assessment.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_native_assessment.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_native_audio.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_native_audio.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_native_audio.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_native_batch_audio.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_native_batch_audio.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_native_batch_audio.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_native_client.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_native_client.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_native_client.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_native_mode.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_native_mode.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_native_mode.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_native_platform.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_native_platform.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_native_platform.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_native_platform_wait_private.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_native_platform_wait_private.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_native_platform_wait_private.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_native_runtime.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_native_runtime.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_native_runtime.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_native_service.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_native_service.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_native_service.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_near_experiment.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_near_experiment.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_near_experiment.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_ogg_opus.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_ogg_opus.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_ogg_opus.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_opus_pcm.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_opus_pcm.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_opus_pcm.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_paraformer.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_paraformer.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_paraformer.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_paraformer_k7.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_paraformer_k7.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_paraformer_k7.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_photo_prompt_recovery.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_photo_prompt_recovery.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_photo_prompt_recovery.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_prompt_admission.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_prompt_admission.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_prompt_admission.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_prompt_cache.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_prompt_cache.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_prompt_cache.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_real_business_ca.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_real_business_ca.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_real_business_ca.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_real_report_speech.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_real_report_speech.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_real_report_speech.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_real_shuiguang.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_real_shuiguang.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_real_shuiguang.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_real_upload_private.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_real_upload_private.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_real_upload_private.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_reply_json.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_reply_json.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_reply_json.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_reply_pipeline.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_reply_pipeline.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_reply_pipeline.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_reply_scope.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_reply_scope.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_reply_scope.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_report_audio.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_report_audio.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_report_audio.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_report_audio_k7.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_report_audio_k7.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_report_audio_k7.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_report_chunks.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_report_chunks.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_report_chunks.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_rk3576_trng.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_rk3576_trng.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_rk3576_trng.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_roughtime.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_roughtime.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_roughtime.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_roughtime_k7.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_roughtime_k7.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_roughtime_k7.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_rtc_i2c2.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_rtc_i2c2.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_rtc_i2c2.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_rtc_provision.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_rtc_provision.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_rtc_provision.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_rtc_provision_i2c2.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_rtc_provision_i2c2.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_rtc_provision_i2c2.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_rtc_reader.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_rtc_reader.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_rtc_reader.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_rtc_time.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_rtc_time.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_rtc_time.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_session_pcm.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_session_pcm.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_session_pcm.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_speech_only_callbacks.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_speech_only_callbacks.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_speech_only_callbacks.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_speech_owner.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_speech_owner.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_speech_owner.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_speech_provider.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_speech_provider.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_speech_provider.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_stream_speaker.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_stream_speaker.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_stream_speaker.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_trng_development_policy.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_trng_development_policy.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_trng_development_policy.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_trng_nuttx.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_trng_nuttx.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_trng_nuttx.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_tts_segments.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_tts_segments.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_tts_segments.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_tts_ws.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_tts_ws.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_tts_ws.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_voice_session.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_voice_session.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_voice_session.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_voice_settings.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_voice_settings.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_voice_settings.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_wake_ack.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_wake_ack.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_wake_ack.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_wake_input.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_wake_input.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_wake_input.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_wss_client.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_wss_client.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_wss_client.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/include/vv_wss_incremental.h",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/include/vv_wss_incremental.h",
+      "project_relative_path": "app/k7agent/cloud/include/vv_wss_incremental.h"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_aliyun_provider.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_aliyun_provider.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_aliyun_provider.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_backend_client.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_backend_client.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_backend_client.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_microcrystal.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_microcrystal.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_microcrystal.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_microcrystal_manual.inc",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_microcrystal_manual.inc",
+      "project_relative_path": "app/k7agent/cloud/src/vv_microcrystal_manual.inc"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_microcrystal_nuttx.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_microcrystal_nuttx.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_microcrystal_nuttx.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_assessment.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_assessment.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_assessment.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_client.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_client.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_client.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_platform.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_platform.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_platform.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_runtime.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_runtime.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_runtime.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_runtime_k7.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_runtime_k7.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_runtime_k7.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_service.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_service.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_service.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_near_experiment.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_near_experiment.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_near_experiment.c"
+    },
+    {
+      "source": "project/app/k7boot/k7boot_aliyun_production.c",
+      "sdk_relative_path": "apps/examples/k7boot/k7boot_aliyun_production.c",
+      "project_relative_path": "app/k7boot/k7boot_aliyun_production.c"
+    },
+    {
+      "source": "project/app/k7boot/k7boot_aliyun_sequence.c",
+      "sdk_relative_path": "apps/examples/k7boot/k7boot_aliyun_sequence.c",
+      "project_relative_path": "app/k7boot/k7boot_aliyun_sequence.c"
+    },
+    {
+      "source": "project/app/k7host/dwc3_transport_core.h",
+      "sdk_relative_path": "apps/examples/k7host/dwc3_transport_core.h",
+      "project_relative_path": "app/k7host/dwc3_transport_core.h"
+    },
+    {
+      "source": "project/app/k7host/fusion_core.h",
+      "sdk_relative_path": "apps/examples/k7host/fusion_core.h",
+      "project_relative_path": "app/k7host/fusion_core.h"
+    },
+    {
+      "source": "project/app/k7host/k7_capture_lifetime.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_capture_lifetime.h",
+      "project_relative_path": "app/k7host/k7_capture_lifetime.h"
+    },
+    {
+      "source": "project/app/k7host/k7_jpeg.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_jpeg.h",
+      "project_relative_path": "app/k7host/k7_jpeg.h"
+    },
+    {
+      "source": "project/app/k7host/k7_photo.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_photo.c",
+      "project_relative_path": "app/k7host/k7_photo.c"
+    },
+    {
+      "source": "project/app/k7host/k7_photo.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_photo.h",
+      "project_relative_path": "app/k7host/k7_photo.h"
+    },
+    {
+      "source": "project/app/k7host/k7_photo_store.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_photo_store.c",
+      "project_relative_path": "app/k7host/k7_photo_store.c"
+    },
+    {
+      "source": "project/app/k7host/k7_photo_store.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_photo_store.h",
+      "project_relative_path": "app/k7host/k7_photo_store.h"
+    },
+    {
+      "source": "project/app/k7host/k7_photo_target.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_photo_target.h",
+      "project_relative_path": "app/k7host/k7_photo_target.h"
+    },
+    {
+      "source": "project/app/k7host/k7_pipeline.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_pipeline.h",
+      "project_relative_path": "app/k7host/k7_pipeline.h"
+    },
+    {
+      "source": "project/app/k7host/k7_pose.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_pose.h",
+      "project_relative_path": "app/k7host/k7_pose.h"
+    },
+    {
+      "source": "project/app/k7host/k7_preview.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_preview.h",
+      "project_relative_path": "app/k7host/k7_preview.h"
+    },
+    {
+      "source": "project/app/k7host/k7_track.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_track.h",
+      "project_relative_path": "app/k7host/k7_track.h"
+    },
+    {
+      "source": "project/app/k7host/k7_video_frame.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_video_frame.h",
+      "project_relative_path": "app/k7host/k7_video_frame.h"
+    },
+    {
+      "source": "project/app/k7host/k7_video_queue.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_video_queue.h",
+      "project_relative_path": "app/k7host/k7_video_queue.h"
+    },
+    {
+      "source": "project/app/k7host/k7_yunet.h",
+      "sdk_relative_path": "apps/examples/k7host/k7_yunet.h",
+      "project_relative_path": "app/k7host/k7_yunet.h"
+    },
+    {
+      "source": "project/app/k7sound/assessment_multipart.h",
+      "sdk_relative_path": "apps/examples/k7sound/assessment_multipart.h",
+      "project_relative_path": "app/k7sound/assessment_multipart.h"
+    },
+    {
+      "source": "project/app/k7sound/cancel_continuation.h",
+      "sdk_relative_path": "apps/examples/k7sound/cancel_continuation.h",
+      "project_relative_path": "app/k7sound/cancel_continuation.h"
+    },
+    {
+      "source": "project/app/k7sound/capture_stream.h",
+      "sdk_relative_path": "apps/examples/k7sound/capture_stream.h",
+      "project_relative_path": "app/k7sound/capture_stream.h"
+    },
+    {
+      "source": "project/app/k7sound/cloud_speech_mimo_adapter.h",
+      "sdk_relative_path": "apps/examples/k7sound/cloud_speech_mimo_adapter.h",
+      "project_relative_path": "app/k7sound/cloud_speech_mimo_adapter.h"
+    },
+    {
+      "source": "project/app/k7sound/cloud_speech_orchestrator.h",
+      "sdk_relative_path": "apps/examples/k7sound/cloud_speech_orchestrator.h",
+      "project_relative_path": "app/k7sound/cloud_speech_orchestrator.h"
+    },
+    {
+      "source": "project/app/k7sound/cloud_speech_radio_bridge.h",
+      "sdk_relative_path": "apps/examples/k7sound/cloud_speech_radio_bridge.h",
+      "project_relative_path": "app/k7sound/cloud_speech_radio_bridge.h"
+    },
+    {
+      "source": "project/app/k7sound/cloud_speech_runtime_owner.h",
+      "sdk_relative_path": "apps/examples/k7sound/cloud_speech_runtime_owner.h",
+      "project_relative_path": "app/k7sound/cloud_speech_runtime_owner.h"
+    },
+    {
+      "source": "project/app/k7sound/codec_duplex.h",
+      "sdk_relative_path": "apps/examples/k7sound/codec_duplex.h",
+      "project_relative_path": "app/k7sound/codec_duplex.h"
+    },
+    {
+      "source": "project/app/k7sound/command_core.h",
+      "sdk_relative_path": "apps/examples/k7sound/command_core.h",
+      "project_relative_path": "app/k7sound/command_core.h"
+    },
+    {
+      "source": "project/app/k7sound/device_photo_prompts.h",
+      "sdk_relative_path": "apps/examples/k7sound/device_photo_prompts.h",
+      "project_relative_path": "app/k7sound/device_photo_prompts.h"
+    },
+    {
+      "source": "project/app/k7sound/device_voice_intent.h",
+      "sdk_relative_path": "apps/examples/k7sound/device_voice_intent.h",
+      "project_relative_path": "app/k7sound/device_voice_intent.h"
+    },
+    {
+      "source": "project/app/k7sound/diag_bridge.h",
+      "sdk_relative_path": "apps/examples/k7sound/diag_bridge.h",
+      "project_relative_path": "app/k7sound/diag_bridge.h"
+    },
+    {
+      "source": "project/app/k7sound/duplex.h",
+      "sdk_relative_path": "apps/examples/k7sound/duplex.h",
+      "project_relative_path": "app/k7sound/duplex.h"
+    },
+    {
+      "source": "project/app/k7sound/duplex_session.h",
+      "sdk_relative_path": "apps/examples/k7sound/duplex_session.h",
+      "project_relative_path": "app/k7sound/duplex_session.h"
+    },
+    {
+      "source": "project/app/k7sound/duplex_stream.h",
+      "sdk_relative_path": "apps/examples/k7sound/duplex_stream.h",
+      "project_relative_path": "app/k7sound/duplex_stream.h"
+    },
+    {
+      "source": "project/app/k7sound/echo_diag_runtime.c",
+      "sdk_relative_path": "apps/examples/k7sound/echo_diag_runtime.c",
+      "project_relative_path": "app/k7sound/echo_diag_runtime.c"
+    },
+    {
+      "source": "project/app/k7sound/echo_diag_runtime.h",
+      "sdk_relative_path": "apps/examples/k7sound/echo_diag_runtime.h",
+      "project_relative_path": "app/k7sound/echo_diag_runtime.h"
+    },
+    {
+      "source": "project/app/k7sound/echo_diag_worker.h",
+      "sdk_relative_path": "apps/examples/k7sound/echo_diag_worker.h",
+      "project_relative_path": "app/k7sound/echo_diag_worker.h"
+    },
+    {
+      "source": "project/app/k7sound/echo_observer.h",
+      "sdk_relative_path": "apps/examples/k7sound/echo_observer.h",
+      "project_relative_path": "app/k7sound/echo_observer.h"
+    },
+    {
+      "source": "project/app/k7sound/fifo_reference.h",
+      "sdk_relative_path": "apps/examples/k7sound/fifo_reference.h",
+      "project_relative_path": "app/k7sound/fifo_reference.h"
+    },
+    {
+      "source": "project/app/k7sound/headless_sequence.h",
+      "sdk_relative_path": "apps/examples/k7sound/headless_sequence.h",
+      "project_relative_path": "app/k7sound/headless_sequence.h"
+    },
+    {
+      "source": "project/app/k7sound/i2c3_timing.h",
+      "sdk_relative_path": "apps/examples/k7sound/i2c3_timing.h",
+      "project_relative_path": "app/k7sound/i2c3_timing.h"
+    },
+    {
+      "source": "project/app/k7sound/k7_aec.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7_aec.h",
+      "project_relative_path": "app/k7sound/k7_aec.h"
+    },
+    {
+      "source": "project/app/k7sound/k7_aec_frame_adapter.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7_aec_frame_adapter.h",
+      "project_relative_path": "app/k7sound/k7_aec_frame_adapter.h"
+    },
+    {
+      "source": "project/app/k7sound/k7_aec_speex10.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7_aec_speex10.h",
+      "project_relative_path": "app/k7sound/k7_aec_speex10.h"
+    },
+    {
+      "source": "project/app/k7sound/k7_apm21_nominal_identity.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7_apm21_nominal_identity.h",
+      "project_relative_path": "app/k7sound/k7_apm21_nominal_identity.h"
+    },
+    {
+      "source": "project/app/k7sound/k7_apm21_product_startup.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7_apm21_product_startup.h",
+      "project_relative_path": "app/k7sound/k7_apm21_product_startup.h"
+    },
+    {
+      "source": "project/app/k7sound/k7_echo_reply_identity.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7_echo_reply_identity.h",
+      "project_relative_path": "app/k7sound/k7_echo_reply_identity.h"
+    },
+    {
+      "source": "project/app/k7sound/k7_vad.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7_vad.h",
+      "project_relative_path": "app/k7sound/k7_vad.h"
+    },
+    {
+      "source": "project/app/k7sound/k7boot_aliyun_production.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7boot_aliyun_production.h",
+      "project_relative_path": "app/k7sound/k7boot_aliyun_production.h"
+    },
+    {
+      "source": "project/app/k7sound/k7boot_aliyun_production_authority.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7boot_aliyun_production_authority.h",
+      "project_relative_path": "app/k7sound/k7boot_aliyun_production_authority.h"
+    },
+    {
+      "source": "project/app/k7sound/k7boot_aliyun_root.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7boot_aliyun_root.h",
+      "project_relative_path": "app/k7sound/k7boot_aliyun_root.h"
+    },
+    {
+      "source": "project/app/k7sound/k7boot_aliyun_sequence.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7boot_aliyun_sequence.h",
+      "project_relative_path": "app/k7sound/k7boot_aliyun_sequence.h"
+    },
+    {
+      "source": "project/app/k7sound/k7boot_business.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7boot_business.h",
+      "project_relative_path": "app/k7sound/k7boot_business.h"
+    },
+    {
+      "source": "project/app/k7sound/k7boot_native.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7boot_native.h",
+      "project_relative_path": "app/k7sound/k7boot_native.h"
+    },
+    {
+      "source": "project/app/k7sound/k7sound_api.h",
+      "sdk_relative_path": "apps/examples/k7sound/k7sound_api.h",
+      "project_relative_path": "app/k7sound/k7sound_api.h"
+    },
+    {
+      "source": "project/app/k7sound/live.h",
+      "sdk_relative_path": "apps/examples/k7sound/live.h",
+      "project_relative_path": "app/k7sound/live.h"
+    },
+    {
+      "source": "project/app/k7sound/mimo_cloud_client.h",
+      "sdk_relative_path": "apps/examples/k7sound/mimo_cloud_client.h",
+      "project_relative_path": "app/k7sound/mimo_cloud_client.h"
+    },
+    {
+      "source": "project/app/k7sound/mimo_v25_profile.h",
+      "sdk_relative_path": "apps/examples/k7sound/mimo_v25_profile.h",
+      "project_relative_path": "app/k7sound/mimo_v25_profile.h"
+    },
+    {
+      "source": "project/app/k7sound/mmu_command.h",
+      "sdk_relative_path": "apps/examples/k7sound/mmu_command.h",
+      "project_relative_path": "app/k7sound/mmu_command.h"
+    },
+    {
+      "source": "project/app/k7sound/mmu_probe.h",
+      "sdk_relative_path": "apps/examples/k7sound/mmu_probe.h",
+      "project_relative_path": "app/k7sound/mmu_probe.h"
+    },
+    {
+      "source": "project/app/k7sound/native_boot_sequence.h",
+      "sdk_relative_path": "apps/examples/k7sound/native_boot_sequence.h",
+      "project_relative_path": "app/k7sound/native_boot_sequence.h"
+    },
+    {
+      "source": "project/app/k7sound/near_driver.h",
+      "sdk_relative_path": "apps/examples/k7sound/near_driver.h",
+      "project_relative_path": "app/k7sound/near_driver.h"
+    },
+    {
+      "source": "project/app/k7sound/near_evidence.h",
+      "sdk_relative_path": "apps/examples/k7sound/near_evidence.h",
+      "project_relative_path": "app/k7sound/near_evidence.h"
+    },
+    {
+      "source": "project/app/k7sound/observe.h",
+      "sdk_relative_path": "apps/examples/k7sound/observe.h",
+      "project_relative_path": "app/k7sound/observe.h"
+    },
+    {
+      "source": "project/app/k7sound/pcm_playback.h",
+      "sdk_relative_path": "apps/examples/k7sound/pcm_playback.h",
+      "project_relative_path": "app/k7sound/pcm_playback.h"
+    },
+    {
+      "source": "project/app/k7sound/pio.h",
+      "sdk_relative_path": "apps/examples/k7sound/pio.h",
+      "project_relative_path": "app/k7sound/pio.h"
+    },
+    {
+      "source": "project/app/k7sound/platform.h",
+      "sdk_relative_path": "apps/examples/k7sound/platform.h",
+      "project_relative_path": "app/k7sound/platform.h"
+    },
+    {
+      "source": "project/app/k7sound/playback_filter.h",
+      "sdk_relative_path": "apps/examples/k7sound/playback_filter.h",
+      "project_relative_path": "app/k7sound/playback_filter.h"
+    },
+    {
+      "source": "project/app/k7sound/raw_vad_observer.h",
+      "sdk_relative_path": "apps/examples/k7sound/raw_vad_observer.h",
+      "project_relative_path": "app/k7sound/raw_vad_observer.h"
+    },
+    {
+      "source": "project/app/k7sound/raw_vad_owner.h",
+      "sdk_relative_path": "apps/examples/k7sound/raw_vad_owner.h",
+      "project_relative_path": "app/k7sound/raw_vad_owner.h"
+    },
+    {
+      "source": "project/app/k7sound/reset_probe.h",
+      "sdk_relative_path": "apps/examples/k7sound/reset_probe.h",
+      "project_relative_path": "app/k7sound/reset_probe.h"
+    },
+    {
+      "source": "project/app/k7sound/session_ab_probe.h",
+      "sdk_relative_path": "apps/examples/k7sound/session_ab_probe.h",
+      "project_relative_path": "app/k7sound/session_ab_probe.h"
+    },
+    {
+      "source": "project/app/k7sound/session_capture.h",
+      "sdk_relative_path": "apps/examples/k7sound/session_capture.h",
+      "project_relative_path": "app/k7sound/session_capture.h"
+    },
+    {
+      "source": "project/app/k7sound/start_clear.h",
+      "sdk_relative_path": "apps/examples/k7sound/start_clear.h",
+      "project_relative_path": "app/k7sound/start_clear.h"
+    },
+    {
+      "source": "project/app/k7sound/stream_ring.h",
+      "sdk_relative_path": "apps/examples/k7sound/stream_ring.h",
+      "project_relative_path": "app/k7sound/stream_ring.h"
+    },
+    {
+      "source": "project/app/k7sound/tail_reference_archive.h",
+      "sdk_relative_path": "apps/examples/k7sound/tail_reference_archive.h",
+      "project_relative_path": "app/k7sound/tail_reference_archive.h"
+    },
+    {
+      "source": "project/app/k7sound/vad_probe.h",
+      "sdk_relative_path": "apps/examples/k7sound/vad_probe.h",
+      "project_relative_path": "app/k7sound/vad_probe.h"
+    },
+    {
+      "source": "project/app/k7sound/voice_frame_ring.h",
+      "sdk_relative_path": "apps/examples/k7sound/voice_frame_ring.h",
+      "project_relative_path": "app/k7sound/voice_frame_ring.h"
+    },
+    {
+      "source": "project/app/k7sound/voice_session.h",
+      "sdk_relative_path": "apps/examples/k7sound/voice_session.h",
+      "project_relative_path": "app/k7sound/voice_session.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_addressed_window.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_addressed_window.h",
+      "project_relative_path": "app/k7sound/vv_addressed_window.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_aliyun_chat.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_aliyun_chat.h",
+      "project_relative_path": "app/k7sound/vv_aliyun_chat.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_aliyun_client.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_aliyun_client.h",
+      "project_relative_path": "app/k7sound/vv_aliyun_client.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_aliyun_endpoint.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_aliyun_endpoint.h",
+      "project_relative_path": "app/k7sound/vv_aliyun_endpoint.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_aliyun_protocol.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_aliyun_protocol.h",
+      "project_relative_path": "app/k7sound/vv_aliyun_protocol.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_aliyun_provider.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_aliyun_provider.h",
+      "project_relative_path": "app/k7sound/vv_aliyun_provider.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_aliyun_tts_stream.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_aliyun_tts_stream.h",
+      "project_relative_path": "app/k7sound/vv_aliyun_tts_stream.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_asr_batch.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_asr_batch.h",
+      "project_relative_path": "app/k7sound/vv_asr_batch.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_asr_session.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_asr_session.h",
+      "project_relative_path": "app/k7sound/vv_asr_session.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_asr_stream.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_asr_stream.h",
+      "project_relative_path": "app/k7sound/vv_asr_stream.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_asr_tls.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_asr_tls.h",
+      "project_relative_path": "app/k7sound/vv_asr_tls.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_asr_wss.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_asr_wss.h",
+      "project_relative_path": "app/k7sound/vv_asr_wss.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_backend_client.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_backend_client.h",
+      "project_relative_path": "app/k7sound/vv_backend_client.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_backend_protocol.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_backend_protocol.h",
+      "project_relative_path": "app/k7sound/vv_backend_protocol.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_barge_input.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_barge_input.h",
+      "project_relative_path": "app/k7sound/vv_barge_input.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_barge_route.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_barge_route.h",
+      "project_relative_path": "app/k7sound/vv_barge_route.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_cancel_tail.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_cancel_tail.h",
+      "project_relative_path": "app/k7sound/vv_cancel_tail.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_chat_stream.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_chat_stream.h",
+      "project_relative_path": "app/k7sound/vv_chat_stream.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_cloud_entropy.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_cloud_entropy.h",
+      "project_relative_path": "app/k7sound/vv_cloud_entropy.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_cloud_platform_diag.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_cloud_platform_diag.h",
+      "project_relative_path": "app/k7sound/vv_cloud_platform_diag.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_cloud_tcp.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_cloud_tcp.h",
+      "project_relative_path": "app/k7sound/vv_cloud_tcp.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_cloud_trust.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_cloud_trust.h",
+      "project_relative_path": "app/k7sound/vv_cloud_trust.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_confirmed_wake.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_confirmed_wake.h",
+      "project_relative_path": "app/k7sound/vv_confirmed_wake.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_dialogue.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_dialogue.h",
+      "project_relative_path": "app/k7sound/vv_dialogue.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_dns_client.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_dns_client.h",
+      "project_relative_path": "app/k7sound/vv_dns_client.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_dns_nuttx.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_dns_nuttx.h",
+      "project_relative_path": "app/k7sound/vv_dns_nuttx.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_http_development.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_http_development.h",
+      "project_relative_path": "app/k7sound/vv_http_development.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_https_client.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_https_client.h",
+      "project_relative_path": "app/k7sound/vv_https_client.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_https_mbedtls.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_https_mbedtls.h",
+      "project_relative_path": "app/k7sound/vv_https_mbedtls.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_k7_platform_check.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_k7_platform_check.h",
+      "project_relative_path": "app/k7sound/vv_k7_platform_check.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_k7_platform_factory.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_k7_platform_factory.h",
+      "project_relative_path": "app/k7sound/vv_k7_platform_factory.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_k7_trng_development.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_k7_trng_development.h",
+      "project_relative_path": "app/k7sound/vv_k7_trng_development.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_local_report.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_local_report.h",
+      "project_relative_path": "app/k7sound/vv_local_report.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_local_time.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_local_time.h",
+      "project_relative_path": "app/k7sound/vv_local_time.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_native_assessment.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_native_assessment.h",
+      "project_relative_path": "app/k7sound/vv_native_assessment.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_native_audio.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_native_audio.h",
+      "project_relative_path": "app/k7sound/vv_native_audio.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_native_batch_audio.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_native_batch_audio.h",
+      "project_relative_path": "app/k7sound/vv_native_batch_audio.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_native_client.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_native_client.h",
+      "project_relative_path": "app/k7sound/vv_native_client.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_native_mode.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_native_mode.h",
+      "project_relative_path": "app/k7sound/vv_native_mode.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_native_platform.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_native_platform.h",
+      "project_relative_path": "app/k7sound/vv_native_platform.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_native_runtime.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_native_runtime.h",
+      "project_relative_path": "app/k7sound/vv_native_runtime.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_native_service.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_native_service.h",
+      "project_relative_path": "app/k7sound/vv_native_service.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_near_experiment.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_near_experiment.h",
+      "project_relative_path": "app/k7sound/vv_near_experiment.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_ogg_opus.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_ogg_opus.h",
+      "project_relative_path": "app/k7sound/vv_ogg_opus.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_opus_pcm.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_opus_pcm.h",
+      "project_relative_path": "app/k7sound/vv_opus_pcm.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_paraformer.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_paraformer.h",
+      "project_relative_path": "app/k7sound/vv_paraformer.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_paraformer_k7.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_paraformer_k7.h",
+      "project_relative_path": "app/k7sound/vv_paraformer_k7.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_photo_prompt_recovery.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_photo_prompt_recovery.h",
+      "project_relative_path": "app/k7sound/vv_photo_prompt_recovery.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_prompt_admission.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_prompt_admission.h",
+      "project_relative_path": "app/k7sound/vv_prompt_admission.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_prompt_cache.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_prompt_cache.h",
+      "project_relative_path": "app/k7sound/vv_prompt_cache.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_reply_json.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_reply_json.h",
+      "project_relative_path": "app/k7sound/vv_reply_json.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_reply_pipeline.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_reply_pipeline.h",
+      "project_relative_path": "app/k7sound/vv_reply_pipeline.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_reply_scope.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_reply_scope.h",
+      "project_relative_path": "app/k7sound/vv_reply_scope.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_report_audio.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_report_audio.h",
+      "project_relative_path": "app/k7sound/vv_report_audio.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_report_audio_k7.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_report_audio_k7.h",
+      "project_relative_path": "app/k7sound/vv_report_audio_k7.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_report_chunks.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_report_chunks.h",
+      "project_relative_path": "app/k7sound/vv_report_chunks.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_rk3576_trng.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_rk3576_trng.h",
+      "project_relative_path": "app/k7sound/vv_rk3576_trng.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_roughtime.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_roughtime.h",
+      "project_relative_path": "app/k7sound/vv_roughtime.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_roughtime_k7.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_roughtime_k7.h",
+      "project_relative_path": "app/k7sound/vv_roughtime_k7.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_rtc_i2c2.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_rtc_i2c2.h",
+      "project_relative_path": "app/k7sound/vv_rtc_i2c2.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_rtc_provision.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_rtc_provision.h",
+      "project_relative_path": "app/k7sound/vv_rtc_provision.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_rtc_provision_i2c2.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_rtc_provision_i2c2.h",
+      "project_relative_path": "app/k7sound/vv_rtc_provision_i2c2.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_rtc_reader.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_rtc_reader.h",
+      "project_relative_path": "app/k7sound/vv_rtc_reader.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_rtc_time.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_rtc_time.h",
+      "project_relative_path": "app/k7sound/vv_rtc_time.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_session_pcm.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_session_pcm.h",
+      "project_relative_path": "app/k7sound/vv_session_pcm.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_speech_only_callbacks.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_speech_only_callbacks.h",
+      "project_relative_path": "app/k7sound/vv_speech_only_callbacks.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_speech_owner.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_speech_owner.h",
+      "project_relative_path": "app/k7sound/vv_speech_owner.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_speech_provider.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_speech_provider.h",
+      "project_relative_path": "app/k7sound/vv_speech_provider.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_stream_speaker.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_stream_speaker.h",
+      "project_relative_path": "app/k7sound/vv_stream_speaker.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_trng_development_policy.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_trng_development_policy.h",
+      "project_relative_path": "app/k7sound/vv_trng_development_policy.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_trng_nuttx.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_trng_nuttx.h",
+      "project_relative_path": "app/k7sound/vv_trng_nuttx.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_tts_segments.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_tts_segments.h",
+      "project_relative_path": "app/k7sound/vv_tts_segments.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_tts_ws.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_tts_ws.h",
+      "project_relative_path": "app/k7sound/vv_tts_ws.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_voice_session.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_voice_session.h",
+      "project_relative_path": "app/k7sound/vv_voice_session.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_voice_settings.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_voice_settings.h",
+      "project_relative_path": "app/k7sound/vv_voice_settings.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_wake_ack.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_wake_ack.h",
+      "project_relative_path": "app/k7sound/vv_wake_ack.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_wake_input.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_wake_input.h",
+      "project_relative_path": "app/k7sound/vv_wake_input.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_wss_client.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_wss_client.h",
+      "project_relative_path": "app/k7sound/vv_wss_client.h"
+    },
+    {
+      "source": "project/app/k7sound/vv_wss_incremental.h",
+      "sdk_relative_path": "apps/examples/k7sound/vv_wss_incremental.h",
+      "project_relative_path": "app/k7sound/vv_wss_incremental.h"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_hcicore.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_hcicore.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_hcicore.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/vv_microcrystal_fast_connect.h",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/vv_microcrystal_fast_connect.h",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/vv_microcrystal_fast_connect.h"
+    },
+    {
+      "source": "project/app/k7boot/k7boot_main.c",
+      "sdk_relative_path": "apps/examples/k7boot/k7boot_main.c",
+      "project_relative_path": "app/k7boot/k7boot_main.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_speech_owner.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_speech_owner.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_speech_owner.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_dns_client.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_dns_client.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_dns_client.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_https_client.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_https_client.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_https_client.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_https_mbedtls.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_https_mbedtls.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_https_mbedtls.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_roughtime.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_roughtime.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_roughtime.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_roughtime_k7.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_roughtime_k7.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_roughtime_k7.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_http_development.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_http_development.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_http_development.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_paraformer_protocol.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_paraformer_protocol.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_paraformer_protocol.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_aliyun_tts_stream.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_aliyun_tts_stream.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_aliyun_tts_stream.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_prompt_cache.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_prompt_cache.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_prompt_cache.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_reply_json.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_reply_json.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_reply_json.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_ogg_opus.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_ogg_opus.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_ogg_opus.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_opus_pcm.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_opus_pcm.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_opus_pcm.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_wss_client.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_wss_client.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_wss_client.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_wss_incremental.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_wss_incremental.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_wss_incremental.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_asr_stream.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_asr_stream.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_asr_stream.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_asr_batch.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_asr_batch.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_asr_batch.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_aliyun_protocol.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_aliyun_protocol.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_aliyun_protocol.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_aliyun_client.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_aliyun_client.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_aliyun_client.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_asr_session.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_asr_session.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_asr_session.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_asr_wss.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_asr_wss.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_asr_wss.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_asr_tls.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_asr_tls.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_asr_tls.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_cloud_trust.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_cloud_trust.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_cloud_trust.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_cloud_tcp.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_cloud_tcp.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_cloud_tcp.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_cloud_tcp_posix.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_cloud_tcp_posix.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_cloud_tcp_posix.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_chat_stream.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_chat_stream.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_chat_stream.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/assessment_multipart.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/assessment_multipart.c",
+      "project_relative_path": "app/k7agent/cloud/src/assessment_multipart.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_cloud_entropy.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_cloud_entropy.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_cloud_entropy.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_rk3576_trng.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_rk3576_trng.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_rk3576_trng.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_rtc_time.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_rtc_time.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_rtc_time.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_rtc_reader.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_rtc_reader.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_rtc_reader.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_rtc_i2c2.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_rtc_i2c2.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_rtc_i2c2.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_rtc_i2c2_init.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_rtc_i2c2_init.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_rtc_i2c2_init.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_rtc_i2c2_nuttx.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_rtc_i2c2_nuttx.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_rtc_i2c2_nuttx.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_trng_nuttx.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_trng_nuttx.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_trng_nuttx.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_trng_development_policy.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_trng_development_policy.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_trng_development_policy.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_k7_trng_development.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_k7_trng_development.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_k7_trng_development.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_rtc_provision.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_rtc_provision.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_rtc_provision.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_rtc_provision_i2c2.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_rtc_provision_i2c2.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_rtc_provision_i2c2.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_audio.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_audio.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_audio.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_tts_segments.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_tts_segments.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_tts_segments.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_report_audio.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_report_audio.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_report_audio.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_assessment_backend.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_assessment_backend.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_assessment_backend.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_cloud_platform_diag.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_cloud_platform_diag.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_cloud_platform_diag.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_k7_platform_check.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_k7_platform_check.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_k7_platform_check.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_audio_k7.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_audio_k7.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_audio_k7.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_batch_audio.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_batch_audio.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_batch_audio.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_report_audio_k7.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_report_audio_k7.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_report_audio_k7.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_session_pcm.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_session_pcm.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_session_pcm.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_confirmed_wake.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_confirmed_wake.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_confirmed_wake.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_wake_input.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_wake_input.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_wake_input.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/mimo_cloud_client.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/mimo_cloud_client.c",
+      "project_relative_path": "app/k7agent/cloud/src/mimo_cloud_client.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/mimo_v25_profile.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/mimo_v25_profile.c",
+      "project_relative_path": "app/k7agent/cloud/src/mimo_v25_profile.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/cloud_speech_orchestrator.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/cloud_speech_orchestrator.c",
+      "project_relative_path": "app/k7agent/cloud/src/cloud_speech_orchestrator.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/capture_stream_probe.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/capture_stream_probe.c",
+      "project_relative_path": "app/k7agent/cloud/src/capture_stream_probe.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/board_speech_bridge.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/board_speech_bridge.c",
+      "project_relative_path": "app/k7agent/cloud/src/board_speech_bridge.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/device_photo_prompts.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/device_photo_prompts.c",
+      "project_relative_path": "app/k7agent/cloud/src/device_photo_prompts.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/cloud_speech_mimo_adapter.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/cloud_speech_mimo_adapter.c",
+      "project_relative_path": "app/k7agent/cloud/src/cloud_speech_mimo_adapter.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/cloud_speech_radio_bridge.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/cloud_speech_radio_bridge.c",
+      "project_relative_path": "app/k7agent/cloud/src/cloud_speech_radio_bridge.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/cloud_speech_k7radio_sync.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/cloud_speech_k7radio_sync.c",
+      "project_relative_path": "app/k7agent/cloud/src/cloud_speech_k7radio_sync.c"
+    },
+    {
+      "source": "project/app/k7host/k7_jpeg.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_jpeg.c",
+      "project_relative_path": "app/k7host/k7_jpeg.c"
+    },
+    {
+      "source": "project/app/k7host/k7_pose.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_pose.c",
+      "project_relative_path": "app/k7host/k7_pose.c"
+    },
+    {
+      "source": "project/app/k7host/fusion_core.c",
+      "sdk_relative_path": "apps/examples/k7host/fusion_core.c",
+      "project_relative_path": "app/k7host/fusion_core.c"
+    },
+    {
+      "source": "project/app/k7host/k7_preview.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_preview.c",
+      "project_relative_path": "app/k7host/k7_preview.c"
+    },
+    {
+      "source": "project/app/k7host/k7_preview_queue.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_preview_queue.c",
+      "project_relative_path": "app/k7host/k7_preview_queue.c"
+    },
+    {
+      "source": "project/app/k7host/k7_link_probe.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_link_probe.c",
+      "project_relative_path": "app/k7host/k7_link_probe.c"
+    },
+    {
+      "source": "project/app/k7host/dwc3_transport_core.c",
+      "sdk_relative_path": "apps/examples/k7host/dwc3_transport_core.c",
+      "project_relative_path": "app/k7host/dwc3_transport_core.c"
+    },
+    {
+      "source": "project/app/k7host/k7_video_frame.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_video_frame.c",
+      "project_relative_path": "app/k7host/k7_video_frame.c"
+    },
+    {
+      "source": "project/app/k7host/k7_video_queue.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_video_queue.c",
+      "project_relative_path": "app/k7host/k7_video_queue.c"
+    },
+    {
+      "source": "project/app/k7sound/stream_ring.c",
+      "sdk_relative_path": "apps/examples/k7sound/stream_ring.c",
+      "project_relative_path": "app/k7sound/stream_ring.c"
+    },
+    {
+      "source": "project/app/k7sound/voice_frame_ring.c",
+      "sdk_relative_path": "apps/examples/k7sound/voice_frame_ring.c",
+      "project_relative_path": "app/k7sound/voice_frame_ring.c"
+    },
+    {
+      "source": "project/app/k7sound/playback_filter.c",
+      "sdk_relative_path": "apps/examples/k7sound/playback_filter.c",
+      "project_relative_path": "app/k7sound/playback_filter.c"
+    },
+    {
+      "source": "project/app/k7sound/duplex.c",
+      "sdk_relative_path": "apps/examples/k7sound/duplex.c",
+      "project_relative_path": "app/k7sound/duplex.c"
+    },
+    {
+      "source": "project/app/k7sound/mmu_command.c",
+      "sdk_relative_path": "apps/examples/k7sound/mmu_command.c",
+      "project_relative_path": "app/k7sound/mmu_command.c"
+    },
+    {
+      "source": "project/app/k7sound/command_core.c",
+      "sdk_relative_path": "apps/examples/k7sound/command_core.c",
+      "project_relative_path": "app/k7sound/command_core.c"
+    },
+    {
+      "source": "project/app/k7sound/mmu_probe.c",
+      "sdk_relative_path": "apps/examples/k7sound/mmu_probe.c",
+      "project_relative_path": "app/k7sound/mmu_probe.c"
+    },
+    {
+      "source": "project/app/k7sound/snapshot_arm64.c",
+      "sdk_relative_path": "apps/examples/k7sound/snapshot_arm64.c",
+      "project_relative_path": "app/k7sound/snapshot_arm64.c"
+    },
+    {
+      "source": "project/app/k7sound/live.c",
+      "sdk_relative_path": "apps/examples/k7sound/live.c",
+      "project_relative_path": "app/k7sound/live.c"
+    },
+    {
+      "source": "project/app/k7sound/i2c3_timing.c",
+      "sdk_relative_path": "apps/examples/k7sound/i2c3_timing.c",
+      "project_relative_path": "app/k7sound/i2c3_timing.c"
+    },
+    {
+      "source": "project/app/k7sound/codec_duplex.c",
+      "sdk_relative_path": "apps/examples/k7sound/codec_duplex.c",
+      "project_relative_path": "app/k7sound/codec_duplex.c"
+    },
+    {
+      "source": "project/app/k7sound/pio.c",
+      "sdk_relative_path": "apps/examples/k7sound/pio.c",
+      "project_relative_path": "app/k7sound/pio.c"
+    },
+    {
+      "source": "project/app/k7sound/platform.c",
+      "sdk_relative_path": "apps/examples/k7sound/platform.c",
+      "project_relative_path": "app/k7sound/platform.c"
+    },
+    {
+      "source": "project/app/k7sound/observe.c",
+      "sdk_relative_path": "apps/examples/k7sound/observe.c",
+      "project_relative_path": "app/k7sound/observe.c"
+    },
+    {
+      "source": "project/app/k7sound/reset_probe.c",
+      "sdk_relative_path": "apps/examples/k7sound/reset_probe.c",
+      "project_relative_path": "app/k7sound/reset_probe.c"
+    },
+    {
+      "source": "project/app/k7sound/start_clear.c",
+      "sdk_relative_path": "apps/examples/k7sound/start_clear.c",
+      "project_relative_path": "app/k7sound/start_clear.c"
+    },
+    {
+      "source": "project/app/k7sound/rx2_ready.c",
+      "sdk_relative_path": "apps/examples/k7sound/rx2_ready.c",
+      "project_relative_path": "app/k7sound/rx2_ready.c"
+    },
+    {
+      "source": "project/app/k7sound/duplex_stream.c",
+      "sdk_relative_path": "apps/examples/k7sound/duplex_stream.c",
+      "project_relative_path": "app/k7sound/duplex_stream.c"
+    },
+    {
+      "source": "project/app/k7sound/fifo_reference.c",
+      "sdk_relative_path": "apps/examples/k7sound/fifo_reference.c",
+      "project_relative_path": "app/k7sound/fifo_reference.c"
+    },
+    {
+      "source": "project/app/k7sound/session_ab_probe.c",
+      "sdk_relative_path": "apps/examples/k7sound/session_ab_probe.c",
+      "project_relative_path": "app/k7sound/session_ab_probe.c"
+    },
+    {
+      "source": "project/app/k7sound/session_capture.c",
+      "sdk_relative_path": "apps/examples/k7sound/session_capture.c",
+      "project_relative_path": "app/k7sound/session_capture.c"
+    },
+    {
+      "source": "project/app/k7sound/echo_diag_worker.c",
+      "sdk_relative_path": "apps/examples/k7sound/echo_diag_worker.c",
+      "project_relative_path": "app/k7sound/echo_diag_worker.c"
+    },
+    {
+      "source": "project/app/k7sound/raw_vad_observer.c",
+      "sdk_relative_path": "apps/examples/k7sound/raw_vad_observer.c",
+      "project_relative_path": "app/k7sound/raw_vad_observer.c"
+    },
+    {
+      "source": "project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/mdf.c",
+      "sdk_relative_path": "apps/examples/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/mdf.c",
+      "project_relative_path": "app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/mdf.c"
+    },
+    {
+      "source": "project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/fftwrap.c",
+      "sdk_relative_path": "apps/examples/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/fftwrap.c",
+      "project_relative_path": "app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/fftwrap.c"
+    },
+    {
+      "source": "project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fft.c",
+      "sdk_relative_path": "apps/examples/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fft.c",
+      "project_relative_path": "app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fft.c"
+    },
+    {
+      "source": "project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fftr.c",
+      "sdk_relative_path": "apps/examples/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fftr.c",
+      "project_relative_path": "app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fftr.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_buf.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_buf.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_buf.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_netdev.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_netdev.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_netdev.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_queue.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_queue.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_queue.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_att.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_att.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_att.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_conn.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_conn.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_conn.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_gatt.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_gatt.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_gatt.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_ioctl.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_ioctl.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_ioctl.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_keys.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_keys.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_keys.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_l2cap.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_l2cap.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_l2cap.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_smp.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_smp.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_smp.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_uuid.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_uuid.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_uuid.c"
+    },
+    {
+      "source": "project/port/nuttx/wireless/bluetooth/bt_services.c",
+      "sdk_relative_path": "nuttx/wireless/bluetooth/bt_services.c",
+      "project_relative_path": "port/nuttx/wireless/bluetooth/bt_services.c"
+    },
+    {
+      "source": "project/retained-unmapped/dummy.c",
+      "sdk_relative_path": null,
+      "project_relative_path": "retained-unmapped/dummy.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_paraformer.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_paraformer.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_paraformer.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_aliyun_chat.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_aliyun_chat.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_aliyun_chat.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_barge_route.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_barge_route.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_barge_route.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/after-device_voice_intent.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/after-device_voice_intent.c",
+      "project_relative_path": "app/k7agent/cloud/src/after-device_voice_intent.c"
+    },
+    {
+      "source": "project/app/k7boot/k7boot_aliyun_production_authority.c",
+      "sdk_relative_path": "apps/examples/k7boot/k7boot_aliyun_production_authority.c",
+      "project_relative_path": "app/k7boot/k7boot_aliyun_production_authority.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/k7cloud_main.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/k7cloud_main.c",
+      "project_relative_path": "app/k7agent/cloud/src/k7cloud_main.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_dns_nuttx.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_dns_nuttx.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_dns_nuttx.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_stream_speaker.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_stream_speaker.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_stream_speaker.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_tts_ws.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_tts_ws.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_tts_ws.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_backend_protocol.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_backend_protocol.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_backend_protocol.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_native_mode.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_mode.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_mode.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_dialogue.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_dialogue.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_dialogue.c"
+    },
+    {
+      "source": "project/app/k7agent/cloud/src/vv_voice_session.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_voice_session.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_voice_session.c"
+    },
+    {
+      "source": "project/app/k7host/k7_track.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_track.c",
+      "project_relative_path": "app/k7host/k7_track.c"
+    },
+    {
+      "source": "project/app/k7sound/k7sound_main.c",
+      "sdk_relative_path": "apps/examples/k7sound/k7sound_main.c",
+      "project_relative_path": "app/k7sound/k7sound_main.c"
+    },
+    {
+      "source": "project/app/k7sound/vad_probe.c",
+      "sdk_relative_path": "apps/examples/k7sound/vad_probe.c",
+      "project_relative_path": "app/k7sound/vad_probe.c"
+    },
+    {
+      "source": "project/app/k7sound/voice_session.c",
+      "sdk_relative_path": "apps/examples/k7sound/voice_session.c",
+      "project_relative_path": "app/k7sound/voice_session.c"
+    },
+    {
+      "source": "project/app/k7sound/duplex_session.c",
+      "sdk_relative_path": "apps/examples/k7sound/duplex_session.c",
+      "project_relative_path": "app/k7sound/duplex_session.c"
+    },
+    {
+      "source": "project/app/k7sound/session_ab_command.c",
+      "sdk_relative_path": "apps/examples/k7sound/session_ab_command.c",
+      "project_relative_path": "app/k7sound/session_ab_command.c"
+    },
+    {
+      "source": "project/app/k7sound/raw_vad_owner.c",
+      "sdk_relative_path": "apps/examples/k7sound/raw_vad_owner.c",
+      "project_relative_path": "app/k7sound/raw_vad_owner.c"
+    },
+    {
+      "source": "project/port/aec/src/k7_aec.c",
+      "sdk_relative_path": null,
+      "project_relative_path": "port/aec/src/k7_aec.c"
+    },
+    {
+      "source": "project/app/k7sound/diag_bridge.c",
+      "sdk_relative_path": "apps/examples/k7sound/diag_bridge.c",
+      "project_relative_path": "app/k7sound/diag_bridge.c"
+    },
+    {
+      "source": "project/port/aec/src/k7_echo_reply_identity.c",
+      "sdk_relative_path": null,
+      "project_relative_path": "port/aec/src/k7_echo_reply_identity.c"
+    },
+    {
+      "source": "project/app/k7sound/cancel_continuation.c",
+      "sdk_relative_path": "apps/examples/k7sound/cancel_continuation.c",
+      "project_relative_path": "app/k7sound/cancel_continuation.c"
+    },
+    {
+      "source": "project/app/k7sound/echo_observer.c",
+      "sdk_relative_path": "apps/examples/k7sound/echo_observer.c",
+      "project_relative_path": "app/k7sound/echo_observer.c"
+    },
+    {
+      "source": "project/app/k7sound/near_evidence.c",
+      "sdk_relative_path": "apps/examples/k7sound/near_evidence.c",
+      "project_relative_path": "app/k7sound/near_evidence.c"
+    },
+    {
+      "source": "project/app/k7sound/tail_reference_archive.c",
+      "sdk_relative_path": "apps/examples/k7sound/tail_reference_archive.c",
+      "project_relative_path": "app/k7sound/tail_reference_archive.c"
+    },
+    {
+      "source": "project/app/k7sound/k7_aec_speex10.c",
+      "sdk_relative_path": "apps/examples/k7sound/k7_aec_speex10.c",
+      "project_relative_path": "app/k7sound/k7_aec_speex10.c"
+    },
+    {
+      "source": "project/app/k7sound/k7_aec_frame_adapter.c",
+      "sdk_relative_path": "apps/examples/k7sound/k7_aec_frame_adapter.c",
+      "project_relative_path": "app/k7sound/k7_aec_frame_adapter.c"
+    },
+    {
+      "source": "project/app/k7sound/mdf.c",
+      "sdk_relative_path": "apps/examples/k7sound/mdf.c",
+      "project_relative_path": "app/k7sound/mdf.c"
+    },
+    {
+      "source": "project/app/k7sound/fftwrap.c",
+      "sdk_relative_path": "apps/examples/k7sound/fftwrap.c",
+      "project_relative_path": "app/k7sound/fftwrap.c"
+    },
+    {
+      "source": "project/app/k7sound/kiss_fft.c",
+      "sdk_relative_path": "apps/examples/k7sound/kiss_fft.c",
+      "project_relative_path": "app/k7sound/kiss_fft.c"
+    },
+    {
+      "source": "project/app/k7sound/kiss_fftr.c",
+      "sdk_relative_path": "apps/examples/k7sound/kiss_fftr.c",
+      "project_relative_path": "app/k7sound/kiss_fftr.c"
+    },
+    {
+      "source": "project/app/k7sound/preprocess.c",
+      "sdk_relative_path": "apps/examples/k7sound/preprocess.c",
+      "project_relative_path": "app/k7sound/preprocess.c"
+    },
+    {
+      "source": "project/app/k7sound/filterbank.c",
+      "sdk_relative_path": "apps/examples/k7sound/filterbank.c",
+      "project_relative_path": "app/k7sound/filterbank.c"
+    },
+    {
+      "source": "unverified-snapshots/parent-boot.a/native_boot_sequence.c.o/native_boot_sequence.c",
+      "sdk_relative_path": "apps/examples/k7boot/native_boot_sequence.c",
+      "project_relative_path": "app/k7boot/native_boot_sequence.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-boot.a/k7boot_native_preview.c.o/k7boot_native_preview.c",
+      "sdk_relative_path": "apps/examples/k7boot/k7boot_native_preview.c",
+      "project_relative_path": "app/k7boot/k7boot_native_preview.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-boot.a/k7boot_native.c.o/k7boot_native.c",
+      "sdk_relative_path": "apps/examples/k7boot/k7boot_native.c",
+      "project_relative_path": "app/k7boot/k7boot_native.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-boot.a/k7boot_business.c.o/k7boot_business.c",
+      "sdk_relative_path": "apps/examples/k7boot/k7boot_business.c",
+      "project_relative_path": "app/k7boot/k7boot_business.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-cloud.a/vv_reply_scope.c.o/vv_reply_scope.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_reply_scope.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_reply_scope.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-cloud.a/vv_paraformer_k7.c.o/vv_paraformer_k7.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_paraformer_k7.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_paraformer_k7.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-cloud.a/vv_reply_pipeline.c.o/vv_reply_pipeline.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_reply_pipeline.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_reply_pipeline.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-cloud.a/vv_k7_platform_factory.c.o/vv_k7_platform_factory.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_k7_platform_factory.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_k7_platform_factory.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-cloud.a/vv_native_mode_k7.c.o/vv_native_mode_k7.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_native_mode_k7.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_native_mode_k7.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-cloud.a/vv_speech_only_callbacks.c.o/vv_speech_only_callbacks.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_speech_only_callbacks.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_speech_only_callbacks.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-cloud.a/vv_barge_input.c.o/vv_barge_input.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_barge_input.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_barge_input.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-cloud.a/vv_cancel_tail.c.o/vv_cancel_tail.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/vv_cancel_tail.c",
+      "project_relative_path": "app/k7agent/cloud/src/vv_cancel_tail.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-cloud.a/near_driver.c.o/near_driver.c",
+      "sdk_relative_path": "apps/examples/k7agent/cloud/src/near_driver.c",
+      "project_relative_path": "app/k7agent/cloud/src/near_driver.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-host.a/k7host_main.c.o/k7host_main.c",
+      "sdk_relative_path": "apps/examples/k7host/k7host_main.c",
+      "project_relative_path": "app/k7host/k7host_main.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-host.a/k7_pipeline.c.o/k7_pipeline.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_pipeline.c",
+      "project_relative_path": "app/k7host/k7_pipeline.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    },
+    {
+      "source": "unverified-snapshots/parent-host.a/k7_yunet.c.o/k7_yunet.c",
+      "sdk_relative_path": "apps/examples/k7host/k7_yunet.c",
+      "project_relative_path": "app/k7host/k7_yunet.c",
+      "mapping_scope": "component counterpart; preserve exact original per-TU flags/header domain"
+    }
+  ],
+  "unmapped_requires_explicit_build_rule": true
+}

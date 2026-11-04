@@ -55,6 +55,10 @@ def collect(payload):
     if payload.get('hook_event_name') != 'Stop' or not in_scope(payload.get('cwd', '/')):
         return {'status': 'skipped', 'reason': 'event or workspace outside scope'}
     sid = payload.get('session_id', '')
+    if sid in {'01a07ed4-3f0d-7450-8bb1-bb756849cb4e', '01a13989-4404-7142-9ecc-15546ceddbc3', '01a15df2-df64-7f93-9eaa-8d577c09db8d', '01a176ee-ed35-7143-a002-ee0b40c08ca8', '01a18695-8083-70a0-bfb7-3d02bcd1fc2e', '01a19a88-1ab7-7c10-a3db-a3450cbf218e', '01a19c94-f9d4-75a0-a1aa-88e2c18c2bf4'}:
+        # The finals monitor owns these streams and freezes pre-finals files.
+        # A full-session Stop export would violate the user's retained history.
+        return {'status': 'skipped', 'reason': 'managed by scoped finals file monitor'}
     if not re.fullmatch(r'[0-9a-fA-F-]{36}', sid):
         raise ValueError('Invalid session ID')
     home = Path(os.environ.get('CODEX_HOME', str(Path.home()/'.codex'))).resolve()

@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "independent_review": true,
+  "frozen_manifest": {
+    "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\manifest.json",
+    "sha256": "cb88150e4a7465832a05fbc998c548193ad9dca16f4a764fba310da8f5259a2d"
+  },
+  "source_manifest_sha256": "cb88150e4a7465832a05fbc998c548193ad9dca16f4a764fba310da8f5259a2d",
+  "scope": "Final merged joint source wiring and existing host evidence; no repeated host model, startup or policy suite",
+  "native_target_compile_allowed": true,
+  "reviewed": [
+    "Actual runtime product callback is exact whole-function projection, explicit product permission only; original observer -> ne/nd -> original route -> cancellation and PF source",
+    "Full OLD identity/context retained; original nd tail provider verifies raw identity but forwards stored residual to PF",
+    "FIFO completion cut matches immutable original TRA and genuine unsubmitted prefix; no queued-only samples accepted as consumed",
+    "TX_DISABLED uses last accepted RX count and XFER readback after successful AMP_OFF; final digital QUIET and SOURCE_END remain independently mandatory",
+    "D128 real32 and pending160 survive until real successor MIC; first WARMUP updates acceptance; attempted ingestion is recorded before API and any failed/partial call poisons continuation",
+    "Startup one-shot claim is waited before model prepare, native registration precedes client/echo enable, cleanup unregisters before joined claim release",
+    "14 of 15 current TU source hashes match final host receipts; all 30 retained undefined/zero preprocessor output pairs compare equal. Complete current runtime source has post-host drift, manually reviewed here but requires exact target compile"
+  ],
+  "boundaries": [
+    "This candidate supports one interruption of the first reply in one armed voice session. multiround_reset does not reset joint state and the prepared live worker does not admit a second origin; continuous next-reply dialogue remains outstanding and is not accepted by this review",
+    "Post-stop zeros are explicit TX_DISABLED accepted-RX FIFO mapping hypothesis, never measured acoustic silence or ADC/DAC alignment",
+    "Host MMIO, APM output/model probability, PF backend/network and join are fixtures; no ARM compile, link, full worker scheduling or live speech success claimed",
+    "Native compile approval is source-review scope only; target build/link/package and limited real-device interruption remain outstanding"
+  ],
+  "blocking_findings": [],
+  "post_host_test_source_drift": {
+    "overlay\\app\\k7sound\\echo_diag_runtime.c": {
+      "tested_sha256": "10588368d413992823d447237ae30959a3ff37d3ff5d6e2760ab52fad5fe68d3",
+      "current_sha256": "d1522e91a64cdfd29ccb846c620634b04cca897a2dda875d16afa1214314f93b"
+    }
+  },
+  "host_positive_snapshot_negative_cases": {
+    "O0": 46,
+    "O2": 47,
+    "difference": "O0 actual cut prefix is zero; O2 has 16 samples so also checks prefix corruption"
+  },
+  "previous_scoped_reviews": [
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-product-startup-peer-r1\\review.json",
+      "sha256": "2f7f1f269307f70cb074f2f34e8e41800ed5f24e29ce7b8c5aaa088ace1e9cdf"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\joint-host-tests-r2\\result.json",
+      "sha256": "1daa2e28a778297ef224fa75c1ce7cf27f83fd2040998ea49142ee02a11cf049"
+    },
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\joint-sources-tests-r11\\result.json",
+      "sha256": "1b134ee9e42a2c205fe86cb6fbc682d59c464cc81611df3a6625983187ee45f5"
+    },
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\joint-sources-tests-r11\\product-packet-projection.inc",
+      "sha256": "11d2d92173c951f8e692763d3e5af585dcfe965b8055079ffd8ff5e382889c16"
+    },
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\mapping-hypothesis.json",
+      "sha256": "8ab20630442f44f9f2a6e3bf1441fcefc8b9ffe6bac484afae7693f8090866bf"
+    },
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\startup-merge-receipt.json",
+      "sha256": "0a7a17bcb71751fa7f2f17c525282b7ff05e0ab85c92f61ed1922af6e1ffe3a7"
+    },
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\joint-sources-tests-r11\\O0-joint-route-run.stdout",
+      "sha256": "6dd72890a35c23f01b019ae53988cda86dee23bb13238fe45504b00c381fc7eb"
+    },
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\joint-sources-tests-r11\\O0-joint-progress-run.stdout",
+      "sha256": "84e9a406341c7efd2a2dd23dfe5ee64aeea2fe6e0ad9318725a0ecabccc11b36"
+    },
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\joint-sources-tests-r11\\O2-joint-route-run.stdout",
+      "sha256": "aeab0ca9ad9f3752332574a7a794afe63d07faba5c6134234eb9e65c1cf7c676"
+    },
+    {
+      "path": "E:\\openvela\\worktrees\\xiaozhi-voice-20261019\\private\\aliyun-candidates\\speech19-development\\apm21-joint-continuation-wip-r1\\joint-sources-tests-r11\\O2-joint-progress-run.stdout",
+      "sha256": "84e9a406341c7efd2a2dd23dfe5ee64aeea2fe6e0ad9318725a0ecabccc11b36"
+    }
+  ],
+  "independent_checks": "Pure local source/hash/projection/output reconciliation plus manual source review; no suite rerun",
+  "hardware_accessed": false,
+  "SSH_accessed": false
+}

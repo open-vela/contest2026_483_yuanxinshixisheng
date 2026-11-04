@@ -1,0 +1,9 @@
+/* Interface example only: no target address or output-capable default. */
+#error "Inject an operator-verified target profile in a private build workspace"
+/* MICRO_TARGET_ADDRESS must be a bt_addr_le_t initializer:
+ * { .type = <verified LE address type>, .val = { <six bytes in stack order> } }
+ * The six bytes and their ordering must come from the operator-verified target.
+ */
+#define MICRO_TARGET_ADDRESS OPERATOR_MUST_SUPPLY_VERIFIED_ADDRESS
+#define MICRO_TARGET_VALUE_HANDLE OPERATOR_MUST_SUPPLY_VERIFIED_GATT_VALUE_HANDLE
+#define MICRO_TARGET_OPERATOR_VERIFIED OPERATOR_MUST_CONFIRM_PROFILE

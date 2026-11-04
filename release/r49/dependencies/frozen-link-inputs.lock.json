@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "inputs": [
+    {
+      "name": "arm64_head.S.o",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/CMakeFiles/nuttx.dir/arch/arm64/src/common/arm64_head.S.o",
+      "sha256": "9ced48c9a9f6bb35a30e5e590898f712a1b08d180c645e0a1fdbac0974e1ab6c",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "empty.cxx.o",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/CMakeFiles/nuttx.dir/empty.cxx.o",
+      "sha256": "583b56fd48f3c7962eee48a655cab96320a862c9cf0a20d0d6c32f13785eb1e8",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "empty.c.o",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/CMakeFiles/nuttx.dir/empty.c.o",
+      "sha256": "6100bbc945af77f6b0437909016b732d6eb2eb68ef535fed58245f27390f16ff",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "k7_apm21_consumer.o",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/3-k7_apm21_consumer.o",
+      "sha256": "d9d5d351f377e0ca26d2cdc63c246b541c5a0641a4ca134a4827dfca76626156",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_nsh.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/system/nsh/libapps_nsh.a",
+      "sha256": "1d53add9f7a8eb784e275ecc973b97a11655a119d70cb5d798f8c1a1c530b5fe",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_sh.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/system/nsh/libapps_sh.a",
+      "sha256": "3825567c4cdea83ba071a9b7d0c6b0263a59e91dd7d1af93cc04299428d44e13",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_ping.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/system/ping/libapps_ping.a",
+      "sha256": "45e6a744dd9b10173ed1430d64e3235f3b34ab740173b5f375d1ecd09ce86053",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_bt.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/wireless/bluetooth/btsak/libapps_bt.a",
+      "sha256": "d73816915b44e56d8e5976c66419912bf1fbf76f4ca5c1096c5060d7f2ae6742",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_gimbal.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/gimbal/libapps_gimbal.a",
+      "sha256": "b4289ce2b382caee45be55e3754a3aa5bd49bde82b68f401d1c56577bbdbbabe",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_hello.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/hello/libapps_hello.a",
+      "sha256": "0973ae6803260481493e75d8c7d08b10f488c74d2089bf6f9933d07f7968d184",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7cloud.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/10-libapps_k7cloud.a",
+      "sha256": "fad07fb105ccab7d20ee99275af390abeb9250be0c48e3b4f557d798a3f0056b",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7arena.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7arena/libapps_k7arena.a",
+      "sha256": "00d42a0f179dd63dd441816f46259348d41fbb721b97cd7509fea73b4d3622a8",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7audio.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7audio/libapps_k7audio.a",
+      "sha256": "0a933655b685dfc0db0b8a6ac196fe19c0f632e99ecfe67e14b2ef9291a6907a",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7boot.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/13-libapps_k7boot.a",
+      "sha256": "bbe31dfba0ec6a8dabe36ef84eeb192151949be2787378f15b11516ecbcf3144",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7cxx.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7cxx/libapps_k7cxx.a",
+      "sha256": "9da9327dfeccdc1aa1f1b92091d41c518d23eace9d468bebf2f848dcc0308faa",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7display.a",
+      "resolver": "{SDK_ROOT}/private/19x2-voice-continuity-private-link-r2/libapps_k7display.a",
+      "sha256": "2ef0d5a5d159526fcdcdcdabd2c5d55c3d08f804f51810e7e5fbdf3a1ae327a0",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7eh.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7eh/libapps_k7eh.a",
+      "sha256": "4828574c3cd8a9446318e3c0200276d985e5eb8cc7ee9fe8bafb3f3663837458",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7emmc.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7emmc/libapps_k7emmc.a",
+      "sha256": "f44c10b5ed439fce1ad8430d5c8dbfb334a1398a87f5727ab7667aa66ba58a04",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7graph.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7graph/libapps_k7graph.a",
+      "sha256": "da002f6f0609eafaab32e4063205648a38a146900f5d93055f7bf2c7e89c2083",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7host.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/19-libapps_k7host.a",
+      "sha256": "a8d9bd6a6180bc222876e4feaedfb28c490c246af4801e6a761a8077f31022e5",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7load.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7load/libapps_k7load.a",
+      "sha256": "ff9790b317fee76f3f326bc78b7510b55cdaefaf4ed2af198a6589ec462af48a",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7mem.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7mem/libapps_k7mem.a",
+      "sha256": "b0669643699d9f7602bf904435be0593322c6a3a195a1594bf80bef414e0fdcb",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7neon.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7neon/libapps_k7neon.a",
+      "sha256": "825364360abc428af8f3f0124a9d8fbf55ec0aa765888ca6591154b90985d875",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7npu.a",
+      "resolver": "{SDK_ROOT}/private/19x2-voice-continuity-private-link-r2/libapps_k7npu.a",
+      "sha256": "92bfba2219c0ad6881f50fcc63c5e7ae8118d957550ec17db6c455ccffed2a0a",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7smp.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7smp/libapps_k7smp.a",
+      "sha256": "06486d364854346b97ae9bca6ff047a3bf73acc37a67259a5831798216ead99e",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7sound.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/25-libapps_k7sound.a",
+      "sha256": "c66fcd229994c1cea400d0f7fc11bad1586b5c9e8be81b10aae7fb8de6145591",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7storage.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7storage/libapps_k7storage.a",
+      "sha256": "0fb6d6ef9964c0a8c32f8ced65d6e45513f7f64801010cc543e58e2e918f5910",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7usb.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/k7usb/libapps_k7usb.a",
+      "sha256": "85815491845d5bfca04addc3ca6d2a1cf095fa0a227201c257633b2e18241119",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7voice.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/voicelink/libapps_k7voice.a",
+      "sha256": "b2e304fd9ecb8ce8fcd01256c8771536b9fc27e2e23f91b341d3c3ebb747e6e8",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7kws.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/examples/voicelink/libapps_k7kws.a",
+      "sha256": "52ebadce5fb28aba61ed6a5d38a56b97885e849cf3c7321db0f44f82659a0554",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/libapps.a",
+      "sha256": "665cd8a5c68239d30e558bc31cd7693e40bb2f3a7a8b33e1f4c24e09dd45cffc",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "liblibsodium.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/crypto/libsodium/liblibsodium.a",
+      "sha256": "40bbbeadc35a01d0cefa07acd03f03583d8cc3aa4d1370da90ab893a6ec75e12",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libandroid.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/external/android/libandroid.a",
+      "sha256": "5da0d197cd5d52a4674a4504dc0301501ea51db38664399fa47c771c1c65614c",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libturbojpeg-static.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/external/libjpeg-turbo/libturbojpeg-static.a",
+      "sha256": "86e6c9bbf94f98fee94454851e1f6b7bd5d8e2f42f9fbd59c2aa9f158d694803",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "liblibopus.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/external/opus/liblibopus.a",
+      "sha256": "2405ac4cb97eeef3dd4982f71cb852a7b96306ce7dd2e4edcb1226f63a011cb2",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_builtin.a",
+      "resolver": "{SDK_ROOT}/private/19x2-voice-continuity-private-link-r2/libapps_builtin.a",
+      "sha256": "d68b75d2a0a8b3c39cd3fcf27773070f7921f632edd4ab60b37ecd90b6a32eee",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "liblibcxx.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/libs/libxx/libcxx/liblibcxx.a",
+      "sha256": "a8ddb08040d5c1cf7bfc331f3b584728ae6bf3e34cb3131ac6bbca6fda98873c",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "liblibcxxabi.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/libs/libxx/libcxxabi/liblibcxxabi.a",
+      "sha256": "86df2c6c9eb42ae29b40b0ad34feaed6fd5b58050f768fed76bccce6b9852aaa",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libarch.a",
+      "resolver": "{SDK_ROOT}/private/19x2-voice-continuity-private-link-r2/libarch.a",
+      "sha256": "44b69930c2438d81a7c756471c47409b2a83d64dbec4da72dd196f9470d3c7da",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libbinfmt.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/binfmt/libbinfmt.a",
+      "sha256": "09ac166e6f8ad514970e429deab74274f09c4b052e8b0df44bec4e1a880a9948",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libdrivers.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/40-libdrivers.a",
+      "sha256": "15d638edcb1d99f1a61b8914b81cf644fcb904989e8e9afa4fb7b7d63b5e8c5f",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libfs.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/fs/libfs.a",
+      "sha256": "938b195dfbc6e3160d7b4b8f3fe680fa8e6b05c5fa449c6eab63b4d12d588f26",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libc.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/libs/libc/libc.a",
+      "sha256": "315a3e35297dee0922fbb3eea571f4837e76430d01c9bf9f01c8db3960328012",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libmm.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/mm/libmm.a",
+      "sha256": "8b4c6b96ef50fa4828b01dc445603e2765e628ff58e0e481d676f5bbee9d2bda",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libnet.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/net/libnet.a",
+      "sha256": "18ff5bf21f6de4a5ef3b9f10e3064cc05def849b1b5641a25b596ea5169367ac",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libsched.a",
+      "resolver": "{SDK_ROOT}/private/19x2-voice-continuity-private-link-r2/libsched.a",
+      "sha256": "15c8e303a0aabebb953f4cba0a4e79578560d3b596215ff91b29c8e56bde270f",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libwireless.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/wireless/libwireless.a",
+      "sha256": "94d5f9e7361a786077ffb6631f3c2a1e02b443cf57019a744eb017689bf7ad80",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libboard.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/boards/libboard.a",
+      "sha256": "8f3cc001731351a38954927d5d1a9d71113c751d1823837404eff24eff5f3367",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libmbedtls.a",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/apps/crypto/mbedtls/libmbedtls.a",
+      "sha256": "6176f8be07b3729038dd6319300d7f3f846e59ef11b4c5d567c72748b80a1a85",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libgcc.a",
+      "resolver": "{SDK_ROOT}/prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/13.4.0/libgcc.a",
+      "sha256": "70cf6fa3db4cdad31d53959fd1d89f9b4264df773c27f11f68fd84705b6fcfc8",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libm.a",
+      "resolver": "{SDK_ROOT}/prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/13.4.0/../../../../aarch64-none-elf/lib/libm.a",
+      "sha256": "fc7dc72354a5b5d0fc5b2e47831bdb3dae179ae9349677f2fde3205e1095008d",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libAPM.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/51-libAPM.a",
+      "sha256": "0e76b06e4a2facdabb7a0deef73add7a0b441d53b3275148404a22e9c3d0ca37",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapi.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/52-libapi.a",
+      "sha256": "ca9273756acdc11c87247b5b8b85d780de36ff73491bde2a34bc97dec8b05296",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libbase.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/53-libbase.a",
+      "sha256": "ac871ab34a3d352d6e30106630b1c31a431cb1e9f803d233dfa4b22829cca78a",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libcommon_audio.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/54-libcommon_audio.a",
+      "sha256": "bae60ff78ff4834c2999aae363c96715c17aecc465d04a3e25ba58ba07cc62c8",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libpffft.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/55-libpffft.a",
+      "sha256": "8046cbd4b876b86e17197cade268acf1b332a172c388f46c7fc0b5996b090d6a",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "librnnoise.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/56-librnnoise.a",
+      "sha256": "62e46d5cb56ebc7c13ada42fc6814bbcce205d1d66b2bb0bcc5d75151cae0b80",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libsystem_wrappers.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/57-libsystem_wrappers.a",
+      "sha256": "42dfd44e95952b4b9ce65d0fbb981c08eedfbafb901fbf6650848b843a361b99",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libabseil_apm_required.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/58-libabseil_apm_required.a",
+      "sha256": "dbb4999981d3fc5bdd1eb77bf21db8e826da36c92616d9bb44a8d9596f070768",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "aarch64-none-elf-g++",
+      "resolver": "{SDK_ROOT}/prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-g++",
+      "sha256": "3274055507469c577ee296e088d49a246c5ff7bb91b376d83a11bda04197b35b",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "dramboot.ld.tmp",
+      "resolver": "{SDK_ROOT}/work/velavision-project/private/aliyun-candidates/aliyun-speech19x2/build/dramboot.ld.tmp",
+      "sha256": "de72d4fb23b9172ea1bb33c2c956a7b95f08dde057d796eb65c90a197adf3213",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    },
+    {
+      "name": "libapps_k7radio.a",
+      "resolver": "{SDK_ROOT}/private/camera-lateplug-source30-20261029-r1/inputs/218-libapps_k7radio.a",
+      "sha256": "b993d8acb3d9c31db152b9e79ffcf62539c1c80343135b67e4b5f64443942e4d",
+      "kind": "frozen_compiled_input_reference_not_a_source_substitute"
+    }
+  ],
+  "all62_read_only_verified_on_20261104": true,
+  "source_rebuild_map_complete": false
+}

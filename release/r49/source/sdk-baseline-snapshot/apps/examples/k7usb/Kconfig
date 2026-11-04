@@ -1,0 +1,4 @@
+config EXAMPLES_K7USB
+	bool "K7 USB-A diagnostic command"
+	default n
+	depends on RK3576_USB_DIAG && BUILD_FLAT

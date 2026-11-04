@@ -1,0 +1,4 @@
+config EXAMPLES_K7CXX
+	tristate "K7 native C++ runtime prerequisite probe"
+	depends on HAVE_CXX && LIBCXX && CXX_EXCEPTION && CXX_RTTI
+	default n

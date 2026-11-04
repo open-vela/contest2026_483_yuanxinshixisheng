@@ -1,0 +1,15 @@
+{
+  "snapshot_at": "2026-11-04T03:11:19.690441+00:00",
+  "member": "maomaojiang01",
+  "jsonl_files": 55,
+  "events": 109914,
+  "manifest_sessions": 12,
+  "manifest_sha256": "7ec95531d30c6bf1fb9977e0d0b1ddd1f673d6fc18d2be83c87d0aa444dc5c02",
+  "original_writer_lock_used": true,
+  "watcher_not_stopped": true,
+  "original_official_history_event_bytes_preserved": true,
+  "whole_old_files_unchanged": 21,
+  "one_old_file_appended_only": true,
+  "newer_snapshot_messages_not_included": true,
+  "source_completeness_proven": false
+}

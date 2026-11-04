@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "source_archives": [
+    {
+      "name": "APM",
+      "filename": "webrtc-audio-processing-2.1.tar.xz",
+      "url": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+      "sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+      "bytes": 604192
+    },
+    {
+      "name": "Abseil",
+      "filename": "abseil-cpp-20240722.1.tar.gz",
+      "url": "https://github.com/abseil/abseil-cpp/releases/download/20240722.1/abseil-cpp-20240722.1.tar.gz",
+      "sha256": "40cee67604060a7c8794d931538cb55f4d444073e556980c88b6c49bb9b19bb7",
+      "bytes": 2242894
+    }
+  ],
+  "source_overlays": [
+    {
+      "name": "pffft.c",
+      "release_path": "source/third-party-overlays/webrtc/third_party/pffft/src/pffft.c",
+      "sha256": "8c4a091cffdaa9646716b8c24183bd4fc82f855d541850921872c0ba4e6b1d13",
+      "upstream_relative_path": "webrtc-audio-processing-2.1/webrtc/third_party/pffft/src/pffft.c",
+      "upstream_sha256": "e84519c42faa01bf9c7f50c2b3528e82848305b8acf661c5e8653fde361ff3ca",
+      "provenance": "Historical successful R49 dependency PFFFT repair source proof, not a new algorithm change"
+    },
+    {
+      "name": "pffft.h",
+      "release_path": "source/third-party-overlays/webrtc/third_party/pffft/src/pffft.h",
+      "sha256": "dea709d2461acf51ceee1f0a5f167f32bb3f935ad70ff9c545fdb315c98e3469",
+      "upstream_relative_path": "webrtc-audio-processing-2.1/webrtc/third_party/pffft/src/pffft.h",
+      "upstream_sha256": "ae587b4465b8353e7dc3d10f5dbdf9578f627bcfe6b2e1044f87a60028f4b34c",
+      "provenance": "Historical successful R49 dependency PFFFT repair source proof, not a new algorithm change"
+    }
+  ],
+  "model_payloads_copied": false
+}

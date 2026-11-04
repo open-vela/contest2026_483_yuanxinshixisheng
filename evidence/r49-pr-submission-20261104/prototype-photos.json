@@ -1,0 +1,24 @@
+{
+  "source": "User provided actual prototype photographs on 2026-11-04",
+  "originals_unchanged": true,
+  "files": [
+    {
+      "role": "front",
+      "repository_path": "docs/assets/r49-prototype/front.png",
+      "bytes": 305063,
+      "sha256": "0d4c983095293f86a738d896f6869deaee7c641cefd9ff69cbcea9eb381b4837"
+    },
+    {
+      "role": "side",
+      "repository_path": "docs/assets/r49-prototype/side.png",
+      "bytes": 288174,
+      "sha256": "855013ca81324b15a2a9ec7932e092b5561b3db94f2be0ee3d8248701e5aad01"
+    },
+    {
+      "role": "rear",
+      "repository_path": "docs/assets/r49-prototype/rear.png",
+      "bytes": 367143,
+      "sha256": "315ea30e1d166879e4cbce2d8f136d6faaf8099fb9464efdcf4b734fee9e4a68"
+    }
+  ]
+}

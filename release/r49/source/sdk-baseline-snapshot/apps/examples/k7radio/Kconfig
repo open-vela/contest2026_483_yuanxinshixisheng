@@ -1,0 +1,32 @@
+config EXAMPLES_K7RADIO
+	bool "K7 native Seekwave Wi-Fi and Bluetooth"
+	depends on ARCH_BOARD_KICKPI_K7 && RK3576_USB_DIAG && BUILD_FLAT
+	default n
+	---help---
+		Explicit-command SDMMC1 wireless firmware, native Bluetooth GATT,
+		Wi-Fi scan and WPA2-PSK/CCMP authentication. No eMMC access.
+
+config EXAMPLES_K7RADIO_IP
+	bool "K7 experimental native IPv4 network endpoint"
+	depends on EXAMPLES_K7RADIO && NET_ETHERNET && NET_IPv4 && NET_UDP && NETUTILS_DHCPC
+	default n
+	---help---
+		Native Ethernet data and DHCP after WPA2 authentication. Initial
+		20 MHz non-aggregated STA mode, MTU 1000, explicit startup only.
+
+config EXAMPLES_K7RADIO_EMBEDDED_FW
+	bool "Embed hash-pinned wireless firmware in the image"
+	depends on EXAMPLES_K7RADIO
+	default n
+	help
+		Uses immutable firmware arrays instead of separately staged RAM.
+		Existing CRC checks remain active. Required for persistent startup.
+
+config EXAMPLES_K7RADIO_SHARED
+ bool "Experimental shared BLE/voice Wi-Fi service"
+ depends on EXAMPLES_K7RADIO_IP
+ default n
+ help
+   Requires joinable pthread support and a live single native RX task.
+   Disables legacy mutating wifi CLI entries. Start wifi-service-start
+   explicitly before provisioning. Backend is not target validated.

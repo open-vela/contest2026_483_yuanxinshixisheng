@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "snapshot": "2026-11-04 public counterparts of five R49 receipts; UUID identifiers redacted; original local receipts preserved",
+  "files": [
+    {
+      "path": "evidence/r49-finals-recovery-20261103/source-freeze.json",
+      "sha256": "bb01f709e76c778d4de3e2caa8b048b096c99c8f5210e896c0d8f5892b014127",
+      "bytes": 1385
+    },
+    {
+      "path": "evidence/r49-finals-recovery-20261103/persistence-receipt.json",
+      "sha256": "e9f6f8ce3d52836398ed3dc9090683c25caf9bd65969f4ec528b4dfc9e597ce8",
+      "bytes": 3057
+    },
+    {
+      "path": "evidence/r49-finals-recovery-20261103/cold-boot-receipt.json",
+      "sha256": "4d5fc42985e465b2aba3bef5a0237a95784925f59327bcdaa5750f0035bfadb8",
+      "bytes": 2242
+    },
+    {
+      "path": "evidence/r49-finals-recovery-20261103/functional-acceptance.json",
+      "sha256": "cf1467e8400c7d3247b572c2ff71b3a946e49090fe45185f4b7f36c67e5f053f",
+      "bytes": 2240
+    },
+    {
+      "path": "evidence/voice-response-speed-20261103/review.json",
+      "sha256": "38c2e8fb8a2952672c160e94cd68c86a8531f7dde66a3559426ce3cab0a058ef",
+      "bytes": 21493
+    }
+  ],
+  "original_local_manifest_sha256": "3642174b97a5a5d66de4bdc30326e34fe105dd275d9275de205b86648ba6234b"
+}

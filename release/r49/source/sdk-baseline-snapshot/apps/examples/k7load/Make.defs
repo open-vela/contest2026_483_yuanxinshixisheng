@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_EXAMPLES_K7LOAD),)
+CONFIGURED_APPS += $(APPDIR)/examples/k7load
+endif

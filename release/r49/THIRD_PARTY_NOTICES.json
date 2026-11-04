@@ -1,0 +1,1872 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-11-04T10:32:10.787393+08:00",
+  "release": "R49/source49-typed-tail-recovery-r1",
+  "image_sha256": "3479d1bd521ff143e44b6f2758558826bda6bf2f3148d1bfba21af7258c8689e",
+  "image_bytes": 33548288,
+  "scope": "License/source provenance inventory; source/build dependency locks and binary licensing clearance are separate.",
+  "blanket_apache_relicense": false,
+  "redistribution_cleared": false,
+  "components": [
+    {
+      "id": "project",
+      "name": "VelaVision 原创部分",
+      "version": "R49/source49-typed-tail-recovery-r1",
+      "license_expression": "Apache-2.0",
+      "scope": "只有本项目有权授权且未另行标注的原创部分",
+      "evidence": [
+        {
+          "path": "NOTICE",
+          "sha256": "67066455bdcd40b9b3e594e2bd682b7f900ae5cff50ab15d8f2b7feca532dbdf"
+        },
+        {
+          "role": "pins",
+          "sha256": "8028ff80669b855e017ee73b17ee9b6856d508dd8ee7db1249597bbce47a88f2",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/Apache-2.0.txt"
+      ],
+      "notes": "根 LICENSE 不覆盖第三方与派生作品；不把全部镜像改标 Apache。",
+      "official_upstream_urls": [
+        "https://github.com/open-vela/contest2026_483_yuanxinshixisheng"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "nuttx",
+      "name": "openvela / Apache NuttX",
+      "version": "e987a81c32cab008d1a8521669e5488d00271322 + 记录中的26项本地tracked改动",
+      "license_expression": "Apache-2.0 AND file-level exceptions",
+      "scope": "SDK内核及本地补丁；R49精确配置另见依赖锁",
+      "evidence": [
+        {
+          "role": "sdk-source-inventory-r1",
+          "sha256": "576e064dfba0d8d691f19ecb1eb18c857d866b6f500b548992deca3f754d694e",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/sdk/nuttx/LICENSE",
+        "licenses/sdk/nuttx/NOTICE"
+      ],
+      "notes": "原 NOTICE 全文随包；不能把当前SDK改动自动等同历史全部父对象源码。",
+      "official_upstream_urls": [
+        "https://github.com/open-vela/nuttx/tree/e987a81c32cab008d1a8521669e5488d00271322"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "nuttx-apps",
+      "name": "openvela nuttx-apps",
+      "version": "92cc8c56a4c9b780b38991401295179fa2461908",
+      "license_expression": "Apache-2.0 AND file-level exceptions",
+      "scope": "SDK应用与工具；具体第三方库分别列项",
+      "evidence": [
+        {
+          "role": "sdk-source-inventory-r1",
+          "sha256": "576e064dfba0d8d691f19ecb1eb18c857d866b6f500b548992deca3f754d694e",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/sdk/apps/LICENSE",
+        "licenses/sdk/apps/NOTICE"
+      ],
+      "notes": "版本是wrapper仓库HEAD，不充当嵌套第三方库的上游版本。",
+      "official_upstream_urls": [
+        "https://github.com/open-vela/nuttx-apps/tree/92cc8c56a4c9b780b38991401295179fa2461908"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "seekwave",
+      "name": "Seekwave 无线协议派生代码",
+      "version": "上游驱动完整revision未闭合；本地文件哈希已扫描",
+      "license_expression": "GPL-2.0-only",
+      "scope": "skw_bus/packet/bt/dw/rk3576/wpa_transport等；R49无线核心",
+      "evidence": [
+        {
+          "path": "app/k7radio/skw_bus.c",
+          "sha256": "1d22090f5d61a422c2eb5dfc68bb93ffaee37d99d544588b15f459d4f818bd10"
+        },
+        {
+          "path": "app/k7radio/skw_packet.c",
+          "sha256": "893317055c054a75a0c37e8728646727758266a9d282e7e02c1187d2e8207643"
+        },
+        {
+          "path": "app/k7radio/skw_bt.c",
+          "sha256": "84e6c81e31339149281b67f8eaab14b5736cfe784efaf64b2c96a54bfd72d3f2"
+        },
+        {
+          "role": "link-argv",
+          "sha256": "1acb1a27f8d60f6833cd3a55d01f4ec6f8bf30127e4fadafc17c53b9c932b196",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/project/seekwave/COPYING.GPL-2.0"
+      ],
+      "notes": "保留Seekwave版权与GPL声明。R49含Apache与GPL2-only组合，组合分发条件/赛事Apache要求未由本清单解决。",
+      "official_upstream_urls": [
+        "https://doc.kickpi.com/products/download/download/"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "display",
+      "name": "Rockchip 显示/时钟/电源派生代码",
+      "version": "RK3576 Linux SDK 24a411114a2e4e3db89acdf15271aa7a32a8590d；各blob见来源文档",
+      "license_expression": "GPL-2.0-only AND GPL-2.0-or-later",
+      "scope": "VOP/DSI2/DCPHY/framebuffer/transition等；R49显示依赖",
+      "evidence": [
+        {
+          "path": "app/k7display/DSI2_SOURCE.md",
+          "sha256": "c9d52930834309f5542dc6aa45e9639c9edba17d5ff89e7fb41c296c4ce65c10"
+        },
+        {
+          "path": "app/k7display/DISPLAY_TRANSITION_SOURCE.md",
+          "sha256": "074df7adbe31f2224ac1fd999e2c2a431edb989081a585252a56cbcff13cd171"
+        },
+        {
+          "role": "link-argv",
+          "sha256": "1acb1a27f8d60f6833cd3a55d01f4ec6f8bf30127e4fadafc17c53b9c932b196",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/project/seekwave/COPYING.GPL-2.0"
+      ],
+      "notes": "各文件版本选择保持原样。不能以寄存器事实为由重标整个派生驱动。",
+      "official_upstream_urls": [
+        "https://doc.kickpi.com/products/download/download/"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "charsiu",
+      "name": "charsiu NPU诊断夹具（范围待核）",
+      "version": "2ac3dc8ef6221a37d348c967b1cce29c01d225ff",
+      "license_expression": "GPL-2.0-or-later",
+      "scope": "主仓历史可选raw诊断；仅k7npu归档在链接列表不证明该夹具被保留",
+      "evidence": [
+        {
+          "path": "app/k7npu/k7npu_fixture.h",
+          "sha256": "00f326489bc3f3e6233007cc53313fecb8a5bf1d13de4a82576cd1e8629054bd"
+        },
+        {
+          "path": "app/k7npu/CMakeLists.txt",
+          "sha256": "428ad0a2f5466c2215b41ea95d4a1cd6173e8435ffc7c4f2e36c187becda7b5f"
+        }
+      ],
+      "license_texts": [
+        "licenses/historical/charsiu-LICENSE"
+      ],
+      "notes": "不算作已证实R49生产模型；如发布该源码仍保留原许可。",
+      "official_upstream_urls": [],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "ggml",
+      "name": "ggml（llama.cpp b5046快照）",
+      "version": "74d4f5b041ad837153b0e90fc864b8290e01d8d5",
+      "license_expression": "MIT AND (Apache-2.0 WITH LLVM-exception)",
+      "scope": "k7graph CPU诊断依赖及已发布SDK快照中的可选SYCL源；运行使用与链接保留另据map核对",
+      "evidence": [
+        {
+          "path": "app/k7graph/README.md",
+          "sha256": "634817acf9d31dfb3924f86f0d9cda6a78df778e2f79037f18a542aa61293f9c"
+        },
+        {
+          "path": "evidence/graph-core-20260910/integration.json",
+          "sha256": "00d78aed75d17f32a6bd782924bce1c2845c1dbe79d1315e97e301b4c94650e5"
+        },
+        {
+          "path": "release/r49/licenses/ggml/R49-SYCL-FILE-MAPPING.json",
+          "sha256": "4f9bbc9e180da6af48938a8a4c97f61c307008185b92f4e69d68fbde8a88df4d"
+        }
+      ],
+      "license_texts": [
+        "licenses/ggml/LICENSE",
+        "licenses/sdk/nuttx/libs/libxx/libcxx/libcxx/LICENSE.TXT"
+      ],
+      "notes": "ggml一般MIT；SDK快照27份可选SYCL源码另保留Apache-2.0 WITH LLVM-exception及Intel/LLVM版权，逐文件见映射。没有宣称SYCL已在R49运行或加速；不把历史llama/WIP全部算入R49。",
+      "official_upstream_urls": [
+        "https://github.com/ggml-org/llama.cpp/tree/74d4f5b041ad837153b0e90fc864b8290e01d8d5"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "hostap",
+      "name": "wpa_supplicant / hostap",
+      "version": "2.12；官方tar SHA08e23937e16d0155e55cab2b51f51fbe10d80a1aa91c4e15442645059b737ef6",
+      "license_expression": "BSD-3-Clause",
+      "scope": "WPA状态机与本地适配",
+      "evidence": [
+        {
+          "path": "app/k7radio/hostap/provenance.json",
+          "sha256": "51f32ff7fd9fae9c75e406bc426b83451042859f4bdda4c64a59718aea4294b8"
+        }
+      ],
+      "license_texts": [
+        "licenses/wpa_supplicant-2.12/README",
+        "licenses/wpa_supplicant-2.12/COPYING",
+        "licenses/wpa_supplicant-2.12/LOCAL-COPYING"
+      ],
+      "notes": "官方同SHA包的README/COPYING已提取，保留逐文件声明；旧BSD/GPL双选历史不推定当前代码可任意换标。",
+      "official_upstream_urls": [
+        "https://w1.fi/releases/wpa_supplicant-2.12.tar.gz"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "cjson",
+      "name": "cJSON",
+      "version": "1.7.15（本地头版本宏）",
+      "license_expression": "MIT",
+      "scope": "无线及云端JSON解析",
+      "evidence": [
+        {
+          "path": "app/k7radio/cJSON.h",
+          "sha256": "dd689a2905ad7c4c1d15556f1c7b9ce5cfdf9c8a78e4224ffb4a04d01d050f5f"
+        },
+        {
+          "path": "app/k7radio/cJSON.c",
+          "sha256": "cf9e08c8524c17406a0d430a47376080aebcdc8e851f7de24d277be61973eaeb"
+        }
+      ],
+      "license_texts": [
+        "licenses/cJSON/LICENSE-extracted.txt"
+      ],
+      "notes": "从现有源文件完整首版权/许可块逐字提取；非重写的通用MIT模板。",
+      "official_upstream_urls": [
+        "https://github.com/DaveGamble/cJSON/tree/v1.7.15"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "apm",
+      "name": "WebRTC Audio Processing",
+      "version": "2.1（保留对象DWARF路径）；官方基线包SHA ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+      "license_expression": "BSD-3-Clause AND bundled third-party licenses",
+      "scope": "R49 APM/api/base/common_audio/system_wrappers",
+      "evidence": [
+        {
+          "role": "apm-source-locations-r1",
+          "sha256": "348c68f29faae9c77ee00052040ca978586cb1d36688a67f828396dfbb5473d5",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/webrtc-audio-processing-2.1/COPYING",
+        "licenses/webrtc-audio-processing-2.1/webrtc/LICENSE",
+        "licenses/webrtc-audio-processing-2.1/webrtc/PATENTS"
+      ],
+      "notes": "历史官方原包已找回并与本次官方包SHA一致；原文闭合。实际全源重建由独立构建验收说明。",
+      "official_upstream_urls": [
+        "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited",
+      "upstream_source_sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe"
+    },
+    {
+      "id": "pffft",
+      "name": "PFFFT / FFTPACK相关代码",
+      "version": "WebRTC Audio Processing2.1内含；R49另有repair输入",
+      "license_expression": "LicenseRef-PFFFT-FFTPACK",
+      "scope": "APM FFT与原始派生许可",
+      "evidence": [
+        {
+          "role": "apm-source-locations-r1",
+          "sha256": "348c68f29faae9c77ee00052040ca978586cb1d36688a67f828396dfbb5473d5",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/webrtc-audio-processing-2.1/webrtc/third_party/pffft/LICENSE",
+        "licenses/webrtc-audio-processing-2.1/webrtc_third_party_pffft_src_pffft.c.license-extract.txt"
+      ],
+      "notes": "历史修复C/H与来源manifest、preparation已找回并核对hash；保留FFTPACK/PFFFT原文，未重授权。",
+      "official_upstream_urls": [
+        "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited",
+      "local_derived_source_sha256": {
+        "pffft.c": "8c4a091cffdaa9646716b8c24183bd4fc82f855d541850921872c0ba4e6b1d13",
+        "pffft.h": "dea709d2461acf51ceee1f0a5f167f32bb3f935ad70ff9c545fdb315c98e3469"
+      }
+    },
+    {
+      "id": "rnnoise",
+      "name": "RNNoise RNN VAD weights/code",
+      "version": "WebRTC Audio Processing2.1内含",
+      "license_expression": "BSD-3-Clause",
+      "scope": "APM内含RNN VAD相关代码/权重",
+      "evidence": [
+        {
+          "role": "apm-source-locations-r1",
+          "sha256": "348c68f29faae9c77ee00052040ca978586cb1d36688a67f828396dfbb5473d5",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/webrtc-audio-processing-2.1/webrtc/third_party/rnnoise/COPYING"
+      ],
+      "notes": "原文随包；独立外部录音和Silero模型不归此项。",
+      "official_upstream_urls": [
+        "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "abseil",
+      "name": "Abseil（APM所用）",
+      "version": "20240722.1（DWARF路径）；SDK副本另有自己的锁",
+      "license_expression": "Apache-2.0",
+      "scope": "APM所需Abseil对象",
+      "evidence": [
+        {
+          "role": "apm-source-locations-r1",
+          "sha256": "348c68f29faae9c77ee00052040ca978586cb1d36688a67f828396dfbb5473d5",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/abseil-20240722.1/LICENSE",
+        "licenses/sdk/external/abseil-cpp/abseil-cpp/AUTHORS"
+      ],
+      "notes": "上游版本许可与SDK副本区分；实际裁剪/补丁闭包以构建证据为准。",
+      "official_upstream_urls": [
+        "https://github.com/abseil/abseil-cpp/releases/download/20240722.1/abseil-cpp-20240722.1.tar.gz"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited",
+      "upstream_source_sha256": "40cee67604060a7c8794d931538cb55f4d444073e556980c88b6c49bb9b19bb7"
+    },
+    {
+      "id": "mbedtls",
+      "name": "Mbed TLS",
+      "version": "上游精确版本待实际版本头；wrapper=nuttx-apps92cc8c56",
+      "license_expression": "Apache-2.0",
+      "scope": "链接libmbedtls.a",
+      "evidence": [
+        {
+          "role": "link-argv",
+          "sha256": "1acb1a27f8d60f6833cd3a55d01f4ec6f8bf30127e4fadafc17c53b9c932b196",
+          "original_path_retained_in_internal_audit": true
+        },
+        {
+          "role": "sdk-extra-licenses-r1",
+          "sha256": "8f4a6c24dcb921ae527f458888109295753d4681a49c712f0039193a7f05a521",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/sdk/apps/crypto/mbedtls/mbedtls/LICENSE"
+      ],
+      "notes": "不能将wrapper父仓HEAD冒充Mbed TLS上游revision。",
+      "official_upstream_urls": [
+        "https://github.com/Mbed-TLS/mbedtls",
+        "https://github.com/open-vela/nuttx-apps/tree/92cc8c56a4c9b780b38991401295179fa2461908/crypto/mbedtls"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "libsodium",
+      "name": "libsodium",
+      "version": "上游精确版本待实际版本头；wrapper=nuttx-apps92cc8c56",
+      "license_expression": "ISC",
+      "scope": "链接liblibsodium.a",
+      "evidence": [
+        {
+          "role": "link-argv",
+          "sha256": "1acb1a27f8d60f6833cd3a55d01f4ec6f8bf30127e4fadafc17c53b9c932b196",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/sdk/apps/crypto/libsodium/libsodium/LICENSE",
+        "licenses/sdk/apps/crypto/libsodium/libsodium/AUTHORS"
+      ],
+      "notes": "ISC声明来自实际SDK原文，非Apache。",
+      "official_upstream_urls": [
+        "https://github.com/jedisct1/libsodium",
+        "https://github.com/open-vela/nuttx-apps/tree/92cc8c56a4c9b780b38991401295179fa2461908/crypto/libsodium"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "opus",
+      "name": "Opus",
+      "version": "上游精确版本待版本头；wrapper=external740f9f5a",
+      "license_expression": "BSD-3-Clause AND file-level notices",
+      "scope": "链接liblibopus.a",
+      "evidence": [
+        {
+          "role": "link-argv",
+          "sha256": "1acb1a27f8d60f6833cd3a55d01f4ec6f8bf30127e4fadafc17c53b9c932b196",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/sdk/external/opus/opus/COPYING",
+        "licenses/sdk/external/opus/opus/AUTHORS"
+      ],
+      "notes": "保留codec许可；如另有PATENTS文件以补充收据核对。",
+      "official_upstream_urls": [
+        "https://opus-codec.org/",
+        "https://github.com/open-vela/external/tree/740f9f5a0f0106e1870ebfa2ad670a10644dec25/opus"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "jpeg",
+      "name": "libjpeg-turbo / IJG / SIMD",
+      "version": "上游精确版本待实际版本头；wrapper=external740f9f5a",
+      "license_expression": "BSD-3-Clause AND IJG AND Zlib",
+      "scope": "链接libturbojpeg-static.a",
+      "evidence": [
+        {
+          "role": "link-argv",
+          "sha256": "1acb1a27f8d60f6833cd3a55d01f4ec6f8bf30127e4fadafc17c53b9c932b196",
+          "original_path_retained_in_internal_audit": true
+        },
+        {
+          "role": "sdk-extra-licenses-r1",
+          "sha256": "8f4a6c24dcb921ae527f458888109295753d4681a49c712f0039193a7f05a521",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/sdk/external/libjpeg-turbo/libjpeg-turbo/LICENSE.md",
+        "licenses/sdk/external/libjpeg-turbo/libjpeg-turbo/README.ijg"
+      ],
+      "notes": "按实际LICENSE.md的复合说明保留，不统一简化成MIT/Apache。",
+      "official_upstream_urls": [
+        "https://github.com/libjpeg-turbo/libjpeg-turbo",
+        "https://github.com/open-vela/external/tree/740f9f5a0f0106e1870ebfa2ad670a10644dec25/libjpeg-turbo"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "llvm",
+      "name": "LLVM libc++ / libc++abi",
+      "version": "上游精确版本待版本头；SDK nuttx e987a81c32c",
+      "license_expression": "Apache-2.0 WITH LLVM-exception",
+      "scope": "C++标准库及ABI",
+      "evidence": [
+        {
+          "role": "link-argv",
+          "sha256": "1acb1a27f8d60f6833cd3a55d01f4ec6f8bf30127e4fadafc17c53b9c932b196",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/sdk/nuttx/libs/libxx/libcxx/libcxx/LICENSE.TXT",
+        "licenses/sdk/nuttx/libs/libxx/libcxxabi/libcxxabi/LICENSE.TXT"
+      ],
+      "notes": "原文件含LLVM例外及历史许可，全文保留。",
+      "official_upstream_urls": [
+        "https://github.com/llvm/llvm-project",
+        "https://github.com/open-vela/nuttx/tree/e987a81c32cab008d1a8521669e5488d00271322/libs/libxx"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "android",
+      "name": "Android support code",
+      "version": "external740f9f5a；嵌套上游精确revision未闭合",
+      "license_expression": "Apache-2.0 AND file-level exceptions",
+      "scope": "libandroid.a；各子目录原文随包",
+      "evidence": [
+        {
+          "role": "link-argv",
+          "sha256": "1acb1a27f8d60f6833cd3a55d01f4ec6f8bf30127e4fadafc17c53b9c932b196",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/sdk/external/android/system/core/LICENSE",
+        "licenses/sdk/external/android/system/core/libcutils/NOTICE",
+        "licenses/sdk/external/android/system/core/libutils/NOTICE",
+        "licenses/sdk/external/android/system/libbase/LICENSE",
+        "licenses/sdk/external/android/system/libbase/NOTICE"
+      ],
+      "notes": "许可证包含相关SDK声明，但不是所有Android子项目均进入R49的断言。",
+      "official_upstream_urls": [
+        "https://android.googlesource.com/",
+        "https://github.com/open-vela/external/tree/740f9f5a0f0106e1870ebfa2ad670a10644dec25/android"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "gcc",
+      "name": "GCC / libgcc runtime",
+      "version": "13.4.0；compiler SHA256 d80c929eca89733c50500a0e5288e181f14bff1cdd15e954e21b2bc142a72ead",
+      "license_expression": "GPL-3.0-or-later WITH GCC-exception-3.1",
+      "scope": "工具链编译器与链接libgcc.a；二者许可义务对象不同",
+      "evidence": [
+        {
+          "role": "sdk-inventory-r1",
+          "sha256": "78b16f26e52204d368763200100541317920d53eb4f6cd621407b6e19fbaa751",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/gcc-13.4.0/COPYING3",
+        "licenses/gcc-13.4.0/COPYING.RUNTIME"
+      ],
+      "notes": "已收官方对应版本原文；例外适用条件保留，不据此推出整镜像许可已通过。",
+      "official_upstream_urls": [
+        "https://gcc.gnu.org/releases.html",
+        "https://github.com/gcc-mirror/gcc/tree/releases/gcc-13.4.0"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "libm",
+      "name": "工具链 libm / Newlib runtime",
+      "version": "GCC13.4工具链中的libm；实际Newlib版本/对应COPYING.NEWLIB待闭合",
+      "license_expression": "NOASSERTION",
+      "scope": "R49最终链接的工具链libm.a",
+      "evidence": [
+        {
+          "role": "link-argv",
+          "sha256": "1acb1a27f8d60f6833cd3a55d01f4ec6f8bf30127e4fadafc17c53b9c932b196",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [],
+      "notes": "SDK另存Newlib源码COPYING类文本是辅助资料，不能当作该预构建libm确切分发许可的证明。",
+      "official_upstream_urls": [
+        "https://sourceware.org/newlib/"
+      ],
+      "authorization_status": "unknown_redistribution_grant"
+    },
+    {
+      "id": "yunet",
+      "name": "YuNet 2023mar权重派生数组",
+      "version": "ONNX SHA8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+      "license_expression": "MIT",
+      "scope": "板端人脸检测模型派生资产",
+      "evidence": [
+        {
+          "path": "host/vision/HEAD_POSE_NOTICES.md",
+          "sha256": "e43e44b666409b711985e294041488b97dde3a920024a042c10bed0dba283eb7"
+        },
+        {
+          "path": "app/k7host/k7_yunet_model.inc",
+          "sha256": "2b4b3477313596f41509c81000ff558854373514517630941ec88112f638c3a4"
+        }
+      ],
+      "license_texts": [
+        "licenses/models/yunet/LICENSE"
+      ],
+      "notes": "官方模型目录许可原文已补齐；数组头提及的generate_yunet.py未在当前主仓找到，转换链/具体发布范围仍由资产锁说明，不误套OpenCV Zoo根Apache。",
+      "official_upstream_urls": [
+        "https://github.com/opencv/opencv_zoo/tree/48b10fa505aeb51fbd127fc60a5c660040e823b7/models/face_detection_yunet"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "fsanet",
+      "name": "FSA-Net 头姿权重派生数组",
+      "version": "上游ONNX d85e90cb…；本地处理后120fa107a2dd3be78c21c3a73a0db980590643a5372893e8878094898262f213",
+      "license_expression": "MIT",
+      "scope": "板端头姿模型派生资产",
+      "evidence": [
+        {
+          "path": "host/vision/HEAD_POSE_NOTICES.md",
+          "sha256": "e43e44b666409b711985e294041488b97dde3a920024a042c10bed0dba283eb7"
+        },
+        {
+          "path": "legacy/pc-delivery/TECHNICAL_HANDOFF.md",
+          "sha256": "e3ae482a66ef122049f82bf94d6174c478b53498c9b203addf2bb06f24e99cc1"
+        },
+        {
+          "path": "host/vision/generate_pose.py",
+          "sha256": "d47c29616c5201e36bf1f461aff78747ef8a9efcee544c66f2cd0a1c82b93270"
+        },
+        {
+          "path": "app/k7host/k7_pose_model.inc",
+          "sha256": "43a9b265c4784f2b0442d1cf5d6a3e3c9fd2533ee05de1df24c07d192118cf08"
+        }
+      ],
+      "license_texts": [
+        "licenses/models/fsanet/LICENSE"
+      ],
+      "notes": "明确区分上游与处理后hash。上游提示训练数据集有各自许可；处理链与数据集/商业范围不作扩大授权。",
+      "official_upstream_urls": [
+        "https://github.com/ohtlab/headpose-fsanet-pytorch/tree/002549c981b607f722e0810d999afcde7e5aaa66"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "silero",
+      "name": "Silero VAD v5.1及本地运行库",
+      "version": "模型symbol k7_vad_silero51_data SHA1807d455176de671fef6ff184b2a3f25f7e10e3f93ec61534334196644fd3873",
+      "license_expression": "MIT",
+      "scope": "R49保留的2,421,160B模型；运行库另遵循ONNX Runtime许可",
+      "evidence": [
+        {
+          "role": "retention-recheck",
+          "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837",
+          "original_path_retained_in_internal_audit": true
+        },
+        {
+          "role": "sdk-extra-licenses-r1",
+          "sha256": "8f4a6c24dcb921ae527f458888109295753d4681a49c712f0039193a7f05a521",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [
+        "licenses/vad-local/LICENSE.silero",
+        "licenses/models/silero-vad-v5.1/LICENSE",
+        "licenses/vad-local/LICENSE.ort"
+      ],
+      "notes": "官方v5.1 ONNX2623a295…经记录中的ORT1.17.1转换为1807d455…，现存转换文件2,421,160B与R49符号hash一致；保留MIT许可。",
+      "official_upstream_urls": [
+        "https://github.com/snakers4/silero-vad/tree/84768cefdf5a3852400e9d8237f7315d14b64a08"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited",
+      "source_onnx_sha256": "2623a2953f6ff3d2c1e61740c6cdb7168133479b267dfef114a4a3cc5bdd788f",
+      "converted_ort_sha256": "1807d455176de671fef6ff184b2a3f25f7e10e3f93ec61534334196644fd3873"
+    },
+    {
+      "id": "radio-firmware",
+      "name": "Seekwave SWT6621S 二进制固件/校准数据",
+      "version": "DRAM/IRAM/NV/calib各自SHA见assets条目",
+      "license_expression": "NOASSERTION",
+      "scope": "DRAM/IRAM被R49保留；NV/calib主仓存在，实际打包另核",
+      "evidence": [
+        {
+          "path": "app/k7radio/radio_firmware.manifest.json",
+          "sha256": "99a0f01c802bebdd84109f0181a3d45719e0dd7692bc85210c440498c414c2b9"
+        },
+        {
+          "role": "retention-recheck",
+          "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [],
+      "notes": "源路径与哈希不等于再分发授权；未找到能明确覆盖这些blob的许可，继续锁定。",
+      "official_upstream_urls": [
+        "https://doc.kickpi.com/products/download/download/"
+      ],
+      "authorization_status": "unknown_redistribution_grant"
+    },
+    {
+      "id": "generated-audio",
+      "name": "云TTS生成本地提示/确认音",
+      "version": "qwen-audio-3.0-tts-flash；default/firefly标签；R49新增10条",
+      "license_expression": "NOASSERTION",
+      "scope": "继承提示与新增护理/档位/停止确认音；仅元数据入本清单",
+      "evidence": [
+        {
+          "path": "tools/generate_microcrystal_audio.py",
+          "sha256": "f3ffe5e14318817026cb0b48823e0c6e3e26d1233da1f44ac26078c519d4fb1a"
+        },
+        {
+          "role": "result",
+          "sha256": "245484ab0ef9f032949a53c24a3be3165fc2ee7af68e3bc275d361c8e8f2ff82",
+          "original_path_retained_in_internal_audit": true
+        },
+        {
+          "role": "result",
+          "sha256": "51d28d1c295c202b1d5fd1f3e6030582e98b48ed5f8141fc4f631c56785f06e6",
+          "original_path_retained_in_internal_audit": true
+        },
+        {
+          "role": "micro-voice-audio",
+          "sha256": "a25cee10c30f006b23092e67acc5f9b6edd497208014797311951a5595a9a08a",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [],
+      "notes": "AI生成音频非自动Apache授权。官方系统音色longanhuan_v3.6可核；firefly来源/可用权利待核，官方基础音色目录精确ID未命中。",
+      "official_upstream_urls": [
+        "https://help.aliyun.com/zh/model-studio/related-agreements",
+        "https://help.aliyun.com/zh/model-studio/qwen-audio-tts-voice-list"
+      ],
+      "authorization_status": "service_and_voice_rights_pending"
+    },
+    {
+      "id": "recorded-fixture",
+      "name": "recorded_reference / mic / residual录音夹具",
+      "version": "各361,600B；SHA见R49 retention资产表",
+      "license_expression": "NOASSERTION",
+      "scope": "R49继承的诊断录音资产",
+      "evidence": [
+        {
+          "role": "retention-recheck",
+          "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837",
+          "original_path_retained_in_internal_audit": true
+        }
+      ],
+      "license_texts": [],
+      "notes": "来源、说话人同意和可公开再分发范围未找到明确收据；不复制音频本体。 session_ab_pcm.inc等生成C/INC向量与原PCM按同样权利范围处理，不能因后缀而公开。",
+      "official_upstream_urls": [],
+      "authorization_status": "unknown_redistribution_grant"
+    },
+    {
+      "id": "kws",
+      "name": "本地KWS Zipformer三模型及tokens",
+      "version": "sherpa-onnx-kws-zipformer-zh-en-3M-2025-12-20；逐文件hash绑定",
+      "license_expression": "Apache-2.0",
+      "scope": "本地唤醒所用encoder/decoder/joiner；不等同云端ASR",
+      "evidence": [],
+      "license_texts": [
+        "licenses/Apache-2.0.txt",
+        "licenses/models/kws/README.model-card.md"
+      ],
+      "notes": "模型卡明确Apache2；作者/维护者2026-10-08与10-26在官方issue3802确认两项KWS模型许可。记录转换后的ORT hash，模型本体未复制。",
+      "official_upstream_urls": [
+        "https://modelscope.cn/models/pkufool/icefall-kws-zipformer-zh-en-3M-2025-12-20",
+        "https://github.com/k2-fsa/sherpa-onnx/issues/3802#issuecomment-6052663364"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited",
+      "artifact_identities": [
+        {
+          "name": "README.md",
+          "bytes": 1753,
+          "sha256": "71232d79d8655c83903ebe89d490bdba45a5a9772e98e8d6296b6bf91ff91b70"
+        },
+        {
+          "name": "tokens.txt",
+          "bytes": 1928,
+          "sha256": "2d3f32311f9b692b964da3c90e830258d3e78e013cb0c992dbfb15cd5a1a71b0"
+        },
+        {
+          "name": "decoder-epoch-13-avg-2-chunk-8-left-64.onnx",
+          "bytes": 759829,
+          "sha256": "63a22dd60f40fff082ac3e09afa507f6787da36df76ded2fbe145fa233e22c21"
+        },
+        {
+          "name": "encoder-epoch-13-avg-2-chunk-8-left-64.int8.onnx",
+          "bytes": 4600657,
+          "sha256": "2ca84d6bfe73e1ea3c9c49f600f7cad1c9ddd423c53c906b8bfe802444dd78d5"
+        },
+        {
+          "name": "joiner-epoch-13-avg-2-chunk-8-left-64.int8.onnx",
+          "bytes": 86629,
+          "sha256": "190d4067b4cc20b72a42a1916e69d92052000fb7051a427ebb1bc72a69207dc1"
+        }
+      ]
+    },
+    {
+      "id": "sherpa",
+      "name": "Sherpa-ONNX 本地KWS/VAD运行库",
+      "version": "历史记录1.12.14；实际构建补丁闭包另据锁核对",
+      "license_expression": "Apache-2.0",
+      "scope": "本地KWS/VAD组件；不是R49云端聊天/ASR/TTS全部离线",
+      "evidence": [],
+      "license_texts": [
+        "licenses/sherpa-onnx-v1.12.14/LICENSE"
+      ],
+      "notes": "使用官方对应版本许可原文；其内含依赖与模型各自独立列项。",
+      "official_upstream_urls": [
+        "https://github.com/k2-fsa/sherpa-onnx/tree/v1.12.14"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "onnxruntime",
+      "name": "ONNX Runtime",
+      "version": "历史模型转换使用1.17.1；目标运行库完整源码身份另据构建锁",
+      "license_expression": "MIT AND bundled third-party notices",
+      "scope": "KWS/VAD模型运行与转换；host工具和目标库分开核对",
+      "evidence": [],
+      "license_texts": [
+        "licenses/vad-local/LICENSE.ort",
+        "licenses/onnxruntime-v1.17.1/LICENSE",
+        "licenses/onnxruntime-v1.17.1/ThirdPartyNotices.txt"
+      ],
+      "notes": "本地实际导出MIT原文与对应上游版本第三方全文均保留；不会把host wheel成功当目标源码闭合。",
+      "official_upstream_urls": [
+        "https://github.com/microsoft/onnxruntime/tree/v1.17.1"
+      ],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "speexdsp",
+      "name": "SpeexDSP MDF / FFT wrapper",
+      "version": "发布源路径标记speexdsp-1.2.1；四TU来源按本地源hash绑定",
+      "license_expression": "BSD-3-Clause",
+      "scope": "父归档已保留的AEC依赖：mdf.c/fftwrap.c",
+      "evidence": [
+        {
+          "path": "release/r49/source/project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/mdf.c",
+          "sha256": "a096297873dfd0a07509028d2cdd02d12edf8f1d03319fcecedda003d18d22a8"
+        },
+        {
+          "path": "release/r49/source/project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/fftwrap.c",
+          "sha256": "a59ec583e5660207da9cf3c1ddd6a7ff1ed91382eb40df2a4e77d5cddfe14c52"
+        }
+      ],
+      "license_texts": [
+        "licenses/speexdsp-1.2.1/mdf.c.license-extract.txt",
+        "licenses/speexdsp-1.2.1/fftwrap.c.license-extract.txt"
+      ],
+      "notes": "完整保留Jean-Marc Valin等原版权/许可块；本轮只读本地源核对，未把目录版本自动当作上游tar等同性证明。",
+      "official_upstream_urls": [],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    },
+    {
+      "id": "kissfft",
+      "name": "KISS FFT（SpeexDSP内含）",
+      "version": "SpeexDSP1.2.1内含副本；独立KISS版本未声明",
+      "license_expression": "BSD-3-Clause",
+      "scope": "父归档已保留的kiss_fft.c/kiss_fftr.c",
+      "evidence": [
+        {
+          "path": "release/r49/source/project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fft.c",
+          "sha256": "61574b6ceff29423a12cda1928b2ae09c89d316ffd1881a207aa74c3dc97da3f"
+        },
+        {
+          "path": "release/r49/source/project/app/k7sound/aec/vendor/speexdsp-1.2.1/libspeexdsp/kiss_fftr.c",
+          "sha256": "13b7ec32c17b927e0978195ce9eeb09e9791b236fcee94b807fd0086d14cb25e"
+        }
+      ],
+      "license_texts": [
+        "licenses/kissfft-speexdsp-1.2.1/kiss_fft.c.license-extract.txt",
+        "licenses/kissfft-speexdsp-1.2.1/kiss_fftr.c.license-extract.txt"
+      ],
+      "notes": "按实际原文保留Mark Borgerding与Jean-Marc Valin版权；不混用新版本的KISS许可或笼统归为Speex单一版权。",
+      "official_upstream_urls": [],
+      "authorization_status": "declared_license_preserved_scope_limited"
+    }
+  ],
+  "retained_asset_rows": 62,
+  "new_asset_rows": 10,
+  "assets": [
+    {
+      "name": "vv_private_prompt_pcm_0",
+      "bytes": 81920,
+      "sha256": "822ac766d5fa3055bf629a18f952fa87b1fcef2db9af7c67aa5ae806f1e53688",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_1",
+      "bytes": 46080,
+      "sha256": "8335e7695b23b6e0302dcdbfd2936ad8d48833bc213e884606433848ee75e1ff",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_2",
+      "bytes": 158720,
+      "sha256": "3bfbcd0282c1952622980060a3eedde42d6404cccc9f8b9daf4376ef370904a8",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_3",
+      "bytes": 51200,
+      "sha256": "f46dd10beb42a84d18c4a03cbbe77305d5d7d1df1777e509c77fe4815a680116",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_4",
+      "bytes": 153600,
+      "sha256": "d1e16b42f3489dc5321730e41756914ccc5152d2e89a9dd1fa6f7040b2c616ca",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_5",
+      "bytes": 53760,
+      "sha256": "e9a51eb693578608df3ce7d4371c1829f85ff504eeb80f2e312d0d2440cdd5ba",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_6",
+      "bytes": 51200,
+      "sha256": "9ef03a503b28666e29e9a78def58fe66c15cc79ea98bc420181928ba256d0524",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_7",
+      "bytes": 56320,
+      "sha256": "24e330a24bf0c7bf973f77c95719b969f7aa164a7524e25907dff0c67d1308ce",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_8",
+      "bytes": 97280,
+      "sha256": "454aca6ed29c88415062cc12db039ca094004a5cc7a91ce17d57a37338cfe0c1",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_9",
+      "bytes": 38400,
+      "sha256": "cfd57d4a7a3e4bec3c5fb574cff91fd7608d4dec073eae0bd49d270314ef06b7",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_10",
+      "bytes": 94720,
+      "sha256": "de7b7f2fc7236eae0822d059a8b9aeca4893f962bb5463b6cfc070c37a324f7f",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_private_prompt_pcm_11",
+      "bytes": 69120,
+      "sha256": "ac6a9c0e598019542438e49bdf1529da70f70b558e5293da9de9245a3d3160df",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_0",
+      "bytes": 92160,
+      "sha256": "3230a48d1e43d5f253952cd6d0840ddc46a28cbe3b8d4b9f2766da62b082a247",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_1",
+      "bytes": 48640,
+      "sha256": "9fb2d1234adef840cdd62aef1efd21b3ac635812ef7fe7f4b448942c0f7f9b1b",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_2",
+      "bytes": 156160,
+      "sha256": "9be9a7c5f7765bdd89c883e3cad441b197ce7922cd36f92ec3fccd195394d22e",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_3",
+      "bytes": 56320,
+      "sha256": "7efc8e58e3a931d1c74ce8caf4c3fc1dd620702222fcbbe68bea900f5b51b106",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_4",
+      "bytes": 161280,
+      "sha256": "cce327d338ac353cce7fdce93e2ff331e7ec18d9991e3ff08bb58cd85ed5e4f4",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_5",
+      "bytes": 53760,
+      "sha256": "719703e74904c97e156614e03112066c6ee478aa8b6c2e96b9df155227099ed9",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_6",
+      "bytes": 51200,
+      "sha256": "bb7e7048df296366bce0590206157f31e90f28743eea15d6204c82ccffa52469",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_7",
+      "bytes": 58880,
+      "sha256": "a5992278a8de012d7bffd9ae84d2be7208c6b6b2252892fdf76a3b49097496d6",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_8",
+      "bytes": 122880,
+      "sha256": "c7082f6dad42ab5faf83781d90ba1ff300d417269afd8f1daf555854cbfab282",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_9",
+      "bytes": 40960,
+      "sha256": "f7be14317830a537910b28639fe5d9dd96210fee9a6aea47c959dbb1e49246e1",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_10",
+      "bytes": 92160,
+      "sha256": "e98acbf490674708a28eecb6230e952a9027b8f940277b3e63fcc408b192b30c",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_firefly_prompt_pcm_11",
+      "bytes": 81920,
+      "sha256": "57f1a89c8413feac11f5b3e51fc4eee588b3040aaba6c825a04af6d26ace0739",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "recorded_reference",
+      "bytes": 361600,
+      "sha256": "eddf1f8bcad1015b3f8be2e0c644ffee586ac380a6214b21403a9d5da467de31",
+      "inherited": true,
+      "kind": "recorded_fixture",
+      "rights_status": "unknown_origin_or_distribution_consent",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "recorded_mic",
+      "bytes": 361600,
+      "sha256": "96422afe26e1ccab61ceedba90191899a2e4e2b59f86f341e924d7cbe6f02ffb",
+      "inherited": true,
+      "kind": "recorded_fixture",
+      "rights_status": "unknown_origin_or_distribution_consent",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "recorded_residual",
+      "bytes": 361600,
+      "sha256": "41c26fbeb140fe538bc3193b5c7908f888c80c880fd540d35bf201b6276401cb",
+      "inherited": true,
+      "kind": "recorded_fixture",
+      "rights_status": "unknown_origin_or_distribution_consent",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "k7_vad_silero51_data",
+      "bytes": 2421160,
+      "sha256": "1807d455176de671fef6ff184b2a3f25f7e10e3f93ec61534334196644fd3873",
+      "inherited": true,
+      "kind": "model",
+      "rights_status": "upstream_MIT_and_exact_conversion_hash_verified",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "g_k7radio_dram",
+      "bytes": 193224,
+      "sha256": "7ddaae63b3281a4127565b2a7306fc74f8e5c7e88343a43c56a17d05a27d2b4b",
+      "inherited": true,
+      "kind": "vendor_firmware",
+      "rights_status": "unknown_redistribution_grant",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "g_k7radio_iram",
+      "bytes": 356616,
+      "sha256": "07d316bbf4dd18cc95671366c5001560f272026454fef1f6e134eb197189a169",
+      "inherited": true,
+      "kind": "vendor_firmware",
+      "rights_status": "unknown_redistribution_grant",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_local_report_default",
+      "bytes": 197120,
+      "sha256": "47dd3f7d09b8e988c168f291953189f3a29ca4b0f20eb37f3ce6c1d848def380",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_local_report_firefly",
+      "bytes": 186880,
+      "sha256": "f1bde07bd7ca9e466a0891be0f977ab33731868e6b19ba582fb28a12b906d21c",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_ready_default",
+      "bytes": 30720,
+      "sha256": "88dc82794a85bf22bf4353e0f8a016df6f8f3d8f9fa0cb7c9cacbd99e1dd1115",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_ready_firefly",
+      "bytes": 46080,
+      "sha256": "1cf1588e673317b4ac71a8a34ff1d0dc4ed337814eafb0fc02b2bf843b87e985",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_rewake_default",
+      "bytes": 56320,
+      "sha256": "c3eabb156be6bc2d496c8f0abeef0b498048a89d1285b8a2b6e676be4b0b793e",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_rewake_firefly",
+      "bytes": 76800,
+      "sha256": "c4473bd7285921ab5990c0928729bc6afa3c8ddfa86cd38846efd233d311c7c8",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_default_louder",
+      "bytes": 35840,
+      "sha256": "4d35dd0395bf8a0637f65379d652ba1da1595de72c19cfb37d73a717c462e7a5",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_default_quieter",
+      "bytes": 38400,
+      "sha256": "6c1bc0c9c61139e1238b36ba29b7d5d95885637ab7d51fd31d1502091949dee7",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_default_adjusted",
+      "bytes": 40960,
+      "sha256": "353eb74b5844d3ae530942c7729a880d854ce2691fb4d02cf08b6f2b3706a2ff",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_default_range",
+      "bytes": 122880,
+      "sha256": "e7eab537f213c2f8fecfa73d84c7f6fb15c0e7eae0af6609acdcd45c3dc9e674",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_default_maximum",
+      "bytes": 58880,
+      "sha256": "fd0aee35c144b2ca810012a0d6af67f1d742900e0fa9c5e3e4e0b21a0ed56c0a",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_default_minimum",
+      "bytes": 48640,
+      "sha256": "e4ec2d4a7d8a9c4be496b477367348bc05ea3a7720792863121b1599698b4d1b",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_firefly_louder",
+      "bytes": 46080,
+      "sha256": "127de3c09e32f72141dbf149aa6aa89e2e57632e458d49cc97c2ee282dabfe0d",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_firefly_quieter",
+      "bytes": 48640,
+      "sha256": "7b6ef93d370f81fb53c371cb7c269b0fdcb5e36f1c926408d0593d2f0df6a93c",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_firefly_adjusted",
+      "bytes": 46080,
+      "sha256": "db8366ba213f765644b9a524e62cf92df84c48fc300cdb662d960261d87fff8e",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_firefly_range",
+      "bytes": 138240,
+      "sha256": "67c26b6378416fd05a110c79c413383ee1993db744b2ffd5cbc716193c800732",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_firefly_maximum",
+      "bytes": 48640,
+      "sha256": "fc3db7a9b5929571f0336987ee9b3e538a75f044725779ab27a97976c70c7f8e",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_control_ack_firefly_minimum",
+      "bytes": 53760,
+      "sha256": "56c1f2cceb63c00bb3a27462674744068ecf58a1ad423b410edcf5edb5fe3e2f",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_capture_success_default_complete",
+      "bytes": 51200,
+      "sha256": "a60e3ddff094ccec030ad96790f3bb6fae5ac439d2ed817f9325ded5df6d3510",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_capture_success_firefly_complete",
+      "bytes": 53760,
+      "sha256": "3a93754095ab0c7ebe9ef1201793802b2b9fca863f1f9c5d07c007bf4c7017c7",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_default_upload",
+      "bytes": 74240,
+      "sha256": "e25f64f9a78ffa25e1fc88e3f0735cfb869e3f8b61f83c1b2df31950686aeca5",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_default_timeout",
+      "bytes": 71680,
+      "sha256": "99380d2b377866fc436f91accdafea78b17fcfc010d50b73ec774ea9b8402864",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_default_failed",
+      "bytes": 61440,
+      "sha256": "97438af666d3fc41f49bf4939fc0ec14596de25cd1c9d452109dd7ce0c2fcdcd",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_default_missing",
+      "bytes": 66560,
+      "sha256": "b3de4ac0a4039b14837472196aed307a422e7687ab1dd63030cbedb57114b659",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_firefly_upload",
+      "bytes": 74240,
+      "sha256": "0f534ebec37b1846ab95a0afb837c079bb45a7a06484dc8850a2ddc7b72fab3d",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_firefly_timeout",
+      "bytes": 66560,
+      "sha256": "00c8324259f3fca61ee1ba10a999bd4e34f9fdda149303479976edd0372f324a",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_firefly_failed",
+      "bytes": 74240,
+      "sha256": "aadf21e3198cfea7fbc895ca40ce36156fffde87f2b2128da5aee79e2ba8baa4",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_firefly_missing",
+      "bytes": 74240,
+      "sha256": "5a1c80415e3f72381d1c4c88af40c2570687d5b9ce236e6ac89ed23d9a2888f0",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_default_speech",
+      "bytes": 64000,
+      "sha256": "14bc2aa269417759934d3dbf93e246d058c38b8fda9b9829f64414d35f5bd2e5",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_real_failure_firefly_speech",
+      "bytes": 58880,
+      "sha256": "c654326607dac8d8b001e8ac253b128d77cc737c00894288cd6610aa4cfefae5",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_report_wait_default_generating",
+      "bytes": 64000,
+      "sha256": "1834a2c935bb686de8c740890fe82326bf3e47b11d87679b613caf8f32f80a9f",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "name": "vv_report_wait_firefly_generating",
+      "bytes": 84480,
+      "sha256": "64acb80a849b8692a3b5da16a3202bb8b13beecfb79bbfa8629e6e8e1d34db3e",
+      "inherited": true,
+      "kind": "generated_audio",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "retention-recheck",
+        "sha256": "ec3b781049b025a49786f7170cbf4e13117e6c94faa4158169108e38c0629837"
+      }
+    },
+    {
+      "label": "default",
+      "code": "complete",
+      "text": "正在准备护理方案，请稍候。",
+      "bytes": 76800,
+      "sha256": "96c3c51c03f0e21a1104536b38e1b156828479fe832fde3aa30d48056da8c056",
+      "kind": "generated_audio",
+      "format": "pcm_s16le",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-audio",
+        "sha256": "245484ab0ef9f032949a53c24a3be3165fc2ee7af68e3bc275d361c8e8f2ff82"
+      }
+    },
+    {
+      "label": "firefly",
+      "code": "complete",
+      "text": "正在准备护理方案，请稍候。",
+      "bytes": 79360,
+      "sha256": "568f0dc47b14a5c52577741eac571724fc54c6f5cc84316c81672eb36fe0b63a",
+      "kind": "generated_audio",
+      "format": "pcm_s16le",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-audio",
+        "sha256": "245484ab0ef9f032949a53c24a3be3165fc2ee7af68e3bc275d361c8e8f2ff82"
+      }
+    },
+    {
+      "label": "default",
+      "code": "level1",
+      "text": "一档。",
+      "samples": 5901,
+      "packed_bytes": 5164,
+      "packed_sha256": "4310ab650cc87fe7c8c866d988a59dbcac0cf4136c10609e7b73e34023cded49",
+      "decoded_bytes": 23604,
+      "decoded_sha256": "2f11170f5ca950b2fcc81df8359e6940f28362b61a3e6af86b5a6be79ea75618",
+      "removed_decoded_zero_samples": 998,
+      "kind": "generated_audio",
+      "format": "packed-transformed",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-voice-audio",
+        "sha256": "a25cee10c30f006b23092e67acc5f9b6edd497208014797311951a5595a9a08a"
+      }
+    },
+    {
+      "label": "default",
+      "code": "level2",
+      "text": "二档。",
+      "samples": 5909,
+      "packed_bytes": 5171,
+      "packed_sha256": "3ddea424106cba698018757e51252acbd20b4e71f7a9b3d9bd674363ebb2e50e",
+      "decoded_bytes": 23636,
+      "decoded_sha256": "f2b4626b040c7ff00839f0257f1f7c7698b4c5b43427ed0dd0f474f0b51f640e",
+      "removed_decoded_zero_samples": 2262,
+      "kind": "generated_audio",
+      "format": "packed-transformed",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-voice-audio",
+        "sha256": "a25cee10c30f006b23092e67acc5f9b6edd497208014797311951a5595a9a08a"
+      }
+    },
+    {
+      "label": "default",
+      "code": "level3",
+      "text": "三档。",
+      "samples": 6876,
+      "packed_bytes": 6017,
+      "packed_sha256": "9721e0eab4e618385adfad3410e3ec1dab0577229e8abe5a249799b74b7ff508",
+      "decoded_bytes": 27504,
+      "decoded_sha256": "fdeb398838d3feff838fa16094ec68a1e73aa9b4e5dfea3ae4ef4b85f73562a5",
+      "removed_decoded_zero_samples": 328,
+      "kind": "generated_audio",
+      "format": "packed-transformed",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-voice-audio",
+        "sha256": "a25cee10c30f006b23092e67acc5f9b6edd497208014797311951a5595a9a08a"
+      }
+    },
+    {
+      "label": "default",
+      "code": "stop",
+      "text": "已停止。",
+      "samples": 6083,
+      "packed_bytes": 5323,
+      "packed_sha256": "b0b1b029116d305d11761da0bea7b1e531e79bd81a66cf643d14fa3207819270",
+      "decoded_bytes": 24332,
+      "decoded_sha256": "8c77a4e9e69544cd59f6ccb8b1a6c6ef6f9e94698d9d70f93f0b1a95f5bc32df",
+      "removed_decoded_zero_samples": 1914,
+      "kind": "generated_audio",
+      "format": "packed-transformed",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-voice-audio",
+        "sha256": "a25cee10c30f006b23092e67acc5f9b6edd497208014797311951a5595a9a08a"
+      }
+    },
+    {
+      "label": "firefly",
+      "code": "level1",
+      "text": "一档。",
+      "samples": 6731,
+      "packed_bytes": 5890,
+      "packed_sha256": "24f9f51862a135287f6651c51d6abd0b9d4bc23435824173e6fccd1fc6036880",
+      "decoded_bytes": 26924,
+      "decoded_sha256": "3e0dcb9b2d944a6bba36168e258df9266ff5a3dc9e2182dd6477ab3cbc22375c",
+      "removed_decoded_zero_samples": 1898,
+      "kind": "generated_audio",
+      "format": "packed-transformed",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-voice-audio",
+        "sha256": "a25cee10c30f006b23092e67acc5f9b6edd497208014797311951a5595a9a08a"
+      }
+    },
+    {
+      "label": "firefly",
+      "code": "level2",
+      "text": "二档。",
+      "samples": 6629,
+      "packed_bytes": 5801,
+      "packed_sha256": "545e235530b43ff19245f4486225287e9bbce6320856e7e8ca1d9ac015eefc66",
+      "decoded_bytes": 26516,
+      "decoded_sha256": "8bca3bcf832547f516a617721e7ccf324edcd0d0abfd0d36b6c51bfa0e1b9915",
+      "removed_decoded_zero_samples": 2102,
+      "kind": "generated_audio",
+      "format": "packed-transformed",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-voice-audio",
+        "sha256": "a25cee10c30f006b23092e67acc5f9b6edd497208014797311951a5595a9a08a"
+      }
+    },
+    {
+      "label": "firefly",
+      "code": "level3",
+      "text": "三档。",
+      "samples": 5530,
+      "packed_bytes": 4839,
+      "packed_sha256": "c0d0a9607f8f5a3ab8253b638d81cae0449ddeaadf4a2b8c5e99d8396a21dcc8",
+      "decoded_bytes": 22120,
+      "decoded_sha256": "e69974847f879550155a9e181ebc8bc9fda862e7715ec41cc2a43378ae6d0724",
+      "removed_decoded_zero_samples": 1740,
+      "kind": "generated_audio",
+      "format": "packed-transformed",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-voice-audio",
+        "sha256": "a25cee10c30f006b23092e67acc5f9b6edd497208014797311951a5595a9a08a"
+      }
+    },
+    {
+      "label": "firefly",
+      "code": "stop",
+      "text": "已停止。",
+      "samples": 6258,
+      "packed_bytes": 5476,
+      "packed_sha256": "6a205d77fbf3261bc8aae9a893dd624c734cde2f009cd851bea5d2460246a9f8",
+      "decoded_bytes": 25032,
+      "decoded_sha256": "495ad88b3a0daff5de206f1767ebec2bc006fe879fe1c38f702f16dd2785db71",
+      "removed_decoded_zero_samples": 2844,
+      "kind": "generated_audio",
+      "format": "packed-transformed",
+      "rights_status": "service_terms_and_voice_rights_not_relicensed",
+      "public_payload_copied": false,
+      "source_receipt_identity": {
+        "role": "micro-voice-audio",
+        "sha256": "a25cee10c30f006b23092e67acc5f9b6edd497208014797311951a5595a9a08a"
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "id": "GPL_APACHE_COMBINATION",
+      "status": "open",
+      "scope": "R49组合二进制/赛事Apache-only表述",
+      "detail": "无线和显示GPL-2.0-only派生部分真实存在；保留原license但没有替上游授予Apache或组合许可。需确认适用的组合分发方案/单独许可。"
+    },
+    {
+      "id": "FIRMWARE_REDISTRIBUTION",
+      "status": "open",
+      "scope": "Seekwave DRAM/IRAM等blob",
+      "detail": "有哈希，没有可复核的明确blob再分发条款。"
+    },
+    {
+      "id": "GENERATED_AUDIO_VOICE_RIGHTS",
+      "status": "open",
+      "scope": "default/firefly生成提示与确认音",
+      "detail": "生成服务/内容元数据已找到；firefly精确来源及适用权利仍待确认，不重授权为Apache。"
+    },
+    {
+      "id": "RECORDED_FIXTURE_RIGHTS",
+      "status": "open",
+      "scope": "recorded_reference/mic/residual",
+      "detail": "需来源与公开范围凭据；不复制原始录音。"
+    },
+    {
+      "id": "SOURCE_AND_RUNTIME_BINDING",
+      "status": "open",
+      "scope": "工具链libm与部分目标依赖源码绑定",
+      "detail": "APM原包/PFFFT修复与Silero转换记录已找回；这不等于全源clean重建或工具链libm许可身份已闭合，以构建锁和专项元数据为准。"
+    }
+  ],
+  "license_index": "licenses/INDEX.json",
+  "private_materials_copied": false,
+  "official_references": [
+    "https://www.apache.org/licenses/GPL-compatibility.html",
+    "https://help.aliyun.com/zh/model-studio/related-agreements",
+    "https://help.aliyun.com/zh/model-studio/qwen-audio-tts-voice-list",
+    "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/"
+  ]
+}

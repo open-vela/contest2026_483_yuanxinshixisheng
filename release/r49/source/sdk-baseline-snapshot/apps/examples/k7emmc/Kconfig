@@ -1,0 +1,4 @@
+config EXAMPLES_K7EMMC
+	bool "K7 bounded eMMC read-only diagnostic"
+	depends on ARCH_BOARD_KICKPI_K7 && BUILD_FLAT
+	default n

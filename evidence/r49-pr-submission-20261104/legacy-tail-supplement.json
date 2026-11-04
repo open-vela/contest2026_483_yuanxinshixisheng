@@ -1,0 +1,77 @@
+{
+  "supplemented_at": "2026-11-04T03:08:26.674827+00:00",
+  "session_id": "01a08456-0276-7772-b214-0a86086f5974",
+  "source_snapshot_sha256": "33d2f9cdd7dddb4c234bc0adf33d6c70bbcdae51e70525c979e900181981ba89",
+  "source_eligible_visible_events": 462,
+  "previous_exported_events": 60,
+  "appended_events": 402,
+  "all_previous_event_bytes_preserved": true,
+  "same_existing_authorized_session_only": true,
+  "changes": [
+    {
+      "path": "logs/maomaojiang01/2026-09-09/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+      "old_bytes": 204483,
+      "old_sha256": "93943b378d08cced4a93d9d73e7b2075b06c30309cfbbefb706ab3ba9e6fa81e",
+      "new_bytes": 471348,
+      "new_sha256": "1acb28528257d3720027a3ca21824b81ab6d8df16fb1612c39bf984bb3e7a65d",
+      "appended_events": 143,
+      "old_bytes_preserved_as_prefix": true
+    },
+    {
+      "path": "logs/maomaojiang01/2026-09-10/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+      "old_bytes": 0,
+      "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "new_bytes": 32170,
+      "new_sha256": "91ad428a4c1f56d2ddbf0a0845cbf6dcd86a19f02da5ef5529d94729c50d9bd7",
+      "appended_events": 18,
+      "old_bytes_preserved_as_prefix": true
+    },
+    {
+      "path": "logs/maomaojiang01/2026-10-19/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+      "old_bytes": 0,
+      "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "new_bytes": 134958,
+      "new_sha256": "29891a10aebd64358d74a92e7ef6792dea74a819a62bfc52f51341afdc2cf0f0",
+      "appended_events": 64,
+      "old_bytes_preserved_as_prefix": true
+    },
+    {
+      "path": "logs/maomaojiang01/2026-10-22/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+      "old_bytes": 0,
+      "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "new_bytes": 37826,
+      "new_sha256": "64ad7a8d0c2b68b824a04d705d59b23011d5c36ab0a4646f109b7eea1a4a147a",
+      "appended_events": 29,
+      "old_bytes_preserved_as_prefix": true
+    },
+    {
+      "path": "logs/maomaojiang01/2026-10-26/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+      "old_bytes": 0,
+      "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "new_bytes": 99520,
+      "new_sha256": "dabd9ecddd16fcb19f389460e88b02bf40f4720090689b1b85fe95d6fc85ebdc",
+      "appended_events": 84,
+      "old_bytes_preserved_as_prefix": true
+    },
+    {
+      "path": "logs/maomaojiang01/2026-10-29/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+      "old_bytes": 0,
+      "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "new_bytes": 48797,
+      "new_sha256": "34425878e280a4bde6eb64d9e48722e5d6f632f031c8376dfb02a0e467641d40",
+      "appended_events": 36,
+      "old_bytes_preserved_as_prefix": true
+    },
+    {
+      "path": "logs/maomaojiang01/2026-11-03/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+      "old_bytes": 0,
+      "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "new_bytes": 42154,
+      "new_sha256": "d75091b59716b21b199153eabfc7b1a38d380b685439741b2e8bca0da322689f",
+      "appended_events": 28,
+      "old_bytes_preserved_as_prefix": true
+    }
+  ],
+  "source_completeness_proven": false,
+  "message_values_or_native_source_paths_emitted": false
+}

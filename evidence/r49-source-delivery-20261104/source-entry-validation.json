@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "mode": "actual_public_entry_frozen_overlay_replay",
+  "command_role": "build/r49.py replay with exact original private stage and verified SDK in a new private RAM directory",
+  "helper_sha256": "cbd3d47ff5e6fb97c6f7c128c8407354b512721c3f8902e1c3177a7da7721782",
+  "helper_still_matches_public_file": false,
+  "tested_export_source_manifest_sha256": "a9d7707e07f83dd1eaa5b2bf6883f236f96e85d39eae7ad9251e191990346091",
+  "tested_export_file_count": 2031,
+  "returncode": 0,
+  "result": {
+    "passed": true,
+    "mode": "frozen_archive_overlay_replay",
+    "kernel_sha256": "2c41598a36403d4a41d6dfacd762b3ead83662d078e7d0679f031c10adb5bfc3",
+    "expected_kernel_sha256": "2c41598a36403d4a41d6dfacd762b3ead83662d078e7d0679f031c10adb5bfc3",
+    "whole_source_clean_build": false,
+    "hardware_operation": false,
+    "SDK_modified": false,
+    "SDK_postcheck_issues": []
+  },
+  "stderr_present": false,
+  "original_private_inputs_not_included": true,
+  "no_hardware_or_remote_submission": true,
+  "later_source_organization_metadata_is_not_a_clean_build_claim": true,
+  "prior_refusal": {
+    "attempt": "r1",
+    "scope": "Read-only SDK preflight",
+    "reason": "Git optional index refresh failed on full SDK disk; no source change",
+    "resolution": "All read-only Git queries now use --no-optional-locks; original refusal receipt retained privately"
+  },
+  "current_helper_sha256": "5e03b870c9b9b07c7e268ab4c97a7736fbc0bc6d06f1105cd2d0db399e49a500",
+  "post_validation_change": {
+    "kind": "clean command unconditionally refuses; no replay/compiler/source changes",
+    "all_non_main_helper_functions_AST_unchanged": true,
+    "script_diff": [
+      "--- tested",
+      "+++ current",
+      "@@ -104,7 +104,7 @@",
+      "                 if q is None or not q.is_file() or digest(q)!=x['sha256']:missing.append({'path':rel,'reason':x['reason']})",
+      "             sdk_issues=sdk_problems(a.sdk.resolve()) if a.sdk else ['SDK_not_supplied']",
+      "             status=load(RELEASE/'dependencies/source-delivery-status.json')",
+      "-            code=2 if missing or sdk_issues or not status['whole_source_clean_build_passed'] else 0",
+      "+            code=2 if a.command=='clean' or missing or sdk_issues or not status['whole_source_clean_build_passed'] else 0",
+      "             report={'source_identity_passed':True,'read_only':True,'source_files_checked':len(load(RELEASE/'source/source-files.json')['files']),'missing_private_or_asset_inputs':missing,'SDK_preflight_issues':sdk_issues,'dependency_closure_complete':status['clean_source_dependency_closure_complete'],'whole_source_clean_build_passed':False,'clean_build_refused':a.command=='clean','reason':'source_organization_package_with_explicit_unclosed_full_build_inputs','next_entry':'fetch_upstream.py / inject_private_inputs.py / explicit replay with original private bundle'}",
+      "         print(json.dumps(report,ensure_ascii=False,indent=2));return code",
+      "     except (OSError,ValueError,KeyError,TypeError) as e:"
+    ]
+  }
+}

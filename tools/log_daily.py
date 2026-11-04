@@ -6,6 +6,10 @@ import tempfile
 from datetime import datetime, timedelta, timezone
 
 DAILY_SESSIONS = {
+    '01a18695-8083-70a0-bfb7-3d02bcd1fc2e', '01a19a88-1ab7-7c10-a3db-a3450cbf218e', '01a19c94-f9d4-75a0-a1aa-88e2c18c2bf4',
+    '01a176ee-ed35-7143-a002-ee0b40c08ca8',
+    '01a15df2-df64-7f93-9eaa-8d577c09db8d',
+    '01a13989-4404-7142-9ecc-15546ceddbc3',
     '01a07ed4-3f0d-7450-8bb1-bb756849cb4e',
     '01a06679-4033-7993-b989-6269e03e0e70',
 }

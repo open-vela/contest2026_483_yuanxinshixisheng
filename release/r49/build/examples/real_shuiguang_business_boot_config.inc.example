@@ -1,0 +1,6 @@
+/* Interface example only. A new identity is not the original R49 input. */
+#error "Inject authorized real-business configuration in the private workspace"
+static const char vv_private_business_credential[] = "<operator credential>";
+static const char vv_private_business_version[] = "<matching real-business protocol version>";
+static const char vv_private_business_proof[] = "<operator proof>";
+static const char vv_private_business_consent_ref[] = "<actual authorized consent reference>";

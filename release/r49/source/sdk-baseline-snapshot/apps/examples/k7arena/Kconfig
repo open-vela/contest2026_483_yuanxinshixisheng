@@ -1,0 +1,4 @@
+config EXAMPLES_K7ARENA
+	tristate "K7 bounded ggml model arena diagnostic"
+	depends on EXAMPLES_K7GRAPH && CXX_EXCEPTION
+	default n

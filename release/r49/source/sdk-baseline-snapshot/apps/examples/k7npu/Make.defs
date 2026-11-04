@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_EXAMPLES_K7NPU),)
+CONFIGURED_APPS += $(APPDIR)/examples/k7npu
+endif

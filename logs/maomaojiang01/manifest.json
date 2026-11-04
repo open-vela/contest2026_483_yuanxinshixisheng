@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "team_id": "contest2026_483_yuanxinshixisheng",
   "github_login": "maomaojiang01",
-  "generator": "velavision-native-hook@1.0",
-  "updated_at": "2026-09-20T01:47:25.731Z",
+  "generator": "velavision-finals-scoped-backfill@1.0",
+  "updated_at": "2026-11-04T03:10:34.891Z",
   "sessions": [
     {
       "session_id": "01a06679-4033-7993-b989-6269e03e0e70",
@@ -75,16 +75,54 @@
       "session_id": "01a08456-0276-7772-b214-0a86086f5974",
       "tool": "codex",
       "started_at": "2026-09-09T04:03:44.374Z",
-      "last_event_at": "2026-09-09T05:52:05.963Z",
-      "event_count": 60,
-      "file_path": "logs/maomaojiang01/2026-09-09/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+      "last_event_at": "2026-11-03T08:36:46.048Z",
+      "event_count": 462,
+      "file_path": "logs/maomaojiang01/2026-11-03/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
       "collection_mode": "vscode_extension_partial",
       "health": "degraded",
-      "collection_method": "native-jsonl-stop-hook",
+      "collection_method": "native-jsonl-tail-supplement-after-user-requested-completeness-audit",
       "source_surface": "Codex Desktop",
-      "data_completeness_warning": "Partial native transcript export. No internal reasoning, system/developer prompts, media or secrets. Source truncation and outstanding tool calls cannot be recovered. Subagents and forks are not automatically included. Format validation is not contest acceptance.",
-      "sha256": "93943b378d08cced4a93d9d73e7b2075b06c30309cfbbefb706ab3ba9e6fa81e",
-      "redacted_count_total": 0
+      "data_completeness_warning": "Partial native transcript export. No internal reasoning, system/developer prompts, media or secrets. Source truncation and outstanding tool calls cannot be recovered. Subagents and forks are not automatically included. Format validation is not contest acceptance. On 2026-11-04 the user requested a completeness audit. All 402 available visible tail events after the old cutoff were appended from the same exact authorized source SID; the 60 previous event bytes were preserved. Internal reasoning/system prompts/media remain excluded; native source loss or truncation is not reconstructed.",
+      "sha256": "506d76b6e7fb3f9361840fe5749bda92080cb6edf00c152f9207cfb94c2d9743",
+      "redacted_count_total": 0,
+      "files": [
+        {
+          "file_path": "logs/maomaojiang01/2026-09-09/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+          "sha256": "1acb28528257d3720027a3ca21824b81ab6d8df16fb1612c39bf984bb3e7a65d",
+          "event_count": 203
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-09-10/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+          "sha256": "91ad428a4c1f56d2ddbf0a0845cbf6dcd86a19f02da5ef5529d94729c50d9bd7",
+          "event_count": 18
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-19/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+          "sha256": "29891a10aebd64358d74a92e7ef6792dea74a819a62bfc52f51341afdc2cf0f0",
+          "event_count": 64
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-22/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+          "sha256": "64ad7a8d0c2b68b824a04d705d59b23011d5c36ab0a4646f109b7eea1a4a147a",
+          "event_count": 29
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-26/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+          "sha256": "dabd9ecddd16fcb19f389460e88b02bf40f4720090689b1b85fe95d6fc85ebdc",
+          "event_count": 84
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-29/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+          "sha256": "34425878e280a4bde6eb64d9e48722e5d6f632f031c8376dfb02a0e467641d40",
+          "event_count": 36
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-11-03/codex__01a08456-0276-7772-b214-0a86086f5974.jsonl",
+          "sha256": "d75091b59716b21b199153eabfc7b1a38d380b685439741b2e8bca0da322689f",
+          "event_count": 28
+        }
+      ],
+      "sha256_scope": "Preserved prior event bytes plus source-backed missing tail appended on 2026-11-04"
     },
     {
       "session_id": "01a084bd-4cd6-7910-a51e-2354fa1eee74",
@@ -119,17 +157,10 @@
     {
       "session_id": "01a07ed4-3f0d-7450-8bb1-bb756849cb4e",
       "tool": "codex",
-      "started_at": "2026-09-08T02:23:54.126Z",
-      "last_event_at": "2026-09-20T01:45:41.491Z",
-      "event_count": 40069,
-      "file_path": "logs/maomaojiang01/2026-09-20/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
-      "collection_mode": "vscode_extension_partial",
-      "health": "degraded",
-      "collection_method": "native-jsonl-stop-hook",
-      "source_surface": "Codex Desktop",
-      "data_completeness_warning": "Partial native transcript export. No internal reasoning, system/developer prompts, media or secrets. Source truncation and outstanding tool calls cannot be recovered. Subagents and forks are not automatically included. Format validation is not contest acceptance.",
-      "sha256": "f5e69cd94bc4e64a5eeba3a7873cdd6983250b8bb56a037b3b57874a125ffd25",
-      "redacted_count_total": 3516,
+      "started_at": "2026-09-20T01:49:49.472Z",
+      "last_event_at": "2026-10-14T09:06:53.361Z",
+      "event_count": 49218,
+      "file_path": "logs/maomaojiang01/2026-10-14/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
       "files": [
         {
           "file_path": "logs/maomaojiang01/2026-09-08/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
@@ -195,9 +226,245 @@
           "file_path": "logs/maomaojiang01/2026-09-20/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
           "event_count": 16,
           "sha256": "782dd4d5b7e5933886cf2b3a259c768091aa1dfa62ad59e08f9c4b8992d27620"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-10/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
+          "event_count": 347,
+          "sha256": "de636f7ed3234331ea5f1f3a0e484275c3fd265a8bc9a5de154fc8607925282d"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-12/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
+          "event_count": 3118,
+          "sha256": "38c02b002cc6808df1ec6ad82f88dacafed54f650115e2a1f84112a1ec3c4658"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-13/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
+          "event_count": 2860,
+          "sha256": "7ca2c61ddbc5545e0ab3a9a81c35755d0bf46d295e72b96caa97f4395f4a22eb"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-14/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
+          "event_count": 2824,
+          "sha256": "49ba54efa71e334d9ed5b1a84fdf74c74c5180ad368803ad6f5b5db99416f395"
         }
       ],
-      "sha256_scope": "complete session stream"
+      "collection_mode": "vscode_extension_partial",
+      "health": "degraded",
+      "collection_method": "explicit-finals-native-jsonl-backfill",
+      "sha256": "b52df4bebaa9608b799b538483cb3862dddb97efe2b89c30b8846d2e97a9d744",
+      "sha256_scope": "preserved history plus selected finals records",
+      "data_completeness_warning": "Only explicitly selected main sessions (including the user-selected wake/interruption continuation). New export restricted to Beijing dates from 2026-10-10. Earlier exported files frozen; any unexported intervening period intentionally omitted. Export seq continues existing delivered records, not proof of complete source coverage. Internal reasoning, system/developer prompts and media excluded; secrets redacted. Subagent transcripts not separately exported. Active transcript is a snapshot; outstanding calls and source truncation remain unresolved."
+    },
+    {
+      "session_id": "01a13989-4404-7142-9ecc-15546ceddbc3",
+      "tool": "codex",
+      "started_at": "2026-10-14T08:30:59.688Z",
+      "last_event_at": "2026-10-21T11:20:34.685Z",
+      "event_count": 20104,
+      "file_path": "logs/maomaojiang01/2026-10-21/codex__01a13989-4404-7142-9ecc-15546ceddbc3.jsonl",
+      "files": [
+        {
+          "file_path": "logs/maomaojiang01/2026-10-14/codex__01a13989-4404-7142-9ecc-15546ceddbc3.jsonl",
+          "event_count": 2303,
+          "sha256": "255b5ad05b187dea5c1568d58705fb24085d5b9da30b9200c242cd6b1bb807d0"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-15/codex__01a13989-4404-7142-9ecc-15546ceddbc3.jsonl",
+          "event_count": 5986,
+          "sha256": "ccd6e794f7934d08e8a41d830c3005659640fb60d468776f41e068e65269d03d"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-16/codex__01a13989-4404-7142-9ecc-15546ceddbc3.jsonl",
+          "event_count": 541,
+          "sha256": "e94b0f5bc1393f9b897670c1ec1490fc087d75183b097a6645cc1207110c168a"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-19/codex__01a13989-4404-7142-9ecc-15546ceddbc3.jsonl",
+          "event_count": 3639,
+          "sha256": "a767aec6b8e5c943a61cc7d2eef6408c66e5b117dcc5d447d07667274cda32b0"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-20/codex__01a13989-4404-7142-9ecc-15546ceddbc3.jsonl",
+          "event_count": 4183,
+          "sha256": "057765a5b7a4224494b5763e47f75df9a897196d9b18a5e2456ffe5ff84db80f"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-21/codex__01a13989-4404-7142-9ecc-15546ceddbc3.jsonl",
+          "event_count": 3452,
+          "sha256": "587cb22ede90ea570e30be08c906edca9fa2a3c1d3906ba587572ec9b6b22aa5"
+        }
+      ],
+      "collection_mode": "vscode_extension_partial",
+      "health": "degraded",
+      "collection_method": "explicit-finals-native-jsonl-backfill",
+      "sha256": "8d38ea6ef63f17d5a24f5f3ac60e8f46941b649d5ca7f8ef3deba111b4d4a2b7",
+      "sha256_scope": "preserved history plus selected finals records",
+      "data_completeness_warning": "Only explicitly selected main sessions (including the user-selected wake/interruption continuation). New export restricted to Beijing dates from 2026-10-10. Earlier exported files frozen; any unexported intervening period intentionally omitted. Export seq continues existing delivered records, not proof of complete source coverage. Internal reasoning, system/developer prompts and media excluded; secrets redacted. Subagent transcripts not separately exported. Active transcript is a snapshot; outstanding calls and source truncation remain unresolved."
+    },
+    {
+      "session_id": "01a15df2-df64-7f93-9eaa-8d577c09db8d",
+      "tool": "codex",
+      "started_at": "2026-10-21T10:12:40.538Z",
+      "last_event_at": "2026-10-26T06:41:11.360Z",
+      "event_count": 9449,
+      "file_path": "logs/maomaojiang01/2026-10-26/codex__01a15df2-df64-7f93-9eaa-8d577c09db8d.jsonl",
+      "files": [
+        {
+          "file_path": "logs/maomaojiang01/2026-10-21/codex__01a15df2-df64-7f93-9eaa-8d577c09db8d.jsonl",
+          "event_count": 472,
+          "sha256": "feb2b72c81611282d96fcc6b139e81adde911b98e32ecc98fa0f50d36d87c762"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-22/codex__01a15df2-df64-7f93-9eaa-8d577c09db8d.jsonl",
+          "event_count": 3334,
+          "sha256": "f288044491bbbf76718479196827a2e42b56f2e0e67b4bbf0d4bbe0246eeeed0"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-23/codex__01a15df2-df64-7f93-9eaa-8d577c09db8d.jsonl",
+          "event_count": 3485,
+          "sha256": "7852fc742974e2f9487fbaf5c1a207ada6e40d05beefcad11c62af14714644d6"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-24/codex__01a15df2-df64-7f93-9eaa-8d577c09db8d.jsonl",
+          "event_count": 31,
+          "sha256": "8dfb273f472bd76cb9b241bfd3f92c91e31d7ce07efc6a75ec5298e8876c6f1d"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-26/codex__01a15df2-df64-7f93-9eaa-8d577c09db8d.jsonl",
+          "event_count": 2127,
+          "sha256": "d6a41d02997b321fe4c563e0a4611a1b60fc055255334b640417b8f980df8064"
+        }
+      ],
+      "collection_mode": "vscode_extension_partial",
+      "health": "degraded",
+      "collection_method": "explicit-finals-native-jsonl-backfill",
+      "sha256": "b000c86875272cb8b3430885f46ebd84db6d1f95bf0b9110096b3935bc73c79c",
+      "sha256_scope": "preserved history plus selected finals records",
+      "data_completeness_warning": "Only explicitly selected main sessions (including the user-selected wake/interruption continuation). New export restricted to Beijing dates from 2026-10-10. Earlier exported files frozen; any unexported intervening period intentionally omitted. Export seq continues existing delivered records, not proof of complete source coverage. Internal reasoning, system/developer prompts and media excluded; secrets redacted. Subagent transcripts not separately exported. Active transcript is a snapshot; outstanding calls and source truncation remain unresolved."
+    },
+    {
+      "session_id": "01a176ee-ed35-7143-a002-ee0b40c08ca8",
+      "tool": "codex",
+      "started_at": "2026-10-26T06:38:52.351Z",
+      "last_event_at": "2026-10-29T07:35:48.639Z",
+      "event_count": 10170,
+      "file_path": "logs/maomaojiang01/2026-10-29/codex__01a176ee-ed35-7143-a002-ee0b40c08ca8.jsonl",
+      "files": [
+        {
+          "file_path": "logs/maomaojiang01/2026-10-26/codex__01a176ee-ed35-7143-a002-ee0b40c08ca8.jsonl",
+          "event_count": 1331,
+          "sha256": "7a23a7be7ef1b6b1d12bb0123d46386bf5500a8b973535cbc89b771368c0bb66"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-27/codex__01a176ee-ed35-7143-a002-ee0b40c08ca8.jsonl",
+          "event_count": 4150,
+          "sha256": "dbc76d900be34463204f0a847ca6c79a4d8b25e2202000815aeb5a126b55736d"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-28/codex__01a176ee-ed35-7143-a002-ee0b40c08ca8.jsonl",
+          "event_count": 3226,
+          "sha256": "74eab2dee7e674f560420282775e46bd0c2e7dbcffb5df3b28e5ae319f453d1b"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-29/codex__01a176ee-ed35-7143-a002-ee0b40c08ca8.jsonl",
+          "event_count": 1463,
+          "sha256": "40a6e010ae9bc41eb7d6684084e698f368eae74692d5e0ade88c70930ee9cb0e"
+        }
+      ],
+      "collection_mode": "vscode_extension_partial",
+      "health": "degraded",
+      "collection_method": "explicit-finals-native-jsonl-backfill",
+      "sha256": "db07b6654599b5f68ddef27b92f35da231ba80836d77a87728928974b4b65bea",
+      "sha256_scope": "preserved history plus selected finals records",
+      "data_completeness_warning": "Only explicitly selected main sessions (including the user-selected wake/interruption continuation). New export restricted to Beijing dates from 2026-10-10. Earlier exported files frozen; any unexported intervening period intentionally omitted. Export seq continues existing delivered records, not proof of complete source coverage. Internal reasoning, system/developer prompts and media excluded; secrets redacted. Subagent transcripts not separately exported. Active transcript is a snapshot; outstanding calls and source truncation remain unresolved."
+    },
+    {
+      "session_id": "01a18695-8083-70a0-bfb7-3d02bcd1fc2e",
+      "tool": "codex",
+      "started_at": "2026-10-29T07:35:07.237Z",
+      "last_event_at": "2026-11-02T04:33:01.274Z",
+      "event_count": 4863,
+      "file_path": "logs/maomaojiang01/2026-11-02/codex__01a18695-8083-70a0-bfb7-3d02bcd1fc2e.jsonl",
+      "files": [
+        {
+          "file_path": "logs/maomaojiang01/2026-10-29/codex__01a18695-8083-70a0-bfb7-3d02bcd1fc2e.jsonl",
+          "event_count": 1316,
+          "sha256": "1a2eee546b5d8e3930d87f2ba0f36390cbe84a522aa36f47870321a12116ae94"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-10-30/codex__01a18695-8083-70a0-bfb7-3d02bcd1fc2e.jsonl",
+          "event_count": 2855,
+          "sha256": "b69cdf20889630b356d4a1e29f13273025449df7f346cd867fae75d33e230af3"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-11-02/codex__01a18695-8083-70a0-bfb7-3d02bcd1fc2e.jsonl",
+          "event_count": 692,
+          "sha256": "9f6c2e699483a377657ee2eb939f452e200d044874d887ec5670a23770643c21"
+        }
+      ],
+      "collection_mode": "vscode_extension_partial",
+      "health": "degraded",
+      "collection_method": "explicit-finals-native-jsonl-backfill",
+      "sha256": "2b64a60ec0afefd5a65a60265ae32ed4ade664e23d0e42e5e43abbe3c4020206",
+      "sha256_scope": "preserved history plus selected finals records",
+      "data_completeness_warning": "Only explicitly selected main sessions (including the user-selected wake/interruption continuation). New export restricted to Beijing dates from 2026-10-10. Earlier exported files frozen; any unexported intervening period intentionally omitted. Export seq continues existing delivered records, not proof of complete source coverage. Internal reasoning, system/developer prompts and media excluded; secrets redacted. Subagent transcripts not separately exported. Active transcript is a snapshot; outstanding calls and source truncation remain unresolved."
+    },
+    {
+      "session_id": "01a19a88-1ab7-7c10-a3db-a3450cbf218e",
+      "tool": "codex",
+      "started_at": "2026-11-02T04:32:53.569Z",
+      "last_event_at": "2026-11-03T09:16:57.889Z",
+      "event_count": 3797,
+      "file_path": "logs/maomaojiang01/2026-11-03/codex__01a19a88-1ab7-7c10-a3db-a3450cbf218e.jsonl",
+      "files": [
+        {
+          "file_path": "logs/maomaojiang01/2026-11-02/codex__01a19a88-1ab7-7c10-a3db-a3450cbf218e.jsonl",
+          "event_count": 3786,
+          "sha256": "c28ff367fd36027599f02d73d741a294adf285f2aa549a0af771d202cd4270a6"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-11-03/codex__01a19a88-1ab7-7c10-a3db-a3450cbf218e.jsonl",
+          "event_count": 11,
+          "sha256": "16de2e222058fce900a6e3c43ae696a741699f626aeb6aa5f8dc265278c06b43"
+        }
+      ],
+      "collection_mode": "vscode_extension_partial",
+      "health": "degraded",
+      "collection_method": "explicit-finals-native-jsonl-backfill",
+      "sha256": "9cc6432506d4e550a1243a32d5d29befd6612d16f380afbee62a37f8f95adb7a",
+      "sha256_scope": "preserved history plus selected finals records",
+      "data_completeness_warning": "Only explicitly selected main sessions (including the user-selected wake/interruption continuation). New export restricted to Beijing dates from 2026-10-10. Earlier exported files frozen; any unexported intervening period intentionally omitted. Export seq continues existing delivered records, not proof of complete source coverage. Internal reasoning, system/developer prompts and media excluded; secrets redacted. Subagent transcripts not separately exported. Active transcript is a snapshot; outstanding calls and source truncation remain unresolved."
+    },
+    {
+      "session_id": "01a19c94-f9d4-75a0-a1aa-88e2c18c2bf4",
+      "tool": "codex",
+      "started_at": "2026-11-02T14:06:11.547Z",
+      "last_event_at": "2026-11-04T03:10:04.276Z",
+      "event_count": 3937,
+      "file_path": "logs/maomaojiang01/2026-11-04/codex__01a19c94-f9d4-75a0-a1aa-88e2c18c2bf4.jsonl",
+      "files": [
+        {
+          "file_path": "logs/maomaojiang01/2026-11-02/codex__01a19c94-f9d4-75a0-a1aa-88e2c18c2bf4.jsonl",
+          "event_count": 100,
+          "sha256": "4e94b2531b4d6e4fe211b4d992dec6b955c9b7d259f870a89dc423c5ec17637d"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-11-03/codex__01a19c94-f9d4-75a0-a1aa-88e2c18c2bf4.jsonl",
+          "event_count": 3013,
+          "sha256": "9e6641050082d99f5af34452a80ce52a6ff029cebc1684d7c9b0fffc769dc35e"
+        },
+        {
+          "file_path": "logs/maomaojiang01/2026-11-04/codex__01a19c94-f9d4-75a0-a1aa-88e2c18c2bf4.jsonl",
+          "event_count": 824,
+          "sha256": "9f5ca44100be9bafef509c75bcc01fb9f582874df8509f24663030938daea1d0"
+        }
+      ],
+      "collection_mode": "vscode_extension_partial",
+      "health": "degraded",
+      "collection_method": "explicit-finals-native-jsonl-backfill",
+      "sha256": "a8de00bf8eeff0ad05a8f247c1c53b6ee1e4b330db3d43002075c3ee990b8045",
+      "sha256_scope": "preserved history plus selected finals records",
+      "data_completeness_warning": "Only explicitly selected main sessions (including the user-selected wake/interruption continuation). New export restricted to Beijing dates from 2026-10-10. Earlier exported files frozen; any unexported intervening period intentionally omitted. Export seq continues existing delivered records, not proof of complete source coverage. Internal reasoning, system/developer prompts and media excluded; secrets redacted. Subagent transcripts not separately exported. Active transcript is a snapshot; outstanding calls and source truncation remain unresolved."
     }
   ]
 }

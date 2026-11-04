@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Private configuration interface; no example values are R49 originals",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "business_cloud",
+    "microcrystal",
+    "real_business_cloud"
+  ],
+  "properties": {
+    "business_cloud": {
+      "type": "object",
+      "required": [
+        "credential",
+        "version",
+        "proof"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "credential": {
+          "type": "string",
+          "minLength": 1,
+          "writeOnly": true
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "writeOnly": false
+        },
+        "proof": {
+          "type": "string",
+          "minLength": 1,
+          "writeOnly": true
+        }
+      }
+    },
+    "microcrystal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "address_type",
+        "address_bytes_stack_order",
+        "gatt_value_handle",
+        "operator_verified"
+      ],
+      "properties": {
+        "address_type": {
+          "type": "integer",
+          "enum": [
+            0,
+            1
+          ]
+        },
+        "address_bytes_stack_order": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255
+          },
+          "minItems": 6,
+          "maxItems": 6,
+          "writeOnly": true
+        },
+        "gatt_value_handle": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 65535
+        },
+        "operator_verified": {
+          "const": true
+        }
+      }
+    },
+    "real_business_cloud": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "credential",
+        "version",
+        "proof",
+        "consent_ref"
+      ],
+      "properties": {
+        "credential": {
+          "type": "string",
+          "minLength": 1,
+          "writeOnly": true
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "writeOnly": false
+        },
+        "proof": {
+          "type": "string",
+          "minLength": 1,
+          "writeOnly": true
+        },
+        "consent_ref": {
+          "type": "string",
+          "minLength": 1,
+          "writeOnly": true
+        }
+      }
+    }
+  }
+}

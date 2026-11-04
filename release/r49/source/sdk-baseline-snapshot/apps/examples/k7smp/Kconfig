@@ -1,0 +1,4 @@
+config EXAMPLES_K7SMP
+	tristate "K7 bounded two-A53 diagnostic"
+	depends on RK3576_SMP_DIAG && SMP
+	default n

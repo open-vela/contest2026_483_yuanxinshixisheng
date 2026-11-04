@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "candidate": "R49/source49-typed-tail-recovery-r1",
+  "frozen_pins_verified": 1081,
+  "source_files_exported": 2234,
+  "parent_dwarf_units": 186,
+  "retained_equivalence_count": 183,
+  "historical_source_object_identity_only": 3,
+  "unproven_parent_application_units": 0,
+  "clean_source_dependency_closure_complete": false,
+  "whole_source_clean_build_passed": false,
+  "frozen_archive_overlay_kernel_byte_reproduction_passed": true,
+  "frozen_archive_overlay_image_byte_reproduction_passed": true,
+  "kernel_sha256": "2c41598a36403d4a41d6dfacd762b3ead83662d078e7d0679f031c10adb5bfc3",
+  "original_image_sha256": "3479d1bd521ff143e44b6f2758558826bda6bf2f3148d1bfba21af7258c8689e",
+  "public_distribution_ready": false,
+  "asset_and_private_injection_required": true,
+  "main_source50_untouched": true,
+  "SDK_untouched": true
+}

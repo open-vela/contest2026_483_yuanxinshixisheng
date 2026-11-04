@@ -1,0 +1,27 @@
+{
+  "candidate": "R49/source49-typed-tail-recovery-r1",
+  "parent": "R48 frozen + pairedproducer/receiver typed tailcapability",
+  "main_source50_overwritten": false,
+  "SDK_workspace_modified": false,
+  "stage_pins": {
+    "path": "private/microcrystal-r49-20261103/stage/pins.json",
+    "sha256": "8028ff80669b855e017ee73b17ee9b6856d508dd8ee7db1249597bbce47a88f2",
+    "files": 1081
+  },
+  "source_archive": {
+    "path": "private/microcrystal-r49-20261103/stage-r1.tgz",
+    "sha256": "697072627c44b8d153fefe9d793e3f4e910ad3bc5a41966a46f0e64631c431f1"
+  },
+  "sources": {
+    "private/microcrystal-r49-20261103/stage/after/app/k7sound/echo_diag_runtime.c": "f5e6a390a688020f7d3f7ef225ff452d07b2aff89da4b7254c5f831ed9c144f7",
+    "private/microcrystal-r49-20261103/stage/after/app/k7agent/cloud/src/vv_near_experiment.c": "e6e1fe70dd0e8dbae8203e827afc2085a9391702c0d75b21630deb749a6c4a19"
+  },
+  "dependency_closure": "Originalecho andnear privateclosures + exactbaseline comparisons; noheader ABIchange",
+  "publication_context": {
+    "published_on": "2026-11-04",
+    "original_local_receipt_sha256": "bc32c637a3d93a563d463b18bd07f1abb0b6e37d366ba9613a2f9df38144fee3",
+    "UUID_identifiers_redacted": false,
+    "original_receipt_unchanged": true,
+    "scope": "Public counterpart of an existing receipt; not a new test or a claim of complete private evidence publication"
+  }
+}

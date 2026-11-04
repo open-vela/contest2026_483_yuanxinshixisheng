@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-03T13:42:52.034851+00:00",
+  "new_skill_created_on": "2026-11-03",
+  "historical_use_claimed": false,
+  "python": "3.12.14",
+  "PyYAML": "6.0.3",
+  "quick_validate": {
+    "exit_code": 0,
+    "stdout": "Skill is valid!",
+    "original_validator_sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806"
+  },
+  "contract_tests": {
+    "module": "test_audit_log_snapshot",
+    "count": 14,
+    "exit_code": 0,
+    "cases": "positive identity / tamper / missing / traversal / scope and partial disclosure / no payload echo; as applicable"
+  },
+  "ui_yaml_utf8_parsed": true,
+  "files": {
+    "SKILL.md": "4c8839ff1a91d5f4e86162a9c199c6c53e5f4784eee432ff89924e7747f843da",
+    "agents/openai.yaml": "c67fd16fbb9bdbeb7b8f48fe1d3c023c5299642a5a0c6b39ece9c0edadddcd60",
+    "references/approved-scope.json": "669a38870a967a754a096ef9dda996b9191fc24f0b23c40ebb3e37e6285eecc9",
+    "references/snapshot-contract.md": "ecf4b44142a4b4a186219008c8d265d43d00505954043aa4dea15cda3b383b96",
+    "scripts/audit_log_snapshot.py": "7d7ef3c6044e661c89aa0eab48b37c56f681b2890a10a35025737073cd557fc1",
+    "scripts/test_audit_log_snapshot.py": "48cfffc2b8d977c9d25b4c69701499a793ddb9ec5070e9bd94ec3c01066e64ce"
+  },
+  "live_watcher_or_log_writer_changed": false,
+  "hardware_operated": false,
+  "remote_submission": false,
+  "official_log_validator_against_live_logs_invoked": false,
+  "helper_does_not_prove_source_completeness_or_atomicity": true
+}

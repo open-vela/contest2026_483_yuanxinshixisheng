@@ -1,0 +1,43 @@
+VelaVision — R49 source delivery notice
+Prepared 2026-11-04
+
+This repository is a mixed-license source collection. The root LICENSE is the
+Apache License, Version 2.0. It applies to original project contributions that
+are expressly offered under Apache-2.0 and that the contributors are entitled
+to license. It does not relicense third-party code, derived works, models,
+vendor firmware, recorded samples, generated audio, or content whose rights
+have not been established. File-level notices and upstream license terms are
+preserved and remain applicable to their respective works.
+
+The R49 hardware image identified in the release records is not asserted to be
+an Apache-only distribution. Seekwave-derived wireless files and several
+Rockchip-derived display files and audio/runtime modules retain GPL-2.0-only
+or GPL-2.0-or-later notices. The per-file mapping is retained in the release.
+The distribution conditions of the combined image, including the interaction
+with Apache-2.0 components, have not been cleared merely by adding this file.
+No existing GPL or other license notice has been replaced.
+
+Upstream attributions include Apache NuttX/openvela, the ggml authors,
+wpa_supplicant/hostap contributors, Dave Gamble and cJSON contributors,
+WebRTC and associated audio processing libraries, LLVM libc++/libc++abi,
+Mbed TLS, libsodium, Opus, libjpeg-turbo, SpeexDSP, its embedded KISS FFT copy,
+Android support code, and the compiler runtime. The exact dependency revisions and the extent supported by the
+retained build records are documented in the R49 release notices.
+
+YuNet and FSA-Net model-derived assets have separate upstream model notices.
+Silero VAD model provenance is tracked separately from its runtime wrapper.
+Vendor wireless binary firmware has no blanket license grant from this
+project. Generated confirmation/prompt audio is identified as AI-synthesized
+content and remains subject to the applicable service and voice terms.
+Unknown or incomplete rights evidence is not treated as permission.
+
+See:
+  release/r49/THIRD_PARTY_NOTICES.md
+  release/r49/THIRD_PARTY_NOTICES.json
+  release/r49/licenses/
+  docs/R49许可证与第三方资产清单_20261104.md
+
+The license copies in release/r49/licenses are preserved originals or clearly
+identified verbatim extracts, with source paths and SHA256 records. This
+NOTICE supplies attribution and scope information; it does not modify any
+upstream license or add restrictions to rights already granted by one.

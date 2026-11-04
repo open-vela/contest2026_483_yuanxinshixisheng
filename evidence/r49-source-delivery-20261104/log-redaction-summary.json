@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-11-04T01:26:15.569Z",
+  "scope": "only logs/maomaojiang01 in the consistent snapshot",
+  "jsonl_files": 49,
+  "events": 108741,
+  "known_values_configured": 6,
+  "encoded_variants_checked": 14,
+  "known_value_hits": 0,
+  "api_token_hits": 0,
+  "bearer_hits": 0,
+  "private_key_structure_hits": 0,
+  "embedded_media_structure_hits": 0,
+  "automatic_normalization_candidates": 5,
+  "manually_reviewed_existing_redacted_or_test_placeholders": 5,
+  "manual_classifications": [
+    {
+      "file": "logs/maomaojiang01/2026-09-18/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
+      "line": 1067,
+      "seq": 37084,
+      "classification": "existing redacted credential marker and development/test proof label",
+      "original_retained": true,
+      "values_disclosed": false
+    },
+    {
+      "file": "logs/maomaojiang01/2026-09-18/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
+      "line": 1733,
+      "seq": 37750,
+      "classification": "existing redacted credential marker and development/test proof label",
+      "original_retained": true,
+      "values_disclosed": false
+    },
+    {
+      "file": "logs/maomaojiang01/2026-09-18/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
+      "line": 3127,
+      "seq": 39144,
+      "classification": "existing redacted credential marker and development/test proof label",
+      "original_retained": true,
+      "values_disclosed": false
+    },
+    {
+      "file": "logs/maomaojiang01/2026-10-14/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
+      "line": 1185,
+      "seq": 47578,
+      "classification": "bracketed mock placeholders",
+      "original_retained": true,
+      "values_disclosed": false
+    },
+    {
+      "file": "logs/maomaojiang01/2026-10-14/codex__01a07ed4-3f0d-7450-8bb1-bb756849cb4e.jsonl",
+      "line": 2417,
+      "seq": 48810,
+      "classification": "bracketed mock placeholders",
+      "original_retained": true,
+      "values_disclosed": false
+    }
+  ],
+  "non_sensitive_originals_not_rewritten": true,
+  "frozen_history_unchanged": true,
+  "retained_exports_not_shortened": true,
+  "known_value_and_structural_review_passed": true,
+  "unknown_secret_absence_proven": false,
+  "other_member_logs": "existing allenxun and liyoface logs were not exported, modified or included in the member-only delivery; their broader structural scan findings are outside this task and not claimed cleared"
+}

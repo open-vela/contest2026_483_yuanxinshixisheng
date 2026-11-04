@@ -1,0 +1,3 @@
+R49 private inputs
+
+Excluded target/credential headers and generated model/audio/recorded arrays must be provided by the authorized operator after license and provenance review. No output-capable target address or placeholder PCM is embedded here. Excluded items are recorded in the dependency lock.

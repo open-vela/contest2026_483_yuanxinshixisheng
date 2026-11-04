@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-04T01:26:55.494943+00:00",
+  "public_artifacts_contain_no_absolute_or_private_paths": true,
+  "known_value_hits": 0,
+  "values_or_payloads_disclosed": false,
+  "member_only_files": 49,
+  "member_only_events": 108741,
+  "whole_repository_counts_separately_labeled": true,
+  "manual_redaction_normalization_only_candidates_retained": 5,
+  "original_full_scan_and_dependency_attempt_results_retained_privately": true,
+  "official_validator_and_schema_pins_verified": true,
+  "files": {
+    "evidence/r49-source-delivery-20261104/log-official-validation.json": {
+      "sha256": "c8b928ef8fbcfc26dfa358c44777768831211875f94df3cb3d1e78d093022e01",
+      "bytes": 1414
+    },
+    "evidence/r49-source-delivery-20261104/log-official-validation.txt": {
+      "sha256": "f2cb8071abbce0adebd10838110dd5dc990a97b5c5a4d19bf713433598316304",
+      "bytes": 348
+    },
+    "evidence/r49-source-delivery-20261104/log-redaction-summary.json": {
+      "sha256": "9e6563a0d9f37e6d03a5289abcede03de654eb8dd892ac41abedf33c2fb33c70",
+      "bytes": 2475
+    },
+    "evidence/r49-source-delivery-20261104/log-source-scope.json": {
+      "sha256": "5c661eddbf337585e45163f203f545051029d4f10c22849cbb057873bb387349",
+      "bytes": 8744
+    },
+    "evidence/r49-source-delivery-20261104/log-summary.json": {
+      "sha256": "d436d0d8146508ea6bb170d9a2b67c497387088d75a8408069094ea8c152fa6a",
+      "bytes": 16330
+    },
+    "evidence/r49-source-delivery-20261104/log-tool-checks.json": {
+      "sha256": "cdfb937a43b11509e91bf437931611858ea7196acdb07bd7478a68c722f23a29",
+      "bytes": 1462
+    },
+    "release/r49/logs-README.txt": {
+      "sha256": "538a548b2563b8963756ca672bb73ce7665b4a4750686537602fc6660efebf77",
+      "bytes": 2644
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_sha256": "2c41598a36403d4a41d6dfacd762b3ead83662d078e7d0679f031c10adb5bfc3",
+  "parent_image_sha256": "044ecab4ef696ae524a7c2e61219f0dbc07be177131c619c865ea9a2286b4fc1",
+  "parent_resource_sha256": "28507a54850b9e0d289f70c803c8ed5e22acab289053dc103af23ccb7b053a75",
+  "parent_resource_bytes": 145920,
+  "dtb_sha256": "ab7239f3dcfbcf93be93c6e73db8f9bd6b3724d1a895a877ce265091e9d4b5cf",
+  "dtb_bytes": 144691,
+  "rebuilt_image_sha256": "3479d1bd521ff143e44b6f2758558826bda6bf2f3148d1bfba21af7258c8689e",
+  "rebuilt_image_bytes": 33548288,
+  "original_image_sha256": "3479d1bd521ff143e44b6f2758558826bda6bf2f3148d1bfba21af7258c8689e",
+  "byte_reproduction_passed": true,
+  "source_clean_build": false,
+  "private_payloads_not_published": true
+}

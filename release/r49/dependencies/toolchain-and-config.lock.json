@@ -1,0 +1,236 @@
+{
+  "tools": [
+    {
+      "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-gcc",
+      "bytes": 1560000,
+      "sha256": "d80c929eca89733c50500a0e5288e181f14bff1cdd15e954e21b2bc142a72ead"
+    },
+    {
+      "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-g++",
+      "bytes": 1563312,
+      "sha256": "3274055507469c577ee296e088d49a246c5ff7bb91b376d83a11bda04197b35b"
+    },
+    {
+      "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-as",
+      "bytes": 3643576,
+      "sha256": "5437e45875f0c7c508b934619e2b7babcf9e15be38316bffeea2b6b35a452ddf"
+    },
+    {
+      "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-ld",
+      "bytes": 4512960,
+      "sha256": "9281ebdd5a819b61900bbbf6a13dce9a321f48a83fd8dcb01b56d841ee0e541d"
+    },
+    {
+      "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-ar",
+      "bytes": 2090704,
+      "sha256": "b927473780bb49b178d0403e8addc44cc2c19636e790b533f6dc61028905551c"
+    },
+    {
+      "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-objcopy",
+      "bytes": 2207880,
+      "sha256": "337feb80dc1ff843a7d8e91c6c4a0d8132ef04c2e2f31eaa9d958a108a028be2"
+    },
+    {
+      "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-objdump",
+      "bytes": 3948480,
+      "sha256": "8e044dcd2eb20469cc9d95b832dd2b3dbaa826d07285696342ed80635d513b23"
+    },
+    {
+      "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-nm",
+      "bytes": 2076984,
+      "sha256": "85caf224955d0abff1a5cfd2c85e27461d9e7d331721088ac41f0970d0d08e9c"
+    },
+    {
+      "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf/bin/aarch64-none-elf-readelf",
+      "bytes": 1275896,
+      "sha256": "a4b87e9985ef83b3a1e8bbf0c81711b82c589cb8e1dca1c449176e57b37af4b1"
+    }
+  ],
+  "sdk_dirty_files": [
+    {
+      "path": "nuttx/arch/arm64/Kconfig",
+      "sha256": "9e868a0236e0fd281ddbee017bf1c9592589f36e5947d6db6186e5f144440d42",
+      "bytes": 13586
+    },
+    {
+      "path": "nuttx/arch/arm64/src/common/arm64_cpustart.c",
+      "sha256": "a57f94fa142fd0ef73f052d55302f92a7589eeb1dd02a4fe63f33d4cf7f82df1",
+      "bytes": 7440
+    },
+    {
+      "path": "nuttx/arch/arm64/src/common/arm64_head.S",
+      "sha256": "f97222fc2d5d05f379e044d01c413852389ebc666a6fd4ffce533740cac7cb34",
+      "bytes": 11041
+    },
+    {
+      "path": "nuttx/boards/Kconfig",
+      "sha256": "6aae462be62726c2d08e68783f76cd032b1dbc96fbef1be390504021e6ee13ed",
+      "bytes": 169169
+    },
+    {
+      "path": "nuttx/drivers/serial/uart_16550.c",
+      "sha256": "560902284a40f5aa987db2516260644aa3264a9c91cf4f0f6983926720e4cb40",
+      "bytes": 53296
+    },
+    {
+      "path": "nuttx/drivers/usbhost/CMakeLists.txt",
+      "sha256": "8ac946e818c10d34dfbd980e68b7071af3e6bd412775c89615a77751549f8bd8",
+      "bytes": 2616
+    },
+    {
+      "path": "nuttx/drivers/usbhost/Kconfig",
+      "sha256": "d608013e3bba4a5e01fc03c26decf009e811104a991d5cfa3122230fad2a1fa8",
+      "bytes": 24624
+    },
+    {
+      "path": "nuttx/drivers/usbhost/Make.defs",
+      "sha256": "4b55c38258766ccf901c1f513f803dff857213c770a02b304d1022b96a884577",
+      "bytes": 2614
+    },
+    {
+      "path": "nuttx/drivers/usbhost/usbhost_hub.c",
+      "sha256": "9673840f954ec9358a297a28a57a820a197fa0e8b59d9096ca9aab4989c56ecc",
+      "bytes": 54009
+    },
+    {
+      "path": "nuttx/drivers/usbhost/usbhost_storage.c",
+      "sha256": "fa2a3b867931af60051f8dcd880c480df150c5f7898c9c936e7fe280f6414f6e",
+      "bytes": 78839
+    },
+    {
+      "path": "nuttx/fs/fat/Kconfig",
+      "sha256": "b7c915935aea6a28d56358055e69fa56094a2c2e19bec46ee3d65a415a58ba7b",
+      "bytes": 10311
+    },
+    {
+      "path": "nuttx/fs/fat/fs_fat32.c",
+      "sha256": "125e55813fd41f9fa4cfa3f1981f4311d7bfa9f18ed5b25c808b86c8a7a345f8",
+      "bytes": 86016
+    },
+    {
+      "path": "nuttx/fs/fat/fs_fat32attrib.c",
+      "sha256": "126df583c5eeb18f6b3c94cdb7d80642e5b8ab261fe1e6ed16e72bf5fc582459",
+      "bytes": 5615
+    },
+    {
+      "path": "nuttx/fs/fat/fs_fat32dirent.c",
+      "sha256": "8de2d42642d1bc9303f603706f37d533762c0b1414b9cd962c6d0b64c10633a4",
+      "bytes": 98114
+    },
+    {
+      "path": "nuttx/fs/fat/fs_fat32util.c",
+      "sha256": "95427b12c07ebd03dec924dcad60fa990a654979c39885af1afda4828e788843",
+      "bytes": 64451
+    },
+    {
+      "path": "nuttx/include/nuttx/net/bluetooth.h",
+      "sha256": "69527a239ac2629be545ddd8aadc60406611cf73c83ffc06f56055f8c85adda0",
+      "bytes": 5578
+    },
+    {
+      "path": "nuttx/include/nuttx/usb/usbhost.h",
+      "sha256": "ae995f52d236741aaebd6e1eb28587a87977bf4359dabf8f8b87826c30ac114b",
+      "bytes": 51458
+    },
+    {
+      "path": "nuttx/libs/libc/string/lib_bsdmemset.c",
+      "sha256": "160c2ba2bf737bae8739798cff5885252d3a017a6b5798f9459884e35fd25545",
+      "bytes": 3138
+    },
+    {
+      "path": "nuttx/wireless/bluetooth/Kconfig",
+      "sha256": "74c602f90935805619a5ff676fae54cb358d2f6d41b42f96c53a7574f179cde1",
+      "bytes": 8549
+    },
+    {
+      "path": "nuttx/wireless/bluetooth/bt_att.c",
+      "sha256": "6e5562e8fb6f29c937b208e2872ca18be934fcc8495dd8782206b01e55880f0d",
+      "bytes": 51311
+    },
+    {
+      "path": "nuttx/wireless/bluetooth/bt_buf.c",
+      "sha256": "3b617b1a08bdc9bd248c268c5b3c12c4962d11f51a9b91354b745e494e74a486",
+      "bytes": 19675
+    },
+    {
+      "path": "nuttx/wireless/bluetooth/bt_conn.h",
+      "sha256": "0499abfb8927b063888b0e452472902b82ed278bb8f820dbf33d7743f4734aa1",
+      "bytes": 13601
+    },
+    {
+      "path": "nuttx/wireless/bluetooth/bt_hcicore.c",
+      "sha256": "82cae2c5a52891943ba67eea59a7accc0fe7fe96f532ee041b71587658353ed6",
+      "bytes": 60631
+    },
+    {
+      "path": "nuttx/wireless/bluetooth/bt_keys.c",
+      "sha256": "093b36366c9ff806c0f477ebbd436a27a12e45dc04fec8b098864af6876c03d6",
+      "bytes": 10644
+    },
+    {
+      "path": "nuttx/wireless/bluetooth/bt_l2cap.c",
+      "sha256": "45ae95ad28b0b7a469e09dcc01b7b45afd685808f21e4203813646738ede9742",
+      "bytes": 12452
+    },
+    {
+      "path": "nuttx/wireless/bluetooth/bt_smp.c",
+      "sha256": "c457d074e77a246578cf9222e7de9a6b6e619f8ebd5de5fcf209e525ab7a9470",
+      "bytes": 43415
+    }
+  ],
+  "generated": [
+    {
+      "path": "{BASE_BUILD}/.config",
+      "sha256": "fde63128d39e92e35dbabd3be94ddb7d73655d79f4c1b7339888f239b5234e98",
+      "bytes": 72030
+    },
+    {
+      "path": "{BASE_BUILD}/include/nuttx/config.h",
+      "sha256": "c7e3035b55d84aeed98182ae8a1c456ccaaa736f3674b0c08b2cae64a126c8ae",
+      "bytes": 28038
+    },
+    {
+      "path": "{BASE_BUILD}/include/nuttx/version.h",
+      "sha256": "b29fa477287b177f96000733d70c7f9d9e478c2140c6a090ed03f122981c0393",
+      "bytes": 500
+    },
+    {
+      "path": "{BASE_BUILD}/dramboot.ld.tmp",
+      "sha256": "de72d4fb23b9172ea1bb33c2c956a7b95f08dde057d796eb65c90a197adf3213",
+      "bytes": 2666
+    },
+    {
+      "path": "{BASE_BUILD}/CMakeCache.txt",
+      "sha256": "acef8c58313b1ee3add2a0676c7aef09647f9baaf21e44aea41e1d9c6ec23351",
+      "bytes": 18450
+    },
+    {
+      "path": "{BASE_BUILD}/compile_commands.json",
+      "sha256": "ceba02eac2a577b33f5165097650867323b99e4ec4d0930fcbe2cfe76b3e7160",
+      "bytes": 3153942
+    },
+    {
+      "path": "{BASE_BUILD}/build.ninja",
+      "sha256": "b8e90bc972a9c393974b4d6700e4cc9dcb6f7b5f5ee132065279b666826c2af9",
+      "bytes": 10360593
+    }
+  ],
+  "gcc_repo": {
+    "path": "prebuilts/gcc/linux-x86_64/aarch64-none-elf",
+    "head": "cf528cdba967aa46abcbe25d158c4ca6c1561f96",
+    "url": "https://github.com/open-vela/prebuilts_gcc_linux-x86_64_aarch64-none-elf",
+    "tracked_changes": []
+  },
+  "source30_helpers": [
+    {
+      "path": "private/camera-lateplug-source30-20261029-r1/plan.json",
+      "sha256": "9993432a6d3ad6b632faa2b73fa59eb60ebe4b22f7c47fb8a2f8e1777c64bba4",
+      "bytes": 22788
+    },
+    {
+      "path": "private/camera-lateplug-source30-20261029-r1/elf_checks.py",
+      "sha256": "3bb35c3ef413c4cbd73cd21796c01d47428ac90704b85885c336a7cbce1a51dc",
+      "bytes": 5890
+    }
+  ]
+}

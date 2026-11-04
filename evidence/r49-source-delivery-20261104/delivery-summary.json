@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-11-04T02:35:19.097529+00:00",
+  "scope": "Local R49 source/dependency/license/log organization and user enclosure archive; not publication or deployment",
+  "sources": {
+    "files_exported": 2234,
+    "manifest_sha256": "0f96b6a77952cdba96ac2659ec9b9135fecbceca1cd3fa33f070f6b17b089ce5",
+    "five_parent_archive_compilation_units": 186,
+    "actual_recompile_equivalent": 183,
+    "historical_only_correspondence": 3,
+    "comparison_layers": "As specified in each group receipt; not a claim that every newly compiled object is byte-identical",
+    "original_link_inputs_pinned": 62,
+    "private_or_asset_interfaces_excluded": 45,
+    "frozen_archive_overlay_ELF_kernel_image_reproduction_passed": true,
+    "whole_source_clean_build_passed": false,
+    "whole_source_dependency_closure_complete": false
+  },
+  "licenses": {
+    "components": 32,
+    "original_or_identified_extract_texts": 64,
+    "indexed_files_checked": 66,
+    "runtime_asset_metadata_rows": 72,
+    "third_party_original_licenses_preserved": true,
+    "combined_binary_redistribution_cleared": false
+  },
+  "member_logs": {
+    "snapshot_at": "2026-11-04T01:16:59.081Z",
+    "member_jsonl_files": 49,
+    "member_events": 108741,
+    "member_manifest_sessions": 12,
+    "member_manifest_sha256": "83a1ee0c6d76d24ce4008719d676a539ee9388138f451ffb86d48005d53e7be4"
+  },
+  "member_log_official_validation_exit": 0,
+  "additional_log_privacy_review": "log-legacy-business-secret-review.json: zero authentication-value matches; three non-authentication consent references classified and retained",
+  "release_tree_privacy_review": {
+    "files_checked": 2339,
+    "stable_read": true,
+    "known_private_value_findings": 0,
+    "pattern_findings_classified": [
+      {
+        "path": "licenses/vad-local/LICENSE.ort",
+        "kind": "binary_asset_requires_explicit_distribution_review",
+        "classification": "The filename suffix is .ort but this file is the original Microsoft MIT license text, not an ONNX Runtime model.",
+        "file_sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+      },
+      {
+        "path": "source/sdk-baseline-snapshot/apps/examples/k7radio/hostap/common/wpa_ctrl.h",
+        "kind": "c_sensitive_macro_literal",
+        "classification": "The string is the upstream WPA_EVENT_PASSWORD_CHANGED event name, not a password or authentication value.",
+        "file_sha256": "fd533934181c2e1395d3a1c78f6ae1dc6ec43033552679b1e773018cd8ce06d6"
+      }
+    ],
+    "raw_private_audit_sha256": "a1e208af073a46a00ca0df93cdc5b4743e0ce3c31bc686874039f8197232b1b4",
+    "scope_limit": "Known-value and heuristic checks only; not a guarantee of absence of all possible private information"
+  },
+  "original_main_source_files_checked_unchanged": 995,
+  "source_license_and_enclosure_identity_verification_passed": true,
+  "build_helper_offline_cases": 4,
+  "build_helper_offline_cases_passed": true,
+  "enclosure": {
+    "source": "User explicitly declared their own design",
+    "original_files": 12,
+    "original_copies_SHA_verified": true,
+    "public_hardware_design_license_selected": false
+  },
+  "official_branch_read_only_checked": {
+    "branch": "dev-ai-contest-2026",
+    "head": "f14953d41858a5a001bd60ad3da9598a2b3e81be"
+  },
+  "git_index_diff_empty": true,
+  "hardware_operation": false,
+  "git_commit_push_or_PR_created": false,
+  "external_form_submitted": false
+}

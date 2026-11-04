@@ -1,0 +1,4 @@
+config EXAMPLES_K7GRAPH
+	tristate "K7 real ggml CPU graph diagnostic"
+	depends on SMP && HAVE_CXX && LIBCXX && CXX_EXCEPTION
+	default n

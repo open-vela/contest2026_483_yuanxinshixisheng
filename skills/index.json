@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project": "VelaVision",
+  "updated_on": "2026-11-03",
+  "purpose": "Project-local reusable AI development workflows; not firmware runtime features",
+  "official_criterion_url": "https://openvela.com/#/contest",
+  "criterion_checked_on": "2026-11-03",
+  "skills": [
+    {"name": "k7-openvela-driver-port", "entry": "k7-openvela-driver-port/SKILL.md", "stage": "platform-and-driver-port", "provenance": "existing_project_skill", "input": "vendor reference, hardware identity, source and observed layer failure", "output": "layered port changes, RAM experiment plan and evidence"},
+    {"name": "velavision-voice-ble-recovery", "entry": "velavision-voice-ble-recovery/SKILL.md", "stage": "integration-debug-and-regression", "provenance": "distilled_on_2026-11-03_from_real_R46_to_R49_work", "input": "version-bound UART, first fault, state and source", "output": "causal timeline, bounded correction and positive/negative regression"},
+    {"name": "velavision-ai-log-curation", "entry": "velavision-ai-log-curation/SKILL.md", "stage": "development-trace-and-handoff", "provenance": "distilled_on_2026-11-03_from_existing_log_tools_and_failures", "input": "explicit main-session scope, redaction config, immutable snapshot", "output": "scope and gap disclosures, same-repo log validation receipt"},
+    {"name": "velavision-evidence-audit", "entry": "velavision-evidence-audit/SKILL.md", "stage": "acceptance-and-delivery", "provenance": "distilled_on_2026-11-03_from_existing_evidence_audit", "input": "frozen source, build/test/persistence receipts and selected materials", "output": "read-only file identity report, defensible claims and submission gap list"}
+  ],
+  "boundaries": ["Newly distilled skills are not retroactively claimed as historical invocations.", "File identity, functional acceptance, source rebuildability and official merge are separate states.", "Loading a skill does not authorize hardware actions or remote publication."]
+}

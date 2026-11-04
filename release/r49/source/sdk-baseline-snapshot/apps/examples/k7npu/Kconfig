@@ -1,0 +1,26 @@
+config EXAMPLES_K7NPU
+	bool "K7 NPU read-only prerequisite diagnostics"
+	default n
+	depends on ARCH_BOARD_KICKPI_K7 && RK3576_NPU_DIAG && BUILD_FLAT
+	---help---
+		Read fixed PMU/CRU status registers using the existing K7 mappings.
+		Does not initialize the NPU or perform inference.
+
+config K7NPU_MMU_TEST
+	bool "K7 idle NPU MMU paging lifecycle test"
+	depends on EXAMPLES_K7NPU
+	default n
+	---help---
+		Experimental mmutest command using private static page tables.
+		Changes idle MMU directory/paging registers and restores them.
+		Never submits NPU tasks; use only in isolated RAM bring-up.
+
+config K7NPU_RAW_TEST
+	bool "K7 experimental one-shot NPU matrix (GPL fixture)"
+	depends on K7NPU_MMU_TEST
+	default n
+	---help---
+		Submits one fixed 1x64x64 INT8 raw task on core0. Includes a
+		GPL-2.0-or-later fixture generated from pinned charsiu source.
+		Uses only private static buffers; requires RAM reboot after use.
+		Not a model runtime; keep this experiment out of production builds.

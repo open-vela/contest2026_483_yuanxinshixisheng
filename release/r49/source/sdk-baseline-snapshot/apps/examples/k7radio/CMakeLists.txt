@@ -1,0 +1,25 @@
+if(CONFIG_EXAMPLES_K7RADIO)
+  if(CONFIG_EXAMPLES_K7BOOT_ALIYUN_PRIVATE)
+    # Aliyun response metadata can nest below choices[].message (depth 4).
+    # The ASR parser independently bounds its response size and depth to 16.
+    add_compile_definitions(CJSON_NESTING_LIMIT=16)
+  else()
+    add_compile_definitions(CJSON_NESTING_LIMIT=4)
+  endif()
+  include_directories(${NUTTX_DIR}/wireless/bluetooth)
+  include(${CMAKE_CURRENT_LIST_DIR}/supplicant.cmake)
+  set(SKW_IP_SOURCES)
+  if(CONFIG_EXAMPLES_K7RADIO_IP)
+    list(APPEND SKW_IP_SOURCES skw_netdev.c)
+  endif()
+  set(SKW_SHARED_SOURCES)
+  if(CONFIG_EXAMPLES_K7RADIO_SHARED)
+    list(APPEND SKW_SHARED_SOURCES wifi_broker.c wifi_dispatch.c wifi_scan.c scan_collector.c radio_fence.c)
+  endif()
+  nuttx_add_application(NAME k7radio SRCS k7radio_main.c skw_bus.c skw_dw.c skw_rk3576.c skw_packet.c skw_bt.c skw_wpa_transport.c prov_protocol.c prov_phone_time.c cJSON.c
+                        ${SKW_SUPPLICANT_SOURCES} skw_random.c ${SKW_IP_SOURCES} ${SKW_SHARED_SOURCES}
+                        STACKSIZE 16384 PRIORITY 100)
+  if(CONFIG_EXAMPLES_K7RADIO_EMBEDDED_FW)
+    target_sources(apps_k7radio PRIVATE radio_firmware.c)
+  endif()
+endif()

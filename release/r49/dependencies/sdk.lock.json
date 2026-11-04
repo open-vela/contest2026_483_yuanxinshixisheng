@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "name": "nuttx",
+      "url": "https://github.com/open-vela/nuttx",
+      "revision": "e987a81c32cab008d1a8521669e5488d00271322",
+      "tracked_dirty_paths": [
+        "arch/arm64/Kconfig",
+        "arch/arm64/src/common/arm64_cpustart.c",
+        "arch/arm64/src/common/arm64_head.S",
+        "boards/Kconfig",
+        "drivers/serial/uart_16550.c",
+        "drivers/usbhost/CMakeLists.txt",
+        "drivers/usbhost/Kconfig",
+        "drivers/usbhost/Make.defs",
+        "drivers/usbhost/usbhost_hub.c",
+        "drivers/usbhost/usbhost_storage.c",
+        "fs/fat/Kconfig",
+        "fs/fat/fs_fat32.c",
+        "fs/fat/fs_fat32attrib.c",
+        "fs/fat/fs_fat32dirent.c",
+        "fs/fat/fs_fat32util.c",
+        "include/nuttx/net/bluetooth.h",
+        "include/nuttx/usb/usbhost.h",
+        "libs/libc/string/lib_bsdmemset.c",
+        "wireless/bluetooth/Kconfig",
+        "wireless/bluetooth/bt_att.c",
+        "wireless/bluetooth/bt_buf.c",
+        "wireless/bluetooth/bt_conn.h",
+        "wireless/bluetooth/bt_hcicore.c",
+        "wireless/bluetooth/bt_keys.c",
+        "wireless/bluetooth/bt_l2cap.c",
+        "wireless/bluetooth/bt_smp.c"
+      ]
+    },
+    {
+      "name": "apps",
+      "url": "https://github.com/open-vela/nuttx-apps",
+      "revision": "92cc8c56a4c9b780b38991401295179fa2461908",
+      "tracked_dirty_paths": []
+    },
+    {
+      "name": "frameworks",
+      "url": "https://github.com/open-vela/frameworks",
+      "revision": "879194bf6c916a30e04b67eb8c4e4e9d59ae3d06",
+      "tracked_dirty_paths": []
+    },
+    {
+      "name": "external",
+      "url": "https://github.com/open-vela/external",
+      "revision": "740f9f5a0f0106e1870ebfa2ad670a10644dec25",
+      "tracked_dirty_paths": []
+    },
+    {
+      "name": "vendor",
+      "url": "https://github.com/open-vela/vendor",
+      "revision": "2460cb26b9ce5c2ea19fd91a9322de7d03144734",
+      "tracked_dirty_paths": []
+    },
+    {
+      "name": "prebuilts/gcc/linux-x86_64/aarch64-none-elf",
+      "url": "https://github.com/open-vela/prebuilts_gcc_linux-x86_64_aarch64-none-elf",
+      "revision": "cf528cdba967aa46abcbe25d158c4ca6c1561f96",
+      "tracked_dirty_paths": []
+    }
+  ],
+  "compiler": {
+    "name": "aarch64-none-elf-gcc",
+    "version": "aarch64-none-elf-gcc (GCC) 13.4.0",
+    "executable_sha256": "d80c929eca89733c50500a0e5288e181f14bff1cdd15e954e21b2bc142a72ead"
+  },
+  "sdk_modifications_not_silently_accepted": true
+}

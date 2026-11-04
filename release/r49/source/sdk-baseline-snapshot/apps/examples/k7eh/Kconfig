@@ -1,0 +1,4 @@
+config EXAMPLES_K7EH
+	tristate "K7 two-worker exception diagnostic"
+	depends on SMP && HAVE_CXX && LIBCXX && CXX_EXCEPTION && CXX_RTTI
+	default n

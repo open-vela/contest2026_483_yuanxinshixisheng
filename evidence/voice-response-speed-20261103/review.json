@@ -1,0 +1,844 @@
+{
+  "at": "2026-11-03T12:15:55.362998+00:00",
+  "candidate": "R49/source49-typed-tail-recovery-r1",
+  "sources": [
+    {
+      "label": "RAM",
+      "path": "private/microcrystal-r49-20261103/functional-console-prefix-r2.raw",
+      "sha256": "315a97ddd06854548de0b98f67b747e13bd5111db832cd3deb52b6e10b6ce5c2",
+      "bytes": 2877483
+    },
+    {
+      "label": "coldboot",
+      "path": "private/voice-recording-r49-20261103/cold-boot-accepted-prefix.raw",
+      "sha256": "018fbcde982a09782bd26477a8cc515eaa42ec1c11f430ef91887c3f411b546a",
+      "bytes": 2700854
+    },
+    {
+      "label": "recording",
+      "path": "evidence\\voice-response-speed-20261103\\recording-prefix-through-generation8.raw",
+      "sha256": "a8f2c6202b7fe170c5901fe5d8c7f4fbb0bd03ccd9d125c85351e4bcd92894ba",
+      "bytes": 3748997
+    }
+  ],
+  "ordinary": {
+    "n": 17,
+    "first_delta_ms": {
+      "min": 437,
+      "median": 539,
+      "max": 1018,
+      "values": [
+        457,
+        816,
+        848,
+        906,
+        895,
+        1018,
+        477,
+        501,
+        437,
+        803,
+        539,
+        522,
+        718,
+        511,
+        465,
+        537,
+        912
+      ]
+    },
+    "first_pcm_ms": {
+      "min": 798,
+      "median": 1154,
+      "max": 3024,
+      "values": [
+        798,
+        1162,
+        1410,
+        1287,
+        1264,
+        1378,
+        1068,
+        921,
+        863,
+        1160,
+        989,
+        830,
+        1154,
+        3024,
+        925,
+        857,
+        1405
+      ]
+    },
+    "first_running_observed_ms": {
+      "min": 900,
+      "median": 1260,
+      "max": 3126,
+      "values": [
+        900,
+        1270,
+        1876,
+        1880,
+        1372,
+        1478,
+        1170,
+        1082,
+        962,
+        1260,
+        1090,
+        934,
+        1260,
+        3126,
+        1030,
+        956,
+        1510
+      ]
+    }
+  },
+  "search_requested_mode": {
+    "n": 3,
+    "first_delta_ms": {
+      "min": 1109,
+      "median": 1178,
+      "max": 1547,
+      "values": [
+        1109,
+        1178,
+        1547
+      ]
+    },
+    "first_pcm_ms": {
+      "min": 1519,
+      "median": 1679,
+      "max": 2015,
+      "values": [
+        1679,
+        1519,
+        2015
+      ]
+    },
+    "first_running_observed_ms": {
+      "min": 1620,
+      "median": 1778,
+      "max": 2116,
+      "values": [
+        1778,
+        1620,
+        2116
+      ]
+    }
+  },
+  "samples": [
+    {
+      "source": "RAM",
+      "pipeline_line": 16109,
+      "asr": "讲了。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 1,
+        "text_bytes": 45,
+        "pcm_bytes": 74672,
+        "delta_seen": 1,
+        "first_delta_ms": 457,
+        "text_seen": 1,
+        "first_text_ms": 490,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 798,
+        "end_ms": 1416,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 16238,
+      "generation": 3,
+      "first_running_observed_ms": 900
+    },
+    {
+      "source": "RAM",
+      "pipeline_line": 18432,
+      "asr": "讲一个故事。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 11,
+        "text_bytes": 291,
+        "pcm_bytes": 596912,
+        "delta_seen": 1,
+        "first_delta_ms": 816,
+        "text_seen": 1,
+        "first_text_ms": 866,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1162,
+        "end_ms": 5482,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 18600,
+      "generation": 4,
+      "first_running_observed_ms": 1270
+    },
+    {
+      "source": "RAM",
+      "pipeline_line": 19369,
+      "asr": "换一个故事。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 1,
+        "text_bytes": 69,
+        "pcm_bytes": 136112,
+        "delta_seen": 1,
+        "first_delta_ms": 848,
+        "text_seen": 1,
+        "first_text_ms": 1024,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1410,
+        "end_ms": 3486,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 19551,
+      "generation": 5,
+      "first_running_observed_ms": 1876
+    },
+    {
+      "source": "RAM",
+      "pipeline_line": 22206,
+      "asr": "讲一分钟故事。",
+      "search_requested": false,
+      "fields": {
+        "rc": -125,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 33,
+        "text_bytes": 892,
+        "pcm_bytes": 1176752,
+        "delta_seen": 1,
+        "first_delta_ms": 906,
+        "text_seen": 1,
+        "first_text_ms": 987,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1287,
+        "end_ms": 9826,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 22209,
+      "generation": 6,
+      "first_running_observed_ms": 1880
+    },
+    {
+      "source": "RAM",
+      "pipeline_line": 23073,
+      "asr": "启动微信。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 3,
+        "text_bytes": 102,
+        "pcm_bytes": 201392,
+        "delta_seen": 1,
+        "first_delta_ms": 895,
+        "text_seen": 1,
+        "first_text_ms": 950,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1264,
+        "end_ms": 3824,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 23186,
+      "generation": 7,
+      "first_running_observed_ms": 1372
+    },
+    {
+      "source": "RAM",
+      "pipeline_line": 25084,
+      "asr": "报道。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 2,
+        "text_bytes": 105,
+        "pcm_bytes": 205232,
+        "delta_seen": 1,
+        "first_delta_ms": 1018,
+        "text_seen": 1,
+        "first_text_ms": 1058,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1378,
+        "end_ms": 4600,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 25309,
+      "generation": 9,
+      "first_running_observed_ms": 1478
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 9656,
+      "asr": "介绍一下你自己。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 5,
+        "text_bytes": 203,
+        "pcm_bytes": 420272,
+        "delta_seen": 1,
+        "first_delta_ms": 477,
+        "text_seen": 1,
+        "first_text_ms": 716,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1068,
+        "end_ms": 3710,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 10029,
+      "generation": 3,
+      "first_running_observed_ms": 1170
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 12400,
+      "asr": "讲个故事吧。",
+      "search_requested": false,
+      "fields": {
+        "rc": -125,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 6,
+        "text_bytes": 162,
+        "pcm_bytes": 337712,
+        "delta_seen": 1,
+        "first_delta_ms": 501,
+        "text_seen": 1,
+        "first_text_ms": 541,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 921,
+        "end_ms": 4155,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 12402,
+      "generation": 6,
+      "first_running_observed_ms": 1082
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 13280,
+      "asr": "故事。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 7,
+        "text_bytes": 213,
+        "pcm_bytes": 441392,
+        "delta_seen": 1,
+        "first_delta_ms": 437,
+        "text_seen": 1,
+        "first_text_ms": 477,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 863,
+        "end_ms": 4139,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 13317,
+      "generation": 7,
+      "first_running_observed_ms": 962
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 14851,
+      "asr": "讲一分钟故事。",
+      "search_requested": false,
+      "fields": {
+        "rc": -125,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 52,
+        "text_bytes": 1119,
+        "pcm_bytes": 500912,
+        "delta_seen": 1,
+        "first_delta_ms": 803,
+        "text_seen": 1,
+        "first_text_ms": 852,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1160,
+        "end_ms": 7986,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 14852,
+      "generation": 8,
+      "first_running_observed_ms": 1260
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 17009,
+      "asr": "小一点。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 1,
+        "text_bytes": 42,
+        "pcm_bytes": 107312,
+        "delta_seen": 1,
+        "first_delta_ms": 539,
+        "text_seen": 1,
+        "first_text_ms": 623,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 989,
+        "end_ms": 1965,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 17065,
+      "generation": 12,
+      "first_running_observed_ms": 1090
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 17559,
+      "asr": "停一下停一下。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 1,
+        "text_bytes": 39,
+        "pcm_bytes": 86192,
+        "delta_seen": 1,
+        "first_delta_ms": 522,
+        "text_seen": 1,
+        "first_text_ms": 556,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 830,
+        "end_ms": 1538,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 17643,
+      "generation": 13,
+      "first_running_observed_ms": 934
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 19644,
+      "asr": "上网查一下茅台的股价。",
+      "search_requested": true,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 6,
+        "text_bytes": 82,
+        "pcm_bytes": 310832,
+        "delta_seen": 1,
+        "first_delta_ms": 1109,
+        "text_seen": 1,
+        "first_text_ms": 1255,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1679,
+        "end_ms": 5294,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 19877,
+      "generation": 14,
+      "first_running_observed_ms": 1778
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 24738,
+      "asr": "结肤检测。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 2,
+        "text_bytes": 66,
+        "pcm_bytes": 136112,
+        "delta_seen": 1,
+        "first_delta_ms": 718,
+        "text_seen": 1,
+        "first_text_ms": 766,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1154,
+        "end_ms": 2844,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 24922,
+      "generation": 15,
+      "first_running_observed_ms": 1260
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 31643,
+      "asr": "上网查一下台湾的近况。",
+      "search_requested": true,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 3,
+        "text_bytes": 120,
+        "pcm_bytes": 228272,
+        "delta_seen": 1,
+        "first_delta_ms": 1178,
+        "text_seen": 1,
+        "first_text_ms": 1211,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1519,
+        "end_ms": 3831,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 31969,
+      "generation": 26,
+      "first_running_observed_ms": 1620
+    },
+    {
+      "source": "coldboot",
+      "pipeline_line": 34580,
+      "asr": "查一下。",
+      "search_requested": true,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 13,
+        "text_bytes": 517,
+        "pcm_bytes": 1217072,
+        "delta_seen": 1,
+        "first_delta_ms": 1547,
+        "text_seen": 1,
+        "first_text_ms": 1673,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 2015,
+        "end_ms": 12975,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 36327,
+      "generation": 27,
+      "first_running_observed_ms": 2116
+    },
+    {
+      "source": "recording",
+      "pipeline_line": 57793,
+      "asr": "介绍一下自己。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 5,
+        "text_bytes": 203,
+        "pcm_bytes": 412592,
+        "delta_seen": 1,
+        "first_delta_ms": 511,
+        "text_seen": 1,
+        "first_text_ms": 2648,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 3024,
+        "end_ms": 8280,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 58063,
+      "generation": 3,
+      "first_running_observed_ms": 3126
+    },
+    {
+      "source": "recording",
+      "pipeline_line": 59998,
+      "asr": "いた？",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 2,
+        "text_bytes": 83,
+        "pcm_bytes": 170672,
+        "delta_seen": 1,
+        "first_delta_ms": 465,
+        "text_seen": 1,
+        "first_text_ms": 563,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 925,
+        "end_ms": 3147,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 60107,
+      "generation": 4,
+      "first_running_observed_ms": 1030
+    },
+    {
+      "source": "recording",
+      "pipeline_line": 62172,
+      "asr": "被告认可。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 2,
+        "text_bytes": 75,
+        "pcm_bytes": 147632,
+        "delta_seen": 1,
+        "first_delta_ms": 537,
+        "text_seen": 1,
+        "first_text_ms": 577,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 857,
+        "end_ms": 2717,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 62367,
+      "generation": 7,
+      "first_running_observed_ms": 956
+    },
+    {
+      "source": "recording",
+      "pipeline_line": 64373,
+      "asr": "介绍一下你自己。",
+      "search_requested": false,
+      "fields": {
+        "rc": 0,
+        "chat_rc": 0,
+        "duplex": 1,
+        "fragments": 3,
+        "text_bytes": 113,
+        "pcm_bytes": 243632,
+        "delta_seen": 1,
+        "first_delta_ms": 912,
+        "text_seen": 1,
+        "first_text_ms": 963,
+        "tts_seen": 1,
+        "first_tts_ms": 0,
+        "pcm_seen": 1,
+        "first_pcm_ms": 1405,
+        "end_ms": 4110,
+        "end_valid": 1,
+        "joined": 1
+      },
+      "spool_line": 64699,
+      "generation": 8,
+      "first_running_observed_ms": 1510
+    }
+  ],
+  "excluded_records": [
+    {
+      "source": "coldboot",
+      "line": 16120,
+      "reason": "Incomplete/invalid REPLY_PIPELINE timing record",
+      "record": "REPLY_PIPELINE rc=-125 chat_rc=0 duplex=1 fragments=15 text_bytes=306 pcm_bytes=216752 delta_seen=1 first_delta_ms=425 text_seen=1 first_text_ms=515 tts_seen=1 first_tts_ms=0 pcm_seen=1 first_RADIO Wi-Fi RX type=1 id=15 seq=3368 len=10"
+    }
+  ],
+  "cancel_events": [
+    {
+      "source": "RAM",
+      "line": 18597,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=2 first=1305299 next=1306259 calibrated=0"
+    },
+    {
+      "source": "RAM",
+      "line": 22200,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=4 first=1667859 next=1668819 calibrated=0"
+    },
+    {
+      "source": "RAM",
+      "line": 23183,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=5 first=1782899 next=1783859 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 12392,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=2 first=818435 next=819395 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 13314,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=3 first=913315 next=914275 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 14843,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=4 first=1068675 next=1069635 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 16114,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=5 first=1201955 next=1202595 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 17061,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=6 first=1328515 next=1329475 calibrated=0"
+    },
+    {
+      "source": "recording",
+      "line": 58060,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=1 first=425795 next=426755 calibrated=0"
+    },
+    {
+      "source": "recording",
+      "line": 60104,
+      "record": "NEAR_EXPERIMENT cancel=1 reply=2 first=621955 next=622595 calibrated=0"
+    }
+  ],
+  "handoff_events": [
+    {
+      "source": "RAM",
+      "line": 18606,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=1300179 onset_end=1306259 calibrated=0"
+    },
+    {
+      "source": "RAM",
+      "line": 22220,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=1662739 onset_end=1668819 calibrated=0"
+    },
+    {
+      "source": "RAM",
+      "line": 23191,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=1777779 onset_end=1783859 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 12407,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=813315 onset_end=819395 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 13322,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=908195 onset_end=914275 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 14857,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=1063555 onset_end=1069635 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 16131,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=1196835 onset_end=1202595 calibrated=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 17070,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=1323395 onset_end=1329475 calibrated=0"
+    },
+    {
+      "source": "recording",
+      "line": 58071,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=420675 onset_end=426755 calibrated=0"
+    },
+    {
+      "source": "recording",
+      "line": 60112,
+      "record": "NEAR_EXPERIMENT pf_handoff=1 first=616835 onset_end=622595 calibrated=0"
+    }
+  ],
+  "search_usage_receipts": [
+    {
+      "source": "coldboot",
+      "line": 19096,
+      "record": "CHAT_USAGE count_present=0 count=0 prompt_tokens_present=1 prompt_tokens=5326 retrieval_verified=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 31222,
+      "record": "CHAT_USAGE count_present=0 count=0 prompt_tokens_present=1 prompt_tokens=6301 retrieval_verified=0"
+    },
+    {
+      "source": "coldboot",
+      "line": 32652,
+      "record": "CHAT_USAGE count_present=0 count=0 prompt_tokens_present=1 prompt_tokens=7204 retrieval_verified=0"
+    }
+  ],
+  "definitions": {
+    "first_delta_ms": "REPLY_PIPELINE first content delta relative to reply pipeline timing origin",
+    "first_pcm_ms": "First PCM delivery in reply processing stage",
+    "first_running_observed_ms": "TTS_SPOOL play.began to coordinator observation of TX_RUNNING; not a physical speaker timestamp",
+    "cancel_to_speaker_silence_ms": null
+  },
+  "limits": [
+    "No user speech-end to audible-response end-to-end measurement",
+    "No physical acoustic barge-in latency measurement; sample interval is not a latency",
+    "17 complete ordinary reply timing pairs, including intentional cancellations after first audio; not recognition accuracy or percentile guarantees",
+    "One ordinary reply timing record damaged by UART interleaving excluded explicitly",
+    "All three search-mode samples requested server search and returned replies; service retrieval usage count absent and retrieval_verified=0, so actual tool execution and independent engine duration unverified",
+    "This extraction reads saved/current UART bytes only; no hardware or firmware operation"
+  ],
+  "publication_context": {
+    "published_on": "2026-11-04",
+    "original_local_receipt_sha256": "1bcf3a30684d6ef7886bb9fc97b99a502f31d381103bc7a1a9bda685ffbd733b",
+    "UUID_identifiers_redacted": false,
+    "original_receipt_unchanged": true,
+    "scope": "Public counterpart of an existing receipt; not a new test or a claim of complete private evidence publication"
+  }
+}
